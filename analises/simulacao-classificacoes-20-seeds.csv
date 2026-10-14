@@ -1,0 +1,321 @@
+seed,simulated_rank,projected_rank,team_id,team_name,lore_label,strength_tier,roster_style,rating,wins,losses,points_for,points_against,point_diff
+SIM-P6-CHECK-001,1,1,club-sim-p6-check-001-league-basquete-16-team-03-lore_012_império_em_declínio,Olimpico Recife Panteras,Império em Declínio,good,balanced,80.6,12,3,1513,1351,162
+SIM-P6-CHECK-001,2,2,club-sim-p6-check-001-league-basquete-16-team-12-lore_082_a_temporada_do_centenario,Metropolitano Salvador Vikings,Temporada do Centenário,good,balanced,80,11,4,1471,1308,163
+SIM-P6-CHECK-001,3,3,club-sim-p6-check-001-league-basquete-16-team-09-lore_025_estrelas_e_reservas,Central Campinas Clube,Estrelas e Reservas,good,unbalanced,78.9,10,5,1482,1361,121
+SIM-P6-CHECK-001,4,9,club-sim-p6-check-001-league-basquete-16-team-13-lore_023_rivalidade_sangrenta,Vanguarda Goiania Warriors,Rivalidade Sangrenta,normal,balanced,75.7,10,5,1447,1354,93
+SIM-P6-CHECK-001,5,7,club-sim-p6-check-001-league-basquete-16-team-02-lore_029_temporada_de_luto,Metropolitano Goiania Warriors,Temporada de Luto,normal,balanced,77,10,5,1471,1389,82
+SIM-P6-CHECK-001,6,6,club-sim-p6-check-001-league-basquete-16-team-04-lore_015_torcida_infernal,Litoral Campinas Estrelas,Torcida Infernal,normal,unbalanced,77.2,9,6,1450,1422,28
+SIM-P6-CHECK-001,7,4,club-sim-p6-check-001-league-basquete-16-team-01-lore_003_gigante_adormecido,Real Recife Dragons,Gigante Adormecido,good,unbalanced,77.3,9,6,1405,1383,22
+SIM-P6-CHECK-001,8,12,club-sim-p6-check-001-league-basquete-16-team-11-lore_077_sindicato_dos_reservas,Imperial Porto Alegre Panteras,Sindicato dos Reservas,normal,balanced,74.6,7,8,1413,1416,-3
+SIM-P6-CHECK-001,9,11,club-sim-p6-check-001-league-basquete-16-team-16-lore_081_o_clube_paciente,Uniao Porto Alegre Lobos,Clube Paciente,normal,prospect_core,74.8,7,8,1375,1405,-30
+SIM-P6-CHECK-001,10,13,club-sim-p6-check-001-league-basquete-16-team-14-lore_046_elenco_remendado,Estrela Campinas Vikings,Elenco Remendado,normal,medical_risk,72.8,7,8,1405,1448,-43
+SIM-P6-CHECK-001,11,8,club-sim-p6-check-001-league-basquete-16-team-06-lore_014_clube_vitrine,Metropolitano Belo Horizonte Dragons,Clube Vitrine,normal,prospect_core,75.8,6,9,1394,1420,-26
+SIM-P6-CHECK-001,12,10,club-sim-p6-check-001-league-basquete-16-team-10-lore_090_clube_do_povo,Dynamo Goiania Lobos,Clube do Povo,normal,unbalanced,75.4,6,9,1413,1453,-40
+SIM-P6-CHECK-001,13,5,club-sim-p6-check-001-league-basquete-16-team-05-lore_091_time_de_grife,Central Vitoria Basquete,Time de Grife,good,expensive_unbalanced,77.3,6,9,1388,1439,-51
+SIM-P6-CHECK-001,14,14,club-sim-p6-check-001-league-basquete-16-team-15-lore_042_clube_de_colonia,Olimpico Goiania Furia,Clube de Colônia,low,balanced,71.7,4,11,1346,1486,-140
+SIM-P6-CHECK-001,15,16,club-sim-p6-check-001-league-basquete-16-team-07-lore_034_juventude_insolente,Olimpico Rio de Janeiro Lobos,Juventude Insolente,low,prospect_core,70.3,4,11,1370,1520,-150
+SIM-P6-CHECK-001,16,15,club-sim-p6-check-001-league-basquete-16-team-08-lore_042_clube_de_colonia,Capital Belo Horizonte Clube,Clube de Colônia,low,balanced,70.9,2,13,1348,1536,-188
+SIM-P6-CHECK-002,1,3,club-sim-p6-check-002-league-basquete-16-team-03-lore_100_a_nova_ordem,Olimpico Manaus Estrelas,A Nova Ordem,good,balanced,80.1,11,4,1509,1351,158
+SIM-P6-CHECK-002,2,2,club-sim-p6-check-002-league-basquete-16-team-04-lore_020_selecao_de_estrangeiros,Estrela Porto Alegre Basquete,Seleção de Estrangeiros,good,balanced,80.2,11,4,1502,1362,140
+SIM-P6-CHECK-002,3,4,club-sim-p6-check-002-league-basquete-16-team-12-lore_072_o_clube_dos_capitaes,Atletico Salvador Lobos,Clube dos Capitães,good,balanced,79.1,11,4,1486,1367,119
+SIM-P6-CHECK-002,4,6,club-sim-p6-check-002-league-basquete-16-team-09-lore_057_banco_de_luxo,Uniao Fortaleza Panteras,Banco de Luxo,good,unbalanced,78.5,11,4,1485,1366,119
+SIM-P6-CHECK-002,5,5,club-sim-p6-check-002-league-basquete-16-team-15-lore_072_o_clube_dos_capitaes,Capital Rio de Janeiro Lobos,Clube dos Capitães,good,balanced,79.1,10,5,1490,1391,99
+SIM-P6-CHECK-002,6,7,club-sim-p6-check-002-league-basquete-16-team-10-lore_057_banco_de_luxo,Atletico Sao Paulo Furia,Banco de Luxo,good,unbalanced,77.9,9,6,1479,1409,70
+SIM-P6-CHECK-002,7,11,club-sim-p6-check-002-league-basquete-16-team-06-lore_017_lenda_no_banco,Atletico Vitoria Furia,Lenda no Banco,normal,veteran_win_now,74.5,9,6,1422,1398,24
+SIM-P6-CHECK-002,8,1,club-sim-p6-check-002-league-basquete-16-team-16-lore_085_torre_gemea,Vanguarda Rio de Janeiro Lobos,Torres Gêmeas,good,balanced,80.6,8,7,1499,1423,76
+SIM-P6-CHECK-002,9,9,club-sim-p6-check-002-league-basquete-16-team-11-lore_013_revolução_tática,Capital Salvador Vikings,Revolução Tática,normal,experimental,75.2,7,8,1455,1453,2
+SIM-P6-CHECK-002,10,8,club-sim-p6-check-002-league-basquete-16-team-05-lore_088_o_monge_e_os_caos,Vanguarda Porto Alegre Panteras,O Monge e o Caos,normal,balanced,75.8,6,9,1398,1463,-65
+SIM-P6-CHECK-002,11,14,club-sim-p6-check-002-league-basquete-16-team-07-lore_045_orgulho_do_interior,Atletico Sao Paulo Tropa,Orgulho do Interior,low,balanced,70.8,6,9,1369,1441,-72
+SIM-P6-CHECK-002,12,13,club-sim-p6-check-002-league-basquete-16-team-14-lore_067_clube_das_promessas_quebradas,Dynamo Belo Horizonte Lobos,Promessas Quebradas,low,prospect_core,71.8,5,10,1370,1470,-100
+SIM-P6-CHECK-002,13,15,club-sim-p6-check-002-league-basquete-16-team-13-lore_021_orgulho_da_base_local,Dynamo Recife Vikings,Orgulho da Base Local,low,prospect_core,70.3,5,10,1352,1491,-139
+SIM-P6-CHECK-002,14,12,club-sim-p6-check-002-league-basquete-16-team-02-lore_067_clube_das_promessas_quebradas,Imperial Manaus Furia,Promessas Quebradas,low,prospect_core,73.4,4,11,1388,1505,-117
+SIM-P6-CHECK-002,15,16,club-sim-p6-check-002-league-basquete-16-team-01-lore_016_elenco_sem_casa,Atletico Campinas Panteras,Elenco Sem Casa,low,low_budget_fight,69.6,4,11,1342,1508,-166
+SIM-P6-CHECK-002,16,10,club-sim-p6-check-002-league-basquete-16-team-08-lore_060_clube_dos_retorno,Real Vitoria Dragons,Clube dos Retornos,normal,balanced,75.1,3,12,1372,1520,-148
+SIM-P6-CHECK-003,1,1,club-sim-p6-check-003-league-basquete-16-team-04-lore_056_clube_das_finais,Vanguarda Salvador Estrelas,Clube das Finais,good,balanced,80.7,11,4,1493,1349,144
+SIM-P6-CHECK-003,2,6,club-sim-p6-check-003-league-basquete-16-team-03-lore_065_clube_de_treinador,Atletico Belo Horizonte Panteras,Clube de Treinador,normal,balanced,76.7,11,4,1491,1352,139
+SIM-P6-CHECK-003,3,2,club-sim-p6-check-003-league-basquete-16-team-07-lore_080_a_batalha_dos_egos,Metropolitano Fortaleza Basquete,Batalha dos Egos,good,defense_first,80.5,10,5,1471,1350,121
+SIM-P6-CHECK-003,4,9,club-sim-p6-check-003-league-basquete-16-team-12-lore_096_crise_de_identidade,Dynamo Goiania Vikings,Crise de Identidade,normal,unbalanced,75.6,10,5,1473,1383,90
+SIM-P6-CHECK-003,5,5,club-sim-p6-check-003-league-basquete-16-team-11-lore_057_banco_de_luxo,Dynamo Recife Vikings,Banco de Luxo,good,unbalanced,77,10,5,1482,1421,61
+SIM-P6-CHECK-003,6,8,club-sim-p6-check-003-league-basquete-16-team-06-lore_061_o_laboratorio,Estrela Goiania Panteras,O Laboratório,low,experimental,75.6,9,6,1460,1379,81
+SIM-P6-CHECK-003,7,4,club-sim-p6-check-003-league-basquete-16-team-15-lore_088_o_monge_e_os_caos,Olimpico Goiania Vikings,O Monge e o Caos,normal,balanced,77.1,9,6,1463,1403,60
+SIM-P6-CHECK-003,8,10,club-sim-p6-check-003-league-basquete-16-team-16-lore_054_clube_sem_memoria,Litoral Sao Paulo Furia,Clube Sem Memória,normal,balanced,75.2,9,6,1475,1423,52
+SIM-P6-CHECK-003,9,3,club-sim-p6-check-003-league-basquete-16-team-02-lore_064_panelinha_dos_craques,Litoral Rio de Janeiro Lobos,Panelinha dos Craques,good,unbalanced,78,9,6,1444,1392,52
+SIM-P6-CHECK-003,10,7,club-sim-p6-check-003-league-basquete-16-team-05-lore_077_sindicato_dos_reservas,Olimpico Sao Paulo Panteras,Sindicato dos Reservas,normal,balanced,76.7,8,7,1467,1457,10
+SIM-P6-CHECK-003,11,11,club-sim-p6-check-003-league-basquete-16-team-09-lore_036_romanticos_da_historia,Litoral Porto Alegre Basquete,Românticos da História,normal,balanced,74.9,7,8,1466,1442,24
+SIM-P6-CHECK-003,12,14,club-sim-p6-check-003-league-basquete-16-team-10-lore_074_clube_das_cicatrizes,Capital Sao Paulo Tropa,Clube das Cicatrizes,low,low_budget_fight,70.6,5,10,1372,1476,-104
+SIM-P6-CHECK-003,13,12,club-sim-p6-check-003-league-basquete-16-team-08-lore_095_o_clube_do_treinamento,Metropolitano Campinas Basquete,Clube do Treinamento,normal,prospect_core,74.4,5,10,1378,1502,-124
+SIM-P6-CHECK-003,14,15,club-sim-p6-check-003-league-basquete-16-team-13-lore_074_clube_das_cicatrizes,Capital Belo Horizonte Panteras,Clube das Cicatrizes,low,low_budget_fight,70.4,4,11,1370,1531,-161
+SIM-P6-CHECK-003,15,13,club-sim-p6-check-003-league-basquete-16-team-14-lore_050_clube_endividado,Dynamo Fortaleza Panteras,Clube Endividado,low,low_budget_fight,70.7,2,13,1317,1517,-200
+SIM-P6-CHECK-003,16,16,club-sim-p6-check-003-league-basquete-16-team-01-lore_040_pacto_da_sobrevivencia,Imperial Salvador Warriors,Pacto da Sobrevivência,low,low_budget_fight,69.7,1,14,1310,1555,-245
+SIM-P6-CHECK-004,1,2,club-sim-p6-check-004-league-basquete-16-team-11-lore_008_clube_dos_artistas,Real Fortaleza Warriors,Clube dos Artistas,good,defense_first,80.8,11,4,1515,1380,135
+SIM-P6-CHECK-004,2,1,club-sim-p6-check-004-league-basquete-16-team-05-lore_100_a_nova_ordem,Uniao Curitiba Tropa,A Nova Ordem,good,balanced,81.2,11,4,1497,1415,82
+SIM-P6-CHECK-004,3,7,club-sim-p6-check-004-league-basquete-16-team-14-lore_001_last_dance,Litoral Goiania Tropa,The Last Dance,good,veteran_win_now,77.1,10,5,1520,1393,127
+SIM-P6-CHECK-004,4,3,club-sim-p6-check-004-league-basquete-16-team-03-lore_100_a_nova_ordem,Olimpico Campinas Basquete,A Nova Ordem,good,balanced,80.2,10,5,1469,1358,111
+SIM-P6-CHECK-004,5,5,club-sim-p6-check-004-league-basquete-16-team-09-lore_057_banco_de_luxo,Litoral Goiania Panteras,Banco de Luxo,good,unbalanced,78.7,9,6,1438,1390,48
+SIM-P6-CHECK-004,6,4,club-sim-p6-check-004-league-basquete-16-team-15-lore_012_império_em_declínio,Metropolitano Curitiba Lobos,Império em Declínio,good,balanced,79.2,8,7,1436,1382,54
+SIM-P6-CHECK-004,7,11,club-sim-p6-check-004-league-basquete-16-team-07-lore_042_clube_de_colonia,Estrela Campinas Dragons,Clube de Colônia,low,balanced,73.8,8,7,1435,1386,49
+SIM-P6-CHECK-004,8,8,club-sim-p6-check-004-league-basquete-16-team-01-lore_054_clube_sem_memoria,Vanguarda Curitiba Lobos,Clube Sem Memória,normal,balanced,75.4,8,7,1422,1399,23
+SIM-P6-CHECK-004,9,9,club-sim-p6-check-004-league-basquete-16-team-02-lore_031_presidente_populista,Dynamo Manaus Vikings,Presidente Populista,normal,prospect_core,74.6,8,7,1467,1445,22
+SIM-P6-CHECK-004,10,6,club-sim-p6-check-004-league-basquete-16-team-10-lore_086_chuva_de_tres,Real Porto Alegre Basquete,Chuva de Três,normal,defense_first,76.8,7,8,1436,1454,-18
+SIM-P6-CHECK-004,11,12,club-sim-p6-check-004-league-basquete-16-team-06-lore_021_orgulho_da_base_local,Litoral Manaus Warriors,Orgulho da Base Local,low,prospect_core,73.4,7,8,1407,1454,-47
+SIM-P6-CHECK-004,12,10,club-sim-p6-check-004-league-basquete-16-team-13-lore_088_o_monge_e_os_caos,Estrela Goiania Basquete,O Monge e o Caos,normal,balanced,74.4,6,9,1340,1416,-76
+SIM-P6-CHECK-004,13,13,club-sim-p6-check-004-league-basquete-16-team-12-lore_042_clube_de_colonia,Vanguarda Manaus Panteras,Clube de Colônia,low,balanced,71.2,6,9,1394,1495,-101
+SIM-P6-CHECK-004,14,16,club-sim-p6-check-004-league-basquete-16-team-04-lore_092_sobreviventes_da_viagem,Litoral Curitiba Clube,Sobreviventes da Viagem,low,low_budget_fight,69.6,4,11,1367,1490,-123
+SIM-P6-CHECK-004,15,15,club-sim-p6-check-004-league-basquete-16-team-08-lore_011_time_do_bairro,Vanguarda Rio de Janeiro Warriors,Time do Bairro,low,balanced,70.7,4,11,1384,1512,-128
+SIM-P6-CHECK-004,16,14,club-sim-p6-check-004-league-basquete-16-team-16-lore_070_cacadores_de_gigantes,Central Salvador Dragons,Caçadores de Gigantes,low,balanced,70.9,3,12,1346,1504,-158
+SIM-P6-CHECK-005,1,1,club-sim-p6-check-005-league-basquete-16-team-06-lore_008_clube_dos_artistas,Estrela Curitiba Panteras,Clube dos Artistas,good,defense_first,79.9,13,2,1542,1321,221
+SIM-P6-CHECK-005,2,3,club-sim-p6-check-005-league-basquete-16-team-16-lore_064_panelinha_dos_craques,Atletico Curitiba Dragons,Panelinha dos Craques,good,unbalanced,79.1,12,3,1489,1334,155
+SIM-P6-CHECK-005,3,10,club-sim-p6-check-005-league-basquete-16-team-13-lore_084_a_escola_de_armadores,Central Curitiba Furia,Escola de Armadores,normal,prospect_core,74.9,10,5,1454,1380,74
+SIM-P6-CHECK-005,4,5,club-sim-p6-check-005-league-basquete-16-team-14-lore_001_last_dance,Atletico Recife Clube,The Last Dance,good,veteran_win_now,77.4,9,6,1474,1395,79
+SIM-P6-CHECK-005,5,9,club-sim-p6-check-005-league-basquete-16-team-07-lore_022_projeto_militar,Central Vitoria Estrelas,Projeto Militar,normal,balanced,75.1,9,6,1465,1396,69
+SIM-P6-CHECK-005,6,11,club-sim-p6-check-005-league-basquete-16-team-01-lore_069_meninos_contra_homens,Real Rio de Janeiro Clube,Meninos contra Homens,low,prospect_core,73.7,9,6,1445,1394,51
+SIM-P6-CHECK-005,7,4,club-sim-p6-check-005-league-basquete-16-team-05-lore_060_clube_dos_retorno,Atletico Belo Horizonte Warriors,Clube dos Retornos,normal,balanced,77.2,9,6,1433,1416,17
+SIM-P6-CHECK-005,8,6,club-sim-p6-check-005-league-basquete-16-team-03-lore_090_clube_do_povo,Dynamo Campinas Vikings,Clube do Povo,normal,unbalanced,76.7,8,7,1442,1408,34
+SIM-P6-CHECK-005,9,12,club-sim-p6-check-005-league-basquete-16-team-04-lore_093_clube_sem_estrelas,Capital Recife Dragons,Clube Sem Estrelas,low,defense_first,73.3,8,7,1435,1416,19
+SIM-P6-CHECK-005,10,7,club-sim-p6-check-005-league-basquete-16-team-15-lore_060_clube_dos_retorno,Atletico Porto Alegre Panteras,Clube dos Retornos,normal,balanced,76.5,7,8,1438,1430,8
+SIM-P6-CHECK-005,11,13,club-sim-p6-check-005-league-basquete-16-team-11-lore_067_clube_das_promessas_quebradas,Olimpico Recife Warriors,Promessas Quebradas,low,prospect_core,71.6,7,8,1437,1467,-30
+SIM-P6-CHECK-005,12,2,club-sim-p6-check-005-league-basquete-16-team-02-lore_012_império_em_declínio,Capital Sao Paulo Warriors,Império em Declínio,good,balanced,79.4,6,9,1379,1422,-43
+SIM-P6-CHECK-005,13,8,club-sim-p6-check-005-league-basquete-16-team-09-lore_046_elenco_remendado,Central Salvador Estrelas,Elenco Remendado,normal,medical_risk,75.3,5,10,1404,1472,-68
+SIM-P6-CHECK-005,14,15,club-sim-p6-check-005-league-basquete-16-team-10-lore_079_clube_da_virada_financeira,Estrela Belo Horizonte Dragons,Virada Financeira,normal,low_budget_fight,70,4,11,1356,1512,-156
+SIM-P6-CHECK-005,15,14,club-sim-p6-check-005-league-basquete-16-team-12-lore_016_elenco_sem_casa,Estrela Campinas Vikings,Elenco Sem Casa,low,low_budget_fight,70.3,3,12,1328,1506,-178
+SIM-P6-CHECK-005,16,16,club-sim-p6-check-005-league-basquete-16-team-08-lore_002_azarao_financeiro,Dynamo Goiania Vikings,Azarão Financeiro,low,low_budget_fight,69.7,1,14,1303,1555,-252
+SIM-P6-CHECK-006,1,7,club-sim-p6-check-006-league-basquete-16-team-16-lore_088_o_monge_e_os_caos,Estrela Fortaleza Clube,O Monge e o Caos,normal,balanced,77.1,11,4,1445,1300,145
+SIM-P6-CHECK-006,2,3,club-sim-p6-check-006-league-basquete-16-team-14-lore_053_dono_do_estado,Metropolitano Fortaleza Basquete,Dono do Estado,good,balanced,79.9,11,4,1469,1347,122
+SIM-P6-CHECK-006,3,8,club-sim-p6-check-006-league-basquete-16-team-08-lore_090_clube_do_povo,Dynamo Fortaleza Warriors,Clube do Povo,normal,unbalanced,76,11,4,1441,1330,111
+SIM-P6-CHECK-006,4,2,club-sim-p6-check-006-league-basquete-16-team-06-lore_100_a_nova_ordem,Real Belo Horizonte Furia,A Nova Ordem,good,balanced,80,11,4,1438,1348,90
+SIM-P6-CHECK-006,5,4,club-sim-p6-check-006-league-basquete-16-team-05-lore_019_clube_academia,Central Belo Horizonte Estrelas,Clube Academia,good,prospect_core,77.9,10,5,1489,1384,105
+SIM-P6-CHECK-006,6,1,club-sim-p6-check-006-league-basquete-16-team-07-lore_051_maquina_de_marketing,Uniao Fortaleza Basquete,Máquina de Marketing,good,balanced,80.8,10,5,1448,1357,91
+SIM-P6-CHECK-006,7,6,club-sim-p6-check-006-league-basquete-16-team-01-lore_091_time_de_grife,Olimpico Fortaleza Panteras,Time de Grife,good,expensive_unbalanced,77.5,9,6,1443,1381,62
+SIM-P6-CHECK-006,8,5,club-sim-p6-check-006-league-basquete-16-team-04-lore_003_gigante_adormecido,Uniao Manaus Panteras,Gigante Adormecido,good,unbalanced,77.8,8,7,1464,1421,43
+SIM-P6-CHECK-006,9,9,club-sim-p6-check-006-league-basquete-16-team-09-lore_054_clube_sem_memoria,Dynamo Fortaleza Vikings,Clube Sem Memória,normal,balanced,75.9,8,7,1401,1363,38
+SIM-P6-CHECK-006,10,11,club-sim-p6-check-006-league-basquete-16-team-11-lore_055_os_inquebraveis,Olimpico Recife Panteras,Os Inquebráveis,normal,balanced,75.3,7,8,1413,1431,-18
+SIM-P6-CHECK-006,11,15,club-sim-p6-check-006-league-basquete-16-team-10-lore_068_a_fortaleza_defensiva,Capital Curitiba Tropa,Fortaleza Defensiva,low,defense_first,71.2,5,10,1385,1457,-72
+SIM-P6-CHECK-006,12,14,club-sim-p6-check-006-league-basquete-16-team-03-lore_033_reino_dos_veteranos,Estrela Belo Horizonte Clube,Reino dos Veteranos,normal,veteran_win_now,72.9,5,10,1368,1479,-111
+SIM-P6-CHECK-006,13,12,club-sim-p6-check-006-league-basquete-16-team-13-lore_046_elenco_remendado,Estrela Goiania Basquete,Elenco Remendado,normal,medical_risk,74.9,5,10,1334,1458,-124
+SIM-P6-CHECK-006,14,10,club-sim-p6-check-006-league-basquete-16-team-12-lore_096_crise_de_identidade,Litoral Manaus Warriors,Crise de Identidade,normal,unbalanced,75.6,4,11,1359,1449,-90
+SIM-P6-CHECK-006,15,13,club-sim-p6-check-006-league-basquete-16-team-02-lore_034_juventude_insolente,Central Rio de Janeiro Vikings,Juventude Insolente,low,prospect_core,72.9,3,12,1313,1491,-178
+SIM-P6-CHECK-006,16,16,club-sim-p6-check-006-league-basquete-16-team-15-lore_009_rebaixado_ferido,Metropolitano Porto Alegre Lobos,Rebaixado Ferido,low,low_budget_fight,70.4,2,13,1347,1561,-214
+SIM-P6-CHECK-007,1,2,club-sim-p6-check-007-league-basquete-16-team-03-lore_035_clube_empresa,Imperial Sao Paulo Clube,Clube Empresa,good,balanced,79.7,13,2,1536,1325,211
+SIM-P6-CHECK-007,2,1,club-sim-p6-check-007-league-basquete-16-team-12-lore_058_fome_de_primeiro_titulo,Real Sao Paulo Panteras,Fome de Primeiro Título,good,balanced,80.2,10,5,1468,1348,120
+SIM-P6-CHECK-007,3,7,club-sim-p6-check-007-league-basquete-16-team-04-lore_022_projeto_militar,Capital Manaus Vikings,Projeto Militar,normal,balanced,76.8,10,5,1443,1368,75
+SIM-P6-CHECK-007,4,5,club-sim-p6-check-007-league-basquete-16-team-06-lore_036_romanticos_da_historia,Dynamo Fortaleza Estrelas,Românticos da História,normal,balanced,77,10,5,1466,1392,74
+SIM-P6-CHECK-007,5,8,club-sim-p6-check-007-league-basquete-16-team-07-lore_077_sindicato_dos_reservas,Real Fortaleza Tropa,Sindicato dos Reservas,normal,balanced,75.8,10,5,1481,1415,66
+SIM-P6-CHECK-007,6,3,club-sim-p6-check-007-league-basquete-16-team-16-lore_049_o_estrangeiro_salvador,Olimpico Goiania Vikings,O Estrangeiro Salvador,good,balanced,79.4,9,6,1501,1429,72
+SIM-P6-CHECK-007,7,4,club-sim-p6-check-007-league-basquete-16-team-11-lore_031_presidente_populista,Estrela Manaus Tropa,Presidente Populista,good,prospect_core,77,9,6,1468,1406,62
+SIM-P6-CHECK-007,8,10,club-sim-p6-check-007-league-basquete-16-team-05-lore_065_clube_de_treinador,Real Sao Paulo Dragons,Clube de Treinador,normal,balanced,75.5,7,8,1410,1439,-29
+SIM-P6-CHECK-007,9,9,club-sim-p6-check-007-league-basquete-16-team-09-lore_054_clube_sem_memoria,Estrela Recife Warriors,Clube Sem Memória,normal,balanced,75.7,7,8,1422,1460,-38
+SIM-P6-CHECK-007,10,13,club-sim-p6-check-007-league-basquete-16-team-02-lore_071_elenco_internacional_sub23,Atletico Fortaleza Dragons,Sub-23 Global,normal,prospect_core,72.9,6,9,1435,1483,-48
+SIM-P6-CHECK-007,11,11,club-sim-p6-check-007-league-basquete-16-team-10-lore_024_equipe_silenciosa,Capital Goiania Panteras,Equipe Silenciosa,low,balanced,75.5,6,9,1405,1460,-55
+SIM-P6-CHECK-007,12,6,club-sim-p6-check-007-league-basquete-16-team-01-lore_041_dinastia_da_base,Estrela Recife Warriors,Dinastia da Base,normal,prospect_core,76.6,5,10,1359,1459,-100
+SIM-P6-CHECK-007,13,14,club-sim-p6-check-007-league-basquete-16-team-15-lore_078_a_cidade_contra_todos,Dynamo Campinas Tropa,A Cidade Contra Todos,low,unbalanced,72,5,10,1384,1492,-108
+SIM-P6-CHECK-007,14,16,club-sim-p6-check-007-league-basquete-16-team-13-lore_070_cacadores_de_gigantes,Litoral Vitoria Tropa,Caçadores de Gigantes,low,balanced,70.8,5,10,1370,1483,-113
+SIM-P6-CHECK-007,15,12,club-sim-p6-check-007-league-basquete-16-team-08-lore_046_elenco_remendado,Central Manaus Clube,Elenco Remendado,normal,medical_risk,75.2,4,11,1411,1485,-74
+SIM-P6-CHECK-007,16,15,club-sim-p6-check-007-league-basquete-16-team-14-lore_024_equipe_silenciosa,Metropolitano Campinas Clube,Equipe Silenciosa,low,balanced,71.5,4,11,1359,1474,-115
+SIM-P6-CHECK-008,1,6,club-sim-p6-check-008-league-basquete-16-team-04-lore_098_a_frente_fria,Capital Sao Paulo Panteras,Frente Fria,normal,balanced,77.2,12,3,1531,1367,164
+SIM-P6-CHECK-008,2,2,club-sim-p6-check-008-league-basquete-16-team-12-lore_020_selecao_de_estrangeiros,Central Goiania Estrelas,Seleção de Estrangeiros,good,balanced,80.4,11,4,1477,1352,125
+SIM-P6-CHECK-008,3,3,club-sim-p6-check-008-league-basquete-16-team-03-lore_072_o_clube_dos_capitaes,Real Vitoria Furia,Clube dos Capitães,good,balanced,80.1,10,5,1478,1369,109
+SIM-P6-CHECK-008,4,4,club-sim-p6-check-008-league-basquete-16-team-15-lore_003_gigante_adormecido,Olimpico Fortaleza Panteras,Gigante Adormecido,good,unbalanced,77.9,10,5,1459,1384,75
+SIM-P6-CHECK-008,5,1,club-sim-p6-check-008-league-basquete-16-team-11-lore_008_clube_dos_artistas,Estrela Recife Estrelas,Clube dos Artistas,good,defense_first,80.9,9,6,1460,1375,85
+SIM-P6-CHECK-008,6,5,club-sim-p6-check-008-league-basquete-16-team-10-lore_091_time_de_grife,Real Belo Horizonte Furia,Time de Grife,good,expensive_unbalanced,77.5,9,6,1463,1401,62
+SIM-P6-CHECK-008,7,9,club-sim-p6-check-008-league-basquete-16-team-01-lore_015_torcida_infernal,Vanguarda Fortaleza Tropa,Torcida Infernal,normal,unbalanced,75.6,9,6,1476,1422,54
+SIM-P6-CHECK-008,8,12,club-sim-p6-check-008-league-basquete-16-team-16-lore_098_a_frente_fria,Olimpico Recife Lobos,Frente Fria,normal,balanced,75.2,9,6,1423,1408,15
+SIM-P6-CHECK-008,9,11,club-sim-p6-check-008-league-basquete-16-team-05-lore_015_torcida_infernal,Atletico Recife Estrelas,Torcida Infernal,normal,unbalanced,75.6,8,7,1433,1384,49
+SIM-P6-CHECK-008,10,7,club-sim-p6-check-008-league-basquete-16-team-08-lore_090_clube_do_povo,Capital Goiania Lobos,Clube do Povo,normal,unbalanced,77,8,7,1428,1407,21
+SIM-P6-CHECK-008,11,15,club-sim-p6-check-008-league-basquete-16-team-14-lore_093_clube_sem_estrelas,Real Salvador Clube,Clube Sem Estrelas,low,defense_first,71.5,6,9,1383,1436,-53
+SIM-P6-CHECK-008,12,13,club-sim-p6-check-008-league-basquete-16-team-07-lore_014_clube_vitrine,Vanguarda Rio de Janeiro Panteras,Clube Vitrine,normal,prospect_core,72.7,6,9,1396,1478,-82
+SIM-P6-CHECK-008,13,10,club-sim-p6-check-008-league-basquete-16-team-02-lore_077_sindicato_dos_reservas,Real Rio de Janeiro Clube,Sindicato dos Reservas,normal,balanced,75.6,5,10,1398,1461,-63
+SIM-P6-CHECK-008,14,16,club-sim-p6-check-008-league-basquete-16-team-09-lore_009_rebaixado_ferido,Central Campinas Vikings,Rebaixado Ferido,low,low_budget_fight,70.5,4,11,1304,1480,-176
+SIM-P6-CHECK-008,15,8,club-sim-p6-check-008-league-basquete-16-team-13-lore_052_sombra_do_rival,Uniao Salvador Basquete,Sombra do Rival,normal,balanced,75.8,3,12,1386,1509,-123
+SIM-P6-CHECK-008,16,14,club-sim-p6-check-008-league-basquete-16-team-06-lore_004_base_de_ouro,Central Salvador Furia,Base de Ouro,low,prospect_core,72.2,1,14,1298,1560,-262
+SIM-P6-CHECK-009,1,3,club-sim-p6-check-009-league-basquete-16-team-09-lore_075_o_rolo_compressor,Litoral Recife Furia,Rolo Compressor,good,balanced,80.4,11,4,1502,1366,136
+SIM-P6-CHECK-009,2,6,club-sim-p6-check-009-league-basquete-16-team-11-lore_049_o_estrangeiro_salvador,Dynamo Recife Tropa,O Estrangeiro Salvador,good,balanced,79.1,11,4,1501,1368,133
+SIM-P6-CHECK-009,3,2,club-sim-p6-check-009-league-basquete-16-team-04-lore_030_diretoria_impaciente,Capital Curitiba Dragons,Diretoria Impaciente,good,balanced,80.5,10,5,1440,1354,86
+SIM-P6-CHECK-009,4,5,club-sim-p6-check-009-league-basquete-16-team-02-lore_051_maquina_de_marketing,Atletico Vitoria Dragons,Máquina de Marketing,good,balanced,79.3,9,6,1503,1435,68
+SIM-P6-CHECK-009,5,10,club-sim-p6-check-009-league-basquete-16-team-08-lore_064_panelinha_dos_craques,Dynamo Vitoria Vikings,Panelinha dos Craques,good,unbalanced,76.8,9,6,1459,1403,56
+SIM-P6-CHECK-009,6,8,club-sim-p6-check-009-league-basquete-16-team-03-lore_059_geracao_perdida,Real Sao Paulo Tropa,Geração Perdida,good,balanced,77.9,9,6,1454,1401,53
+SIM-P6-CHECK-009,7,9,club-sim-p6-check-009-league-basquete-16-team-05-lore_051_maquina_de_marketing,Metropolitano Recife Lobos,Máquina de Marketing,good,balanced,77.9,9,6,1439,1410,29
+SIM-P6-CHECK-009,8,4,club-sim-p6-check-009-league-basquete-16-team-16-lore_030_diretoria_impaciente,Real Sao Paulo Estrelas,Diretoria Impaciente,good,balanced,79.4,8,7,1467,1405,62
+SIM-P6-CHECK-009,9,1,club-sim-p6-check-009-league-basquete-16-team-10-lore_056_clube_das_finais,Capital Campinas Lobos,Clube das Finais,good,balanced,80.6,8,7,1419,1395,24
+SIM-P6-CHECK-009,10,7,club-sim-p6-check-009-league-basquete-16-team-15-lore_049_o_estrangeiro_salvador,Real Vitoria Clube,O Estrangeiro Salvador,good,balanced,79.1,7,8,1455,1452,3
+SIM-P6-CHECK-009,11,13,club-sim-p6-check-009-league-basquete-16-team-14-lore_070_cacadores_de_gigantes,Atletico Belo Horizonte Panteras,Caçadores de Gigantes,low,balanced,74.9,7,8,1419,1445,-26
+SIM-P6-CHECK-009,12,14,club-sim-p6-check-009-league-basquete-16-team-13-lore_031_presidente_populista,Olimpico Belo Horizonte Panteras,Presidente Populista,normal,prospect_core,72.8,6,9,1415,1469,-54
+SIM-P6-CHECK-009,13,11,club-sim-p6-check-009-league-basquete-16-team-12-lore_090_clube_do_povo,Central Belo Horizonte Warriors,Clube do Povo,normal,unbalanced,76.8,6,9,1391,1478,-87
+SIM-P6-CHECK-009,14,12,club-sim-p6-check-009-league-basquete-16-team-01-lore_003_gigante_adormecido,Real Vitoria Lobos,Gigante Adormecido,good,unbalanced,76.5,5,10,1412,1492,-80
+SIM-P6-CHECK-009,15,16,club-sim-p6-check-009-league-basquete-16-team-06-lore_040_pacto_da_sobrevivencia,Imperial Goiania Panteras,Pacto da Sobrevivência,low,low_budget_fight,70.4,3,12,1340,1547,-207
+SIM-P6-CHECK-009,16,15,club-sim-p6-check-009-league-basquete-16-team-07-lore_093_clube_sem_estrelas,Atletico Sao Paulo Clube,Clube Sem Estrelas,low,defense_first,71.3,2,13,1308,1504,-196
+SIM-P6-CHECK-010,1,2,club-sim-p6-check-010-league-basquete-16-team-14-lore_008_clube_dos_artistas,Dynamo Campinas Dragons,Clube dos Artistas,good,defense_first,80.3,12,3,1530,1328,202
+SIM-P6-CHECK-010,2,1,club-sim-p6-check-010-league-basquete-16-team-02-lore_056_clube_das_finais,Vanguarda Fortaleza Estrelas,Clube das Finais,good,balanced,81,12,3,1498,1320,178
+SIM-P6-CHECK-010,3,4,club-sim-p6-check-010-league-basquete-16-team-13-lore_073_a_aposta_do_rookie,Real Porto Alegre Panteras,A Aposta do Rookie,normal,prospect_core,77.1,11,4,1479,1377,102
+SIM-P6-CHECK-010,4,5,club-sim-p6-check-010-league-basquete-16-team-16-lore_089_reconstrucao_pos_escandalo,Atletico Fortaleza Clube,Pós-Escândalo,normal,unbalanced,77.3,10,5,1457,1377,80
+SIM-P6-CHECK-010,5,6,club-sim-p6-check-010-league-basquete-16-team-04-lore_010_campeao_em_crise,Central Manaus Furia,Campeão em Crise,good,unbalanced,77.1,9,6,1409,1393,16
+SIM-P6-CHECK-010,6,3,club-sim-p6-check-010-league-basquete-16-team-11-lore_019_clube_academia,Imperial Porto Alegre Estrelas,Clube Academia,good,prospect_core,78.2,8,7,1467,1431,36
+SIM-P6-CHECK-010,7,10,club-sim-p6-check-010-league-basquete-16-team-15-lore_081_o_clube_paciente,Olimpico Rio de Janeiro Basquete,Clube Paciente,normal,prospect_core,75.2,8,7,1439,1454,-15
+SIM-P6-CHECK-010,8,11,club-sim-p6-check-010-league-basquete-16-team-01-lore_054_clube_sem_memoria,Atletico Campinas Vikings,Clube Sem Memória,normal,balanced,75.2,7,8,1414,1415,-1
+SIM-P6-CHECK-010,9,7,club-sim-p6-check-010-league-basquete-16-team-12-lore_028_ataque_espetáculo,Uniao Rio de Janeiro Furia,Ataque Espetáculo,normal,defense_first,77.1,7,8,1443,1445,-2
+SIM-P6-CHECK-010,10,12,club-sim-p6-check-010-league-basquete-16-team-05-lore_060_clube_dos_retorno,Central Vitoria Panteras,Clube dos Retornos,normal,balanced,75,7,8,1418,1428,-10
+SIM-P6-CHECK-010,11,13,club-sim-p6-check-010-league-basquete-16-team-08-lore_048_estatua_viva,Central Porto Alegre Vikings,Estátua Viva,normal,veteran_win_now,73.5,7,8,1395,1437,-42
+SIM-P6-CHECK-010,12,9,club-sim-p6-check-010-league-basquete-16-team-06-lore_052_sombra_do_rival,Dynamo Fortaleza Warriors,Sombra do Rival,normal,balanced,75.4,6,9,1415,1459,-44
+SIM-P6-CHECK-010,13,8,club-sim-p6-check-010-league-basquete-16-team-07-lore_095_o_clube_do_treinamento,Imperial Curitiba Furia,Clube do Treinamento,normal,prospect_core,75.9,5,10,1416,1470,-54
+SIM-P6-CHECK-010,14,14,club-sim-p6-check-010-league-basquete-16-team-10-lore_078_a_cidade_contra_todos,Atletico Salvador Dragons,A Cidade Contra Todos,low,unbalanced,72.3,4,11,1405,1524,-119
+SIM-P6-CHECK-010,15,15,club-sim-p6-check-010-league-basquete-16-team-03-lore_069_meninos_contra_homens,Atletico Goiania Basquete,Meninos contra Homens,low,prospect_core,71.8,4,11,1354,1489,-135
+SIM-P6-CHECK-010,16,16,club-sim-p6-check-010-league-basquete-16-team-09-lore_042_clube_de_colonia,Capital Sao Paulo Lobos,Clube de Colônia,low,balanced,71.2,3,12,1347,1539,-192
+SIM-P6-CHECK-011,1,4,club-sim-p6-check-011-league-basquete-16-team-06-lore_096_crise_de_identidade,Vanguarda Goiania Tropa,Crise de Identidade,normal,unbalanced,77.8,12,3,1491,1333,158
+SIM-P6-CHECK-011,2,3,club-sim-p6-check-011-league-basquete-16-team-04-lore_008_clube_dos_artistas,Olimpico Campinas Lobos,Clube dos Artistas,good,defense_first,79.9,11,4,1472,1324,148
+SIM-P6-CHECK-011,3,1,club-sim-p6-check-011-league-basquete-16-team-11-lore_075_o_rolo_compressor,Central Manaus Lobos,Rolo Compressor,good,balanced,81,10,5,1475,1359,116
+SIM-P6-CHECK-011,4,2,club-sim-p6-check-011-league-basquete-16-team-02-lore_012_império_em_declínio,Estrela Porto Alegre Vikings,Império em Declínio,good,balanced,80.5,10,5,1492,1382,110
+SIM-P6-CHECK-011,5,7,club-sim-p6-check-011-league-basquete-16-team-12-lore_096_crise_de_identidade,Estrela Curitiba Clube,Crise de Identidade,normal,unbalanced,77.2,9,6,1443,1353,90
+SIM-P6-CHECK-011,6,9,club-sim-p6-check-011-league-basquete-16-team-13-lore_097_o_clube_das_lendas_jovens,Real Porto Alegre Vikings,Lendas Jovens,normal,balanced,75.2,9,6,1422,1390,32
+SIM-P6-CHECK-011,7,6,club-sim-p6-check-011-league-basquete-16-team-03-lore_098_a_frente_fria,Dynamo Sao Paulo Panteras,Frente Fria,normal,balanced,77.2,8,7,1417,1429,-12
+SIM-P6-CHECK-011,8,8,club-sim-p6-check-011-league-basquete-16-team-15-lore_037_time_de_copas,Litoral Manaus Furia,Time de Copas,normal,balanced,75.3,8,7,1389,1405,-16
+SIM-P6-CHECK-011,9,5,club-sim-p6-check-011-league-basquete-16-team-05-lore_083_o_clube_sem_paciencia,Vanguarda Vitoria Furia,Clube Sem Paciência,good,unbalanced,77.7,7,8,1430,1433,-3
+SIM-P6-CHECK-011,10,10,club-sim-p6-check-011-league-basquete-16-team-10-lore_077_sindicato_dos_reservas,Olimpico Curitiba Clube,Sindicato dos Reservas,normal,balanced,75,7,8,1446,1452,-6
+SIM-P6-CHECK-011,11,15,club-sim-p6-check-011-league-basquete-16-team-01-lore_093_clube_sem_estrelas,Central Belo Horizonte Panteras,Clube Sem Estrelas,low,defense_first,71.2,7,8,1422,1436,-14
+SIM-P6-CHECK-011,12,11,club-sim-p6-check-011-league-basquete-16-team-09-lore_097_o_clube_das_lendas_jovens,Real Vitoria Panteras,Lendas Jovens,normal,balanced,74.9,6,9,1406,1425,-19
+SIM-P6-CHECK-011,13,14,club-sim-p6-check-011-league-basquete-16-team-16-lore_007_tropa_operaria,Vanguarda Fortaleza Furia,Tropa Operária,low,balanced,71.4,6,9,1394,1474,-80
+SIM-P6-CHECK-011,14,12,club-sim-p6-check-011-league-basquete-16-team-14-lore_006_fabrica_de_promessas,Olimpico Recife Vikings,Fábrica de Promessas,normal,prospect_core,73.6,5,10,1346,1436,-90
+SIM-P6-CHECK-011,15,13,club-sim-p6-check-011-league-basquete-16-team-08-lore_007_tropa_operaria,Real Curitiba Clube,Tropa Operária,low,balanced,71.4,3,12,1339,1514,-175
+SIM-P6-CHECK-011,16,16,club-sim-p6-check-011-league-basquete-16-team-07-lore_040_pacto_da_sobrevivencia,Estrela Campinas Lobos,Pacto da Sobrevivência,low,low_budget_fight,69.8,2,13,1304,1543,-239
+SIM-P6-CHECK-012,1,1,club-sim-p6-check-012-league-basquete-16-team-01-lore_030_diretoria_impaciente,Dynamo Goiania Basquete,Diretoria Impaciente,good,balanced,80.6,12,3,1531,1362,169
+SIM-P6-CHECK-012,2,3,club-sim-p6-check-012-league-basquete-16-team-02-lore_020_selecao_de_estrangeiros,Capital Fortaleza Vikings,Seleção de Estrangeiros,good,balanced,80.4,12,3,1463,1348,115
+SIM-P6-CHECK-012,3,2,club-sim-p6-check-012-league-basquete-16-team-08-lore_075_o_rolo_compressor,Central Porto Alegre Clube,Rolo Compressor,good,balanced,80.5,11,4,1501,1362,139
+SIM-P6-CHECK-012,4,11,club-sim-p6-check-012-league-basquete-16-team-12-lore_066_herdeiros_da_lenda,Litoral Curitiba Dragons,Herdeiros da Lenda,normal,balanced,75.4,11,4,1513,1375,138
+SIM-P6-CHECK-012,5,10,club-sim-p6-check-012-league-basquete-16-team-13-lore_076_o_time_pequeno_brilhante,Estrela Fortaleza Clube,Pequeno Brilhante,normal,balanced,75.6,9,6,1442,1401,41
+SIM-P6-CHECK-012,6,5,club-sim-p6-check-012-league-basquete-16-team-16-lore_072_o_clube_dos_capitaes,Central Manaus Vikings,Clube dos Capitães,good,balanced,79.4,9,6,1443,1436,7
+SIM-P6-CHECK-012,7,7,club-sim-p6-check-012-league-basquete-16-team-05-lore_057_banco_de_luxo,Uniao Sao Paulo Warriors,Banco de Luxo,good,unbalanced,78.3,8,7,1452,1420,32
+SIM-P6-CHECK-012,8,8,club-sim-p6-check-012-league-basquete-16-team-03-lore_029_temporada_de_luto,Imperial Salvador Vikings,Temporada de Luto,normal,balanced,76.3,8,7,1404,1397,7
+SIM-P6-CHECK-012,9,4,club-sim-p6-check-012-league-basquete-16-team-06-lore_053_dono_do_estado,Litoral Campinas Lobos,Dono do Estado,good,balanced,79.5,7,8,1440,1431,9
+SIM-P6-CHECK-012,10,13,club-sim-p6-check-012-league-basquete-16-team-09-lore_073_a_aposta_do_rookie,Dynamo Porto Alegre Furia,A Aposta do Rookie,low,prospect_core,73.4,7,8,1436,1485,-49
+SIM-P6-CHECK-012,11,15,club-sim-p6-check-012-league-basquete-16-team-07-lore_002_azarao_financeiro,Vanguarda Manaus Vikings,Azarão Financeiro,low,low_budget_fight,70.2,6,9,1390,1471,-81
+SIM-P6-CHECK-012,12,6,club-sim-p6-check-012-league-basquete-16-team-10-lore_085_torre_gemea,Real Porto Alegre Lobos,Torres Gêmeas,good,balanced,78.5,5,10,1355,1410,-55
+SIM-P6-CHECK-012,13,12,club-sim-p6-check-012-league-basquete-16-team-15-lore_098_a_frente_fria,Capital Goiania Basquete,Frente Fria,normal,balanced,75.2,5,10,1411,1469,-58
+SIM-P6-CHECK-012,14,16,club-sim-p6-check-012-league-basquete-16-team-04-lore_079_clube_da_virada_financeira,Dynamo Manaus Furia,Virada Financeira,low,low_budget_fight,69.9,4,11,1373,1506,-133
+SIM-P6-CHECK-012,15,9,club-sim-p6-check-012-league-basquete-16-team-11-lore_087_clube_do_contra_ataque,Capital Curitiba Basquete,Clube do Contra-Ataque,normal,balanced,75.8,3,12,1353,1477,-124
+SIM-P6-CHECK-012,16,14,club-sim-p6-check-012-league-basquete-16-team-14-lore_033_reino_dos_veteranos,Central Fortaleza Tropa,Reino dos Veteranos,normal,veteran_win_now,73.8,3,12,1352,1509,-157
+SIM-P6-CHECK-013,1,3,club-sim-p6-check-013-league-basquete-16-team-12-lore_058_fome_de_primeiro_titulo,Capital Vitoria Tropa,Fome de Primeiro Título,good,balanced,80.5,11,4,1482,1363,119
+SIM-P6-CHECK-013,2,8,club-sim-p6-check-013-league-basquete-16-team-13-lore_019_clube_academia,Dynamo Goiania Lobos,Clube Academia,good,prospect_core,76.3,11,4,1463,1344,119
+SIM-P6-CHECK-013,3,5,club-sim-p6-check-013-league-basquete-16-team-09-lore_080_a_batalha_dos_egos,Central Campinas Basquete,Batalha dos Egos,good,defense_first,79.5,11,4,1463,1360,103
+SIM-P6-CHECK-013,4,4,club-sim-p6-check-013-league-basquete-16-team-02-lore_085_torre_gemea,Dynamo Manaus Furia,Torres Gêmeas,good,balanced,79.5,9,6,1470,1371,99
+SIM-P6-CHECK-013,5,9,club-sim-p6-check-013-league-basquete-16-team-01-lore_010_campeao_em_crise,Uniao Manaus Clube,Campeão em Crise,good,unbalanced,76.2,9,6,1443,1402,41
+SIM-P6-CHECK-013,6,1,club-sim-p6-check-013-league-basquete-16-team-16-lore_058_fome_de_primeiro_titulo,Estrela Vitoria Panteras,Fome de Primeiro Título,good,balanced,80.7,9,6,1450,1413,37
+SIM-P6-CHECK-013,7,2,club-sim-p6-check-013-league-basquete-16-team-11-lore_082_a_temporada_do_centenario,Estrela Campinas Clube,Temporada do Centenário,good,balanced,80.6,8,7,1454,1378,76
+SIM-P6-CHECK-013,8,10,club-sim-p6-check-013-league-basquete-16-team-07-lore_063_clube_religioso_da_rotina,Litoral Porto Alegre Dragons,Clube da Rotina,normal,defense_first,75.4,8,7,1422,1395,27
+SIM-P6-CHECK-013,9,6,club-sim-p6-check-013-league-basquete-16-team-15-lore_038_maldição_do_quase,Atletico Porto Alegre Clube,Maldição do Quase,good,balanced,79.4,8,7,1428,1410,18
+SIM-P6-CHECK-013,10,11,club-sim-p6-check-013-league-basquete-16-team-08-lore_098_a_frente_fria,Metropolitano Campinas Vikings,Frente Fria,normal,balanced,75,7,8,1391,1428,-37
+SIM-P6-CHECK-013,11,15,club-sim-p6-check-013-league-basquete-16-team-10-lore_070_cacadores_de_gigantes,Metropolitano Fortaleza Dragons,Caçadores de Gigantes,low,balanced,71,6,9,1382,1431,-49
+SIM-P6-CHECK-013,12,7,club-sim-p6-check-013-league-basquete-16-team-06-lore_008_clube_dos_artistas,Litoral Goiania Lobos,Clube dos Artistas,good,defense_first,79.3,6,9,1412,1466,-54
+SIM-P6-CHECK-013,13,14,club-sim-p6-check-013-league-basquete-16-team-03-lore_007_tropa_operaria,Dynamo Fortaleza Clube,Tropa Operária,low,balanced,71.3,6,9,1362,1444,-82
+SIM-P6-CHECK-013,14,16,club-sim-p6-check-013-league-basquete-16-team-05-lore_068_a_fortaleza_defensiva,Olimpico Sao Paulo Tropa,Fortaleza Defensiva,low,defense_first,70.7,6,9,1385,1482,-97
+SIM-P6-CHECK-013,15,12,club-sim-p6-check-013-league-basquete-16-team-04-lore_048_estatua_viva,Imperial Curitiba Clube,Estátua Viva,normal,veteran_win_now,74.1,4,11,1375,1460,-85
+SIM-P6-CHECK-013,16,13,club-sim-p6-check-013-league-basquete-16-team-14-lore_011_time_do_bairro,Imperial Vitoria Dragons,Time do Bairro,low,balanced,72,1,14,1305,1540,-235
+SIM-P6-CHECK-014,1,7,club-sim-p6-check-014-league-basquete-16-team-01-lore_023_rivalidade_sangrenta,Uniao Belo Horizonte Tropa,Rivalidade Sangrenta,normal,balanced,76.6,11,4,1482,1339,143
+SIM-P6-CHECK-014,2,1,club-sim-p6-check-014-league-basquete-16-team-10-lore_085_torre_gemea,Central Curitiba Basquete,Torres Gêmeas,good,balanced,80.2,10,5,1466,1352,114
+SIM-P6-CHECK-014,3,11,club-sim-p6-check-014-league-basquete-16-team-15-lore_017_lenda_no_banco,Metropolitano Goiania Dragons,Lenda no Banco,normal,veteran_win_now,75.1,10,5,1480,1374,106
+SIM-P6-CHECK-014,4,6,club-sim-p6-check-014-league-basquete-16-team-09-lore_023_rivalidade_sangrenta,Metropolitano Vitoria Clube,Rivalidade Sangrenta,normal,balanced,76.8,9,6,1444,1372,72
+SIM-P6-CHECK-014,5,4,club-sim-p6-check-014-league-basquete-16-team-12-lore_089_reconstrucao_pos_escandalo,Real Recife Lobos,Pós-Escândalo,good,unbalanced,76.9,9,6,1426,1395,31
+SIM-P6-CHECK-014,6,2,club-sim-p6-check-014-league-basquete-16-team-04-lore_083_o_clube_sem_paciencia,Olimpico Salvador Warriors,Clube Sem Paciência,good,unbalanced,78.7,8,7,1429,1395,34
+SIM-P6-CHECK-014,7,14,club-sim-p6-check-014-league-basquete-16-team-11-lore_042_clube_de_colonia,Atletico Porto Alegre Dragons,Clube de Colônia,low,balanced,71.3,8,7,1444,1425,19
+SIM-P6-CHECK-014,8,8,club-sim-p6-check-014-league-basquete-16-team-14-lore_090_clube_do_povo,Capital Campinas Vikings,Clube do Povo,normal,unbalanced,75.5,8,7,1387,1382,5
+SIM-P6-CHECK-014,9,10,club-sim-p6-check-014-league-basquete-16-team-05-lore_081_o_clube_paciente,Capital Goiania Clube,Clube Paciente,normal,prospect_core,74.9,7,8,1416,1404,12
+SIM-P6-CHECK-014,10,5,club-sim-p6-check-014-league-basquete-16-team-06-lore_054_clube_sem_memoria,Uniao Belo Horizonte Tropa,Clube Sem Memória,normal,balanced,76.8,7,8,1362,1403,-41
+SIM-P6-CHECK-014,11,13,club-sim-p6-check-014-league-basquete-16-team-02-lore_034_juventude_insolente,Central Campinas Dragons,Juventude Insolente,low,prospect_core,71.7,7,8,1384,1441,-57
+SIM-P6-CHECK-014,12,3,club-sim-p6-check-014-league-basquete-16-team-08-lore_089_reconstrucao_pos_escandalo,Capital Manaus Vikings,Pós-Escândalo,good,unbalanced,77.9,6,9,1420,1479,-59
+SIM-P6-CHECK-014,13,9,club-sim-p6-check-014-league-basquete-16-team-16-lore_033_reino_dos_veteranos,Capital Vitoria Vikings,Reino dos Veteranos,normal,veteran_win_now,75.4,5,10,1379,1455,-76
+SIM-P6-CHECK-014,14,12,club-sim-p6-check-014-league-basquete-16-team-07-lore_036_romanticos_da_historia,Imperial Vitoria Lobos,Românticos da História,normal,balanced,74.4,5,10,1363,1451,-88
+SIM-P6-CHECK-014,15,15,club-sim-p6-check-014-league-basquete-16-team-03-lore_045_orgulho_do_interior,Atletico Recife Clube,Orgulho do Interior,low,balanced,71,5,10,1385,1478,-93
+SIM-P6-CHECK-014,16,16,club-sim-p6-check-014-league-basquete-16-team-13-lore_074_clube_das_cicatrizes,Vanguarda Goiania Basquete,Clube das Cicatrizes,low,low_budget_fight,70.3,5,10,1393,1515,-122
+SIM-P6-CHECK-015,1,2,club-sim-p6-check-015-league-basquete-16-team-09-lore_001_last_dance,Dynamo Vitoria Lobos,The Last Dance,good,veteran_win_now,80,12,3,1518,1301,217
+SIM-P6-CHECK-015,2,6,club-sim-p6-check-015-league-basquete-16-team-06-lore_054_clube_sem_memoria,Uniao Recife Lobos,Clube Sem Memória,normal,balanced,76.1,12,3,1465,1291,174
+SIM-P6-CHECK-015,3,3,club-sim-p6-check-015-league-basquete-16-team-12-lore_081_o_clube_paciente,Capital Rio de Janeiro Vikings,Clube Paciente,good,prospect_core,78.7,11,4,1427,1320,107
+SIM-P6-CHECK-015,4,1,club-sim-p6-check-015-league-basquete-16-team-04-lore_059_geracao_perdida,Central Salvador Furia,Geração Perdida,good,balanced,80.5,10,5,1514,1373,141
+SIM-P6-CHECK-015,5,4,club-sim-p6-check-015-league-basquete-16-team-07-lore_055_os_inquebraveis,Olimpico Goiania Dragons,Os Inquebráveis,good,balanced,77.2,9,6,1423,1353,70
+SIM-P6-CHECK-015,6,7,club-sim-p6-check-015-league-basquete-16-team-03-lore_070_cacadores_de_gigantes,Litoral Goiania Panteras,Caçadores de Gigantes,low,balanced,75.9,9,6,1494,1438,56
+SIM-P6-CHECK-015,7,8,club-sim-p6-check-015-league-basquete-16-team-11-lore_004_base_de_ouro,Capital Porto Alegre Estrelas,Base de Ouro,low,prospect_core,74,9,6,1434,1412,22
+SIM-P6-CHECK-015,8,5,club-sim-p6-check-015-league-basquete-16-team-14-lore_028_ataque_espetáculo,Uniao Recife Warriors,Ataque Espetáculo,normal,defense_first,76.7,8,7,1472,1428,44
+SIM-P6-CHECK-015,9,12,club-sim-p6-check-015-league-basquete-16-team-16-lore_004_base_de_ouro,Metropolitano Salvador Warriors,Base de Ouro,low,prospect_core,72.7,7,8,1390,1424,-34
+SIM-P6-CHECK-015,10,10,club-sim-p6-check-015-league-basquete-16-team-15-lore_024_equipe_silenciosa,Metropolitano Campinas Panteras,Equipe Silenciosa,low,balanced,73.2,6,9,1408,1452,-44
+SIM-P6-CHECK-015,11,9,club-sim-p6-check-015-league-basquete-16-team-05-lore_021_orgulho_da_base_local,Olimpico Curitiba Dragons,Orgulho da Base Local,low,prospect_core,73.1,6,9,1390,1438,-48
+SIM-P6-CHECK-015,12,13,club-sim-p6-check-015-league-basquete-16-team-08-lore_068_a_fortaleza_defensiva,Uniao Recife Warriors,Fortaleza Defensiva,low,defense_first,71,6,9,1355,1424,-69
+SIM-P6-CHECK-015,13,14,club-sim-p6-check-015-league-basquete-16-team-13-lore_070_cacadores_de_gigantes,Metropolitano Sao Paulo Tropa,Caçadores de Gigantes,low,balanced,71,5,10,1375,1506,-131
+SIM-P6-CHECK-015,14,11,club-sim-p6-check-015-league-basquete-16-team-10-lore_067_clube_das_promessas_quebradas,Uniao Porto Alegre Dragons,Promessas Quebradas,low,prospect_core,72.8,4,11,1385,1500,-115
+SIM-P6-CHECK-015,15,16,club-sim-p6-check-015-league-basquete-16-team-01-lore_074_clube_das_cicatrizes,Capital Porto Alegre Panteras,Clube das Cicatrizes,low,low_budget_fight,70,4,11,1362,1530,-168
+SIM-P6-CHECK-015,16,15,club-sim-p6-check-015-league-basquete-16-team-02-lore_074_clube_das_cicatrizes,Litoral Fortaleza Lobos,Clube das Cicatrizes,low,low_budget_fight,70.3,2,13,1305,1527,-222
+SIM-P6-CHECK-016,1,2,club-sim-p6-check-016-league-basquete-16-team-12-lore_051_maquina_de_marketing,Vanguarda Sao Paulo Warriors,Máquina de Marketing,good,balanced,80.6,11,4,1511,1399,112
+SIM-P6-CHECK-016,2,5,club-sim-p6-check-016-league-basquete-16-team-02-lore_075_o_rolo_compressor,Imperial Manaus Warriors,Rolo Compressor,good,balanced,79.4,10,5,1455,1354,101
+SIM-P6-CHECK-016,3,3,club-sim-p6-check-016-league-basquete-16-team-16-lore_100_a_nova_ordem,Vanguarda Goiania Lobos,A Nova Ordem,good,balanced,80.6,9,6,1466,1392,74
+SIM-P6-CHECK-016,4,7,club-sim-p6-check-016-league-basquete-16-team-01-lore_005_dinheiro_novo,Uniao Rio de Janeiro Warriors,Dinheiro Novo,good,expensive_unbalanced,77.1,9,6,1470,1408,62
+SIM-P6-CHECK-016,5,4,club-sim-p6-check-016-league-basquete-16-team-05-lore_058_fome_de_primeiro_titulo,Litoral Belo Horizonte Clube,Fome de Primeiro Título,good,balanced,79.6,9,6,1447,1398,49
+SIM-P6-CHECK-016,6,9,club-sim-p6-check-016-league-basquete-16-team-09-lore_032_elenco_de_aluguel,Imperial Salvador Vikings,Elenco de Aluguel,normal,balanced,76,9,6,1444,1411,33
+SIM-P6-CHECK-016,7,1,club-sim-p6-check-016-league-basquete-16-team-07-lore_059_geracao_perdida,Metropolitano Vitoria Lobos,Geração Perdida,good,balanced,80.6,8,7,1408,1381,27
+SIM-P6-CHECK-016,8,8,club-sim-p6-check-016-league-basquete-16-team-06-lore_023_rivalidade_sangrenta,Central Salvador Warriors,Rivalidade Sangrenta,normal,balanced,76.1,8,7,1416,1404,12
+SIM-P6-CHECK-016,9,11,club-sim-p6-check-016-league-basquete-16-team-10-lore_018_comissao_dividida,Metropolitano Belo Horizonte Dragons,Comissão Dividida,normal,unbalanced,75.6,8,7,1460,1467,-7
+SIM-P6-CHECK-016,10,6,club-sim-p6-check-016-league-basquete-16-team-03-lore_091_time_de_grife,Capital Fortaleza Vikings,Time de Grife,good,expensive_unbalanced,77.7,7,8,1409,1416,-7
+SIM-P6-CHECK-016,11,10,club-sim-p6-check-016-league-basquete-16-team-04-lore_017_lenda_no_banco,Atletico Porto Alegre Warriors,Lenda no Banco,normal,veteran_win_now,75.9,6,9,1375,1416,-41
+SIM-P6-CHECK-016,12,14,club-sim-p6-check-016-league-basquete-16-team-08-lore_087_clube_do_contra_ataque,Atletico Manaus Estrelas,Clube do Contra-Ataque,low,balanced,74,6,9,1377,1424,-47
+SIM-P6-CHECK-016,13,13,club-sim-p6-check-016-league-basquete-16-team-15-lore_023_rivalidade_sangrenta,Capital Curitiba Warriors,Rivalidade Sangrenta,normal,balanced,74.1,6,9,1379,1453,-74
+SIM-P6-CHECK-016,14,15,club-sim-p6-check-016-league-basquete-16-team-11-lore_032_elenco_de_aluguel,Uniao Manaus Estrelas,Elenco de Aluguel,low,balanced,73.9,5,10,1378,1464,-86
+SIM-P6-CHECK-016,15,12,club-sim-p6-check-016-league-basquete-16-team-13-lore_065_clube_de_treinador,Metropolitano Sao Paulo Warriors,Clube de Treinador,normal,balanced,75.6,5,10,1379,1486,-107
+SIM-P6-CHECK-016,16,16,club-sim-p6-check-016-league-basquete-16-team-14-lore_014_clube_vitrine,Imperial Goiania Estrelas,Clube Vitrine,low,prospect_core,73.1,4,11,1384,1485,-101
+SIM-P6-CHECK-017,1,2,club-sim-p6-check-017-league-basquete-16-team-03-lore_085_torre_gemea,Vanguarda Vitoria Basquete,Torres Gêmeas,good,balanced,79.9,12,3,1531,1383,148
+SIM-P6-CHECK-017,2,1,club-sim-p6-check-017-league-basquete-16-team-15-lore_056_clube_das_finais,Estrela Curitiba Basquete,Clube das Finais,good,balanced,80,11,4,1500,1332,168
+SIM-P6-CHECK-017,3,9,club-sim-p6-check-017-league-basquete-16-team-14-lore_098_a_frente_fria,Metropolitano Salvador Furia,Frente Fria,normal,balanced,74.8,10,5,1452,1357,95
+SIM-P6-CHECK-017,4,7,club-sim-p6-check-017-league-basquete-16-team-16-lore_046_elenco_remendado,Dynamo Sao Paulo Estrelas,Elenco Remendado,normal,medical_risk,76.3,10,5,1449,1360,89
+SIM-P6-CHECK-017,5,3,club-sim-p6-check-017-league-basquete-16-team-02-lore_064_panelinha_dos_craques,Vanguarda Salvador Furia,Panelinha dos Craques,good,unbalanced,79,10,5,1456,1369,87
+SIM-P6-CHECK-017,6,4,club-sim-p6-check-017-league-basquete-16-team-01-lore_025_estrelas_e_reservas,Estrela Porto Alegre Estrelas,Estrelas e Reservas,good,unbalanced,77.6,9,6,1480,1415,65
+SIM-P6-CHECK-017,7,11,club-sim-p6-check-017-league-basquete-16-team-09-lore_048_estatua_viva,Atletico Vitoria Vikings,Estátua Viva,normal,veteran_win_now,74.8,9,6,1464,1421,43
+SIM-P6-CHECK-017,8,8,club-sim-p6-check-017-league-basquete-16-team-07-lore_095_o_clube_do_treinamento,Estrela Salvador Furia,Clube do Treinamento,normal,prospect_core,74.7,9,6,1410,1382,28
+SIM-P6-CHECK-017,9,10,club-sim-p6-check-017-league-basquete-16-team-12-lore_017_lenda_no_banco,Vanguarda Manaus Panteras,Lenda no Banco,normal,veteran_win_now,74.9,8,7,1453,1435,18
+SIM-P6-CHECK-017,10,5,club-sim-p6-check-017-league-basquete-16-team-10-lore_032_elenco_de_aluguel,Central Recife Warriors,Elenco de Aluguel,normal,balanced,76.7,7,8,1463,1432,31
+SIM-P6-CHECK-017,11,6,club-sim-p6-check-017-league-basquete-16-team-05-lore_052_sombra_do_rival,Dynamo Rio de Janeiro Furia,Sombra do Rival,normal,balanced,76.6,6,9,1404,1487,-83
+SIM-P6-CHECK-017,12,12,club-sim-p6-check-017-league-basquete-16-team-08-lore_042_clube_de_colonia,Uniao Sao Paulo Estrelas,Clube de Colônia,low,balanced,73.2,5,10,1329,1430,-101
+SIM-P6-CHECK-017,13,14,club-sim-p6-check-017-league-basquete-16-team-06-lore_045_orgulho_do_interior,Capital Goiania Estrelas,Orgulho do Interior,low,balanced,71.6,4,11,1356,1455,-99
+SIM-P6-CHECK-017,14,16,club-sim-p6-check-017-league-basquete-16-team-04-lore_007_tropa_operaria,Litoral Sao Paulo Furia,Tropa Operária,low,balanced,70.8,4,11,1350,1511,-161
+SIM-P6-CHECK-017,15,15,club-sim-p6-check-017-league-basquete-16-team-13-lore_011_time_do_bairro,Metropolitano Fortaleza Tropa,Time do Bairro,low,balanced,71.4,3,12,1346,1509,-163
+SIM-P6-CHECK-017,16,13,club-sim-p6-check-017-league-basquete-16-team-11-lore_042_clube_de_colonia,Litoral Campinas Warriors,Clube de Colônia,low,balanced,71.8,3,12,1316,1481,-165
+SIM-P6-CHECK-018,1,1,club-sim-p6-check-018-league-basquete-16-team-10-lore_072_o_clube_dos_capitaes,Real Vitoria Clube,Clube dos Capitães,good,balanced,81,13,2,1503,1281,222
+SIM-P6-CHECK-018,2,2,club-sim-p6-check-018-league-basquete-16-team-03-lore_085_torre_gemea,Olimpico Belo Horizonte Dragons,Torres Gêmeas,good,balanced,80.5,10,5,1473,1361,112
+SIM-P6-CHECK-018,3,7,club-sim-p6-check-018-league-basquete-16-team-16-lore_006_fabrica_de_promessas,Capital Campinas Lobos,Fábrica de Promessas,normal,prospect_core,76.9,9,6,1430,1370,60
+SIM-P6-CHECK-018,4,6,club-sim-p6-check-018-league-basquete-16-team-07-lore_029_temporada_de_luto,Dynamo Salvador Vikings,Temporada de Luto,normal,balanced,77.2,9,6,1430,1380,50
+SIM-P6-CHECK-018,5,4,club-sim-p6-check-018-league-basquete-16-team-04-lore_005_dinheiro_novo,Metropolitano Vitoria Estrelas,Dinheiro Novo,good,expensive_unbalanced,78.3,9,6,1450,1405,45
+SIM-P6-CHECK-018,6,3,club-sim-p6-check-018-league-basquete-16-team-11-lore_057_banco_de_luxo,Capital Porto Alegre Warriors,Banco de Luxo,good,unbalanced,79.4,8,7,1458,1424,34
+SIM-P6-CHECK-018,7,15,club-sim-p6-check-018-league-basquete-16-team-01-lore_043_projeto_universitario,Dynamo Fortaleza Panteras,Projeto Universitário,low,prospect_core,72.5,8,7,1430,1423,7
+SIM-P6-CHECK-018,8,12,club-sim-p6-check-018-league-basquete-16-team-14-lore_027_defesa_de_ferro,Dynamo Manaus Panteras,Defesa de Ferro,normal,balanced,75.4,8,7,1417,1425,-8
+SIM-P6-CHECK-018,9,8,club-sim-p6-check-018-league-basquete-16-team-13-lore_089_reconstrucao_pos_escandalo,Dynamo Goiania Vikings,Pós-Escândalo,normal,unbalanced,75.9,7,8,1437,1397,40
+SIM-P6-CHECK-018,10,10,club-sim-p6-check-018-league-basquete-16-team-08-lore_060_clube_dos_retorno,Uniao Curitiba Lobos,Clube dos Retornos,normal,balanced,75.5,7,8,1390,1393,-3
+SIM-P6-CHECK-018,11,9,club-sim-p6-check-018-league-basquete-16-team-02-lore_062_a_muralha_caseira,Uniao Belo Horizonte Vikings,A Muralha Caseira,normal,balanced,75.8,7,8,1424,1457,-33
+SIM-P6-CHECK-018,12,13,club-sim-p6-check-018-league-basquete-16-team-15-lore_086_chuva_de_tres,Imperial Goiania Furia,Chuva de Três,normal,defense_first,73.8,6,9,1410,1478,-68
+SIM-P6-CHECK-018,13,5,club-sim-p6-check-018-league-basquete-16-team-06-lore_066_herdeiros_da_lenda,Litoral Belo Horizonte Lobos,Herdeiros da Lenda,normal,balanced,77.3,6,9,1395,1464,-69
+SIM-P6-CHECK-018,14,11,club-sim-p6-check-018-league-basquete-16-team-09-lore_081_o_clube_paciente,Vanguarda Fortaleza Lobos,Clube Paciente,normal,prospect_core,75.4,6,9,1380,1459,-79
+SIM-P6-CHECK-018,15,16,club-sim-p6-check-018-league-basquete-16-team-05-lore_011_time_do_bairro,Dynamo Goiania Estrelas,Time do Bairro,low,balanced,71.2,4,11,1365,1515,-150
+SIM-P6-CHECK-018,16,14,club-sim-p6-check-018-league-basquete-16-team-12-lore_014_clube_vitrine,Olimpico Fortaleza Tropa,Clube Vitrine,low,prospect_core,73.4,3,12,1331,1491,-160
+SIM-P6-CHECK-019,1,3,club-sim-p6-check-019-league-basquete-16-team-14-lore_035_clube_empresa,Dynamo Vitoria Basquete,Clube Empresa,good,balanced,80.2,12,3,1479,1325,154
+SIM-P6-CHECK-019,2,1,club-sim-p6-check-019-league-basquete-16-team-04-lore_080_a_batalha_dos_egos,Metropolitano Rio de Janeiro Panteras,Batalha dos Egos,good,defense_first,80.5,11,4,1481,1335,146
+SIM-P6-CHECK-019,3,2,club-sim-p6-check-019-league-basquete-16-team-06-lore_072_o_clube_dos_capitaes,Capital Curitiba Furia,Clube dos Capitães,good,balanced,80.4,11,4,1502,1364,138
+SIM-P6-CHECK-019,4,7,club-sim-p6-check-019-league-basquete-16-team-05-lore_057_banco_de_luxo,Litoral Sao Paulo Panteras,Banco de Luxo,good,unbalanced,78.2,10,5,1443,1370,73
+SIM-P6-CHECK-019,5,4,club-sim-p6-check-019-league-basquete-16-team-09-lore_075_o_rolo_compressor,Olimpico Rio de Janeiro Lobos,Rolo Compressor,good,balanced,78.7,9,6,1449,1388,61
+SIM-P6-CHECK-019,6,5,club-sim-p6-check-019-league-basquete-16-team-13-lore_012_império_em_declínio,Litoral Rio de Janeiro Vikings,Império em Declínio,good,balanced,78.7,9,6,1462,1405,57
+SIM-P6-CHECK-019,7,6,club-sim-p6-check-019-league-basquete-16-team-10-lore_019_clube_academia,Real Goiania Basquete,Clube Academia,good,prospect_core,78.4,8,7,1435,1412,23
+SIM-P6-CHECK-019,8,14,club-sim-p6-check-019-league-basquete-16-team-08-lore_048_estatua_viva,Metropolitano Porto Alegre Furia,Estátua Viva,low,veteran_win_now,72.7,8,7,1377,1389,-12
+SIM-P6-CHECK-019,9,10,club-sim-p6-check-019-league-basquete-16-team-02-lore_041_dinastia_da_base,Olimpico Rio de Janeiro Lobos,Dinastia da Base,normal,prospect_core,76.1,7,8,1422,1433,-11
+SIM-P6-CHECK-019,10,12,club-sim-p6-check-019-league-basquete-16-team-16-lore_037_time_de_copas,Real Porto Alegre Basquete,Time de Copas,normal,balanced,75.9,7,8,1410,1439,-29
+SIM-P6-CHECK-019,11,9,club-sim-p6-check-019-league-basquete-16-team-15-lore_010_campeao_em_crise,Litoral Recife Tropa,Campeão em Crise,good,unbalanced,76.4,6,9,1388,1426,-38
+SIM-P6-CHECK-019,12,11,club-sim-p6-check-019-league-basquete-16-team-01-lore_066_herdeiros_da_lenda,Capital Rio de Janeiro Tropa,Herdeiros da Lenda,normal,balanced,76.1,6,9,1372,1442,-70
+SIM-P6-CHECK-019,13,16,club-sim-p6-check-019-league-basquete-16-team-07-lore_050_clube_endividado,Metropolitano Fortaleza Estrelas,Clube Endividado,low,low_budget_fight,70.6,5,10,1381,1455,-74
+SIM-P6-CHECK-019,14,13,club-sim-p6-check-019-league-basquete-16-team-03-lore_014_clube_vitrine,Estrela Fortaleza Estrelas,Clube Vitrine,normal,prospect_core,73.3,4,11,1366,1500,-134
+SIM-P6-CHECK-019,15,15,club-sim-p6-check-019-league-basquete-16-team-11-lore_099_o_clube_dos_milagres,Real Sao Paulo Tropa,Clube dos Milagres,low,balanced,71.1,4,11,1329,1495,-166
+SIM-P6-CHECK-019,16,8,club-sim-p6-check-019-league-basquete-16-team-12-lore_064_panelinha_dos_craques,Litoral Curitiba Vikings,Panelinha dos Craques,good,unbalanced,76.4,3,12,1349,1467,-118
+SIM-P6-CHECK-020,1,2,club-sim-p6-check-020-league-basquete-16-team-15-lore_008_clube_dos_artistas,Litoral Fortaleza Panteras,Clube dos Artistas,good,defense_first,79.6,12,3,1484,1304,180
+SIM-P6-CHECK-020,2,5,club-sim-p6-check-020-league-basquete-16-team-06-lore_089_reconstrucao_pos_escandalo,Central Goiania Lobos,Pós-Escândalo,normal,unbalanced,76.7,10,5,1512,1413,99
+SIM-P6-CHECK-020,3,9,club-sim-p6-check-020-league-basquete-16-team-08-lore_062_a_muralha_caseira,Litoral Manaus Lobos,A Muralha Caseira,normal,balanced,75.4,10,5,1453,1361,92
+SIM-P6-CHECK-020,4,4,club-sim-p6-check-020-league-basquete-16-team-02-lore_073_a_aposta_do_rookie,Dynamo Sao Paulo Tropa,A Aposta do Rookie,good,prospect_core,76.5,9,6,1501,1433,68
+SIM-P6-CHECK-020,5,12,club-sim-p6-check-020-league-basquete-16-team-03-lore_034_juventude_insolente,Metropolitano Vitoria Tropa,Juventude Insolente,low,prospect_core,74.7,9,6,1467,1411,56
+SIM-P6-CHECK-020,6,1,club-sim-p6-check-020-league-basquete-16-team-13-lore_085_torre_gemea,Real Goiania Basquete,Torres Gêmeas,good,balanced,80.3,9,6,1476,1421,55
+SIM-P6-CHECK-020,7,6,club-sim-p6-check-020-league-basquete-16-team-01-lore_084_a_escola_de_armadores,Atletico Belo Horizonte Tropa,Escola de Armadores,normal,prospect_core,76.4,8,7,1419,1411,8
+SIM-P6-CHECK-020,8,11,club-sim-p6-check-020-league-basquete-16-team-04-lore_029_temporada_de_luto,Litoral Fortaleza Vikings,Temporada de Luto,normal,balanced,75.1,8,7,1436,1446,-10
+SIM-P6-CHECK-020,9,7,club-sim-p6-check-020-league-basquete-16-team-10-lore_094_a_ultima_vaga,Olimpico Campinas Lobos,A Última Vaga,normal,balanced,76.6,7,8,1456,1438,18
+SIM-P6-CHECK-020,10,3,club-sim-p6-check-020-league-basquete-16-team-12-lore_060_clube_dos_retorno,Imperial Goiania Panteras,Clube dos Retornos,good,balanced,77.9,7,8,1412,1413,-1
+SIM-P6-CHECK-020,11,10,club-sim-p6-check-020-league-basquete-16-team-05-lore_065_clube_de_treinador,Dynamo Belo Horizonte Basquete,Clube de Treinador,normal,balanced,75.2,7,8,1449,1455,-6
+SIM-P6-CHECK-020,12,8,club-sim-p6-check-020-league-basquete-16-team-09-lore_026_o_time_da_virada,Central Campinas Estrelas,O Time da Virada,normal,balanced,75.5,7,8,1401,1414,-13
+SIM-P6-CHECK-020,13,15,club-sim-p6-check-020-league-basquete-16-team-14-lore_074_clube_das_cicatrizes,Metropolitano Curitiba Lobos,Clube das Cicatrizes,low,low_budget_fight,70.5,6,9,1370,1438,-68
+SIM-P6-CHECK-020,14,13,club-sim-p6-check-020-league-basquete-16-team-11-lore_021_orgulho_da_base_local,Capital Belo Horizonte Tropa,Orgulho da Base Local,low,prospect_core,72.4,6,9,1397,1467,-70
+SIM-P6-CHECK-020,15,16,club-sim-p6-check-020-league-basquete-16-team-16-lore_016_elenco_sem_casa,Capital Porto Alegre Vikings,Elenco Sem Casa,low,low_budget_fight,69.8,3,12,1335,1523,-188
+SIM-P6-CHECK-020,16,14,club-sim-p6-check-020-league-basquete-16-team-07-lore_068_a_fortaleza_defensiva,Uniao Goiania Basquete,Fortaleza Defensiva,low,defense_first,71.3,2,13,1368,1588,-220

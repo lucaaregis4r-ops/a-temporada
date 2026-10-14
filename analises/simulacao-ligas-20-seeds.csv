@@ -1,0 +1,21 @@
+seed,champion,champion_projected_rank,top4_retention_pct,upset_rate,rank_correlation,simulation_warnings,league_warnings,avg_overall,top_bottom_gap,overall_range,salary_pressure_p90,user_rank_projected,user_rank_simulated
+SIM-P6-CHECK-001,Olimpico Recife Panteras,1,75,17.5,0.785,,,75.6,7.8,10.3,106.9,4,7
+SIM-P6-CHECK-002,Olimpico Manaus Estrelas,3,75,19.2,0.803,,,75.7,9.4,11,107.1,16,15
+SIM-P6-CHECK-003,Vanguarda Salvador Estrelas,1,50,12.5,0.832,,,75.2,8.7,11,107.2,16,16
+SIM-P6-CHECK-004,Real Fortaleza Warriors,2,75,17.5,0.9,,,75.5,9.8,11.6,107.3,8,8
+SIM-P6-CHECK-005,Estrela Curitiba Panteras,1,50,17.5,0.626,,,75,8.5,10.2,106.9,11,6
+SIM-P6-CHECK-006,Estrela Fortaleza Clube,7,50,12.5,0.788,,,76,7.8,10.4,107.1,6,7
+SIM-P6-CHECK-007,Imperial Sao Paulo Clube,2,50,17.5,0.838,,,75.7,7.3,9.4,111.2,6,12
+SIM-P6-CHECK-008,Capital Sao Paulo Panteras,6,75,17.5,0.768,,,76,8.1,10.4,109.1,9,7
+SIM-P6-CHECK-009,Litoral Recife Furia,3,50,15.8,0.762,,,77.1,7.9,10.2,106.5,12,14
+SIM-P6-CHECK-010,Dynamo Campinas Dragons,2,75,12.5,0.885,,,75.9,7,9.8,107,11,8
+SIM-P6-CHECK-011,Vanguarda Goiania Tropa,4,100,18.3,0.891,,,75.6,8.8,11.2,107.2,15,11
+SIM-P6-CHECK-012,Dynamo Goiania Basquete,1,75,19.2,0.694,,,76.4,8.4,10.7,107.1,1,1
+SIM-P6-CHECK-013,Capital Vitoria Tropa,3,50,21.7,0.724,,,76.3,9.1,10,107.1,9,5
+SIM-P6-CHECK-014,Uniao Belo Horizonte Tropa,7,25,20.8,0.556,projected_favorites_underperforming,,75.2,7.4,9.9,108.9,7,1
+SIM-P6-CHECK-015,Dynamo Vitoria Lobos,2,75,16.7,0.906,,,74.6,8.5,10.5,107.1,16,15
+SIM-P6-CHECK-016,Vanguarda Sao Paulo Warriors,2,50,15.8,0.853,,,76.9,6.6,7.5,100.7,7,4
+SIM-P6-CHECK-017,Vanguarda Vitoria Basquete,2,50,14.2,0.8,,,75.3,7.7,9.2,107.3,4,6
+SIM-P6-CHECK-018,Real Vitoria Clube,1,50,15,0.715,,,76.2,7.1,9.8,111.5,15,7
+SIM-P6-CHECK-019,Dynamo Vitoria Basquete,3,75,17.5,0.797,,,76.5,8,9.9,108.1,11,12
+SIM-P6-CHECK-020,Litoral Fortaleza Panteras,2,50,15,0.691,,,75.2,7.6,10.5,107.2,6,7

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0f16">
+  <meta name="description" content="A Temporada — Escolha seu esporte, comande um clube e viva a temporada.">
+  <title>A Temporada — Sports Manager & Arcade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: dark;
+      --page: #0a0f16;
+      --surface: #121924;
+      --card-bg: rgba(22, 31, 46, 0.85);
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --line: rgba(255, 255, 255, 0.12);
+      --accent: #ff5a1f;
+      --gold: #facc15;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      min-width: 280px;
+      min-height: 100vh;
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 15% 10%, rgba(255, 90, 31, 0.12), transparent 38rem),
+        radial-gradient(circle at 85% 85%, rgba(56, 189, 248, 0.14), transparent 42rem),
+        var(--page);
+      font: 400 1rem/1.6 "Manrope", Arial, sans-serif;
+    }
+    a { color: inherit; text-decoration: none; }
+    .shell { width: min(1280px, calc(100% - 40px)); margin-inline: auto; }
+    
+    /* Topbar */
+    .topbar {
+      position: sticky; top: 0; z-index: 50;
+      border-bottom: 1px solid var(--line);
+      background: rgba(10, 15, 22, 0.92);
+      backdrop-filter: blur(14px);
+    }
+    .topbar-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      min-height: 72px; gap: 20px;
+    }
+    .brand {
+      display: inline-flex; align-items: center; gap: 12px;
+      font: 400 2rem/1 "Bebas Neue", Impact, sans-serif;
+      letter-spacing: .06em; text-transform: uppercase;
+    }
+    .brand-mark {
+      display: grid; place-items: center; width: 36px; height: 36px;
+      border: 2px solid var(--gold); border-radius: 10px; color: var(--gold);
+      font: 900 1.2rem/1 "Manrope", Arial, sans-serif;
+      box-shadow: 0 0 16px rgba(250, 204, 21, 0.35);
+    }
+    .brand-tag {
+      font-size: .68rem; font-weight: 800; letter-spacing: .12em;
+      padding: 3px 8px; border-radius: 6px;
+      background: rgba(255, 90, 31, 0.2); color: #ff9055;
+      border: 1px solid rgba(255, 90, 31, 0.4);
+    }
+
+    /* Hero Principal */
+    .hero {
+      position: relative; isolation: isolate; overflow: hidden;
+      margin-top: 24px; padding: clamp(32px, 5vw, 56px);
+      border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 24px;
+      background: linear-gradient(135deg, rgba(26, 38, 54, 0.95), rgba(15, 23, 35, 0.98));
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+    }
+    .eyebrow {
+      margin: 0 0 8px; color: var(--gold); font-size: .8rem;
+      font-weight: 800; letter-spacing: .18em; text-transform: uppercase;
+    }
+    h1 {
+      margin: 0; font: 400 clamp(3.2rem, 6vw, 5.2rem)/0.95 "Bebas Neue", Impact, sans-serif;
+      letter-spacing: .02em; text-transform: uppercase;
+    }
+    .hero-lead {
+      max-width: 640px; margin: 16px 0 24px;
+      color: #cbd5e1; font-size: 1.05rem; line-height: 1.6;
+    }
+    .hero-pills {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px;
+    }
+    .hero-pill {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 14px; border-radius: 99px;
+      background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: .82rem; font-weight: 700; color: #f1f5f9;
+    }
+
+    /* Quick Continue Save Banner */
+    #quick-continue-box {
+      display: none; margin-bottom: 24px;
+    }
+    .continue-card {
+      display: flex; align-items: center; justify-content: space-between; gap: 18px;
+      padding: 16px 24px; border-radius: 16px;
+      background: linear-gradient(135deg, rgba(250, 204, 21, 0.15), rgba(15, 23, 42, 0.9));
+      border: 2px solid var(--gold);
+      box-shadow: 0 10px 30px rgba(250, 204, 21, 0.25);
+    }
+    .continue-info strong {
+      display: block; font-size: 1.2rem; color: #ffffff;
+    }
+    .continue-info span {
+      font-size: .85rem; color: var(--gold); font-weight: 700;
+    }
+    .continue-btn {
+      padding: 10px 24px; border-radius: 10px;
+      background: var(--gold); color: #0f172a; font-weight: 800; font-size: .95rem;
+      border: none; cursor: pointer; transition: transform .2s ease;
+    }
+    .continue-btn:hover { transform: scale(1.04); }
+
+    /* Modalidades Grid */
+    .modalidades { padding-top: 36px; padding-bottom: 64px; }
+    .section-title {
+      margin: 0 0 6px; font: 400 clamp(2.4rem, 4vw, 3.4rem)/1 "Bebas Neue", Impact, sans-serif;
+      letter-spacing: .03em; text-transform: uppercase;
+    }
+    .section-desc { margin: 0 0 24px; color: var(--muted); font-size: .95rem; }
+    
+    .mode-grid {
+      display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px;
+    }
+    .mode-card {
+      position: relative; display: flex; flex-direction: column;
+      padding: 24px; border-radius: 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--sport-color);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+      transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease;
+      cursor: pointer;
+    }
+    .mode-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--sport-color);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6), 0 0 24px var(--sport-glow);
+    }
+    .mode-card--basquete {
+      --sport-color: #ff6b2b;
+      --sport-glow: rgba(255, 107, 43, 0.3);
+    }
+    .mode-card--futsal {
+      --sport-color: #38bdf8;
+      --sport-glow: rgba(56, 189, 248, 0.3);
+    }
+    .mode-card--volei {
+      --sport-color: #facc15;
+      --sport-glow: rgba(250, 204, 21, 0.3);
+    }
+    .mode-card--volei-fem {
+      --sport-color: #d946ef;
+      --sport-glow: rgba(217, 70, 239, 0.3);
+    }
+
+    .mode-icon {
+      font-size: 2.6rem; line-height: 1; margin-bottom: 16px;
+    }
+    .mode-tag {
+      display: inline-block; font-size: .7rem; font-weight: 800;
+      letter-spacing: .1em; text-transform: uppercase;
+      color: var(--sport-color); margin-bottom: 6px;
+    }
+    .mode-card h3 {
+      margin: 0; font: 400 2.2rem/1 "Bebas Neue", Impact, sans-serif;
+      letter-spacing: .03em; color: #ffffff;
+    }
+    .mode-card p {
+      margin: 12px 0 18px; color: #94a3b8; font-size: .88rem; line-height: 1.55;
+    }
+    .mode-features {
+      list-style: none; padding: 0; margin: 0 0 20px;
+      display: grid; gap: 6px;
+    }
+    .mode-features li {
+      font-size: .78rem; font-weight: 700; color: #cbd5e1;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .mode-features li::before {
+      content: "✔"; color: var(--sport-color); font-size: .75rem;
+    }
+
+    .mode-action-btn {
+      margin-top: auto; display: inline-flex; align-items: center; justify-content: center;
+      gap: 8px; padding: 12px 18px; border-radius: 12px;
+      background: var(--sport-color); color: #0a0f16;
+      font-size: .92rem; font-weight: 900;
+      box-shadow: 0 6px 18px var(--sport-glow);
+      transition: filter .15s ease;
+    }
+    .mode-card:hover .mode-action-btn { filter: brightness(1.15); }
+
+    @media (max-width: 1080px) {
+      .mode-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 600px) {
+      .mode-grid { grid-template-columns: 1fr; }
+      .hero { padding: 24px; }
+      .continue-card { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="Clique%20aqui%20para%20jogar.html">
+        <span class="brand-mark">T</span>
+        A Temporada
+      </a>
+      <span class="brand-tag">SPORTS MANAGER & ARCADE</span>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <p class="eyebrow">Temporada Total • 2026 Edition</p>
+      <h1>Monte o Elenco. Domine a Liga.</h1>
+      <p class="hero-lead">
+        Assuma a comissão técnica, decida crises de vestiário, jogue minigames de precisão na quadra e dispute partidas com emoção até o último segundo.
+      </p>
+      <div class="hero-pills">
+        <span class="hero-pill">⚡ Ligas e Elencos Procedurais</span>
+        <span class="hero-pill">🎯 Minigames com Bônus no Jogo</span>
+        <span class="hero-pill">📊 Dilemas de Gestão & Consequências Reais</span>
+        <span class="hero-pill">📺 Simulação ao Vivo & Transmissão</span>
+      </div>
+
+      <!-- Banner dinâmico de Carreira Salva -->
+      <div id="quick-continue-box">
+        <div class="continue-card">
+          <div class="continue-info">
+            <span>💾 ÚLTIMO PROGRESSO SALVO ENCONTRADO</span>
+            <strong id="continue-title">Continuar Carreira</strong>
+            <small id="continue-sub">Semana 1 • Dia 1</small>
+          </div>
+          <a id="continue-link" class="continue-btn" href="#">Retomar Carreira →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="modalidades" id="modalidades">
+      <p class="eyebrow">Quatro Caminhos de Carreira</p>
+      <h2 class="section-title">Escolha sua Modalidade</h2>
+      <p class="section-desc">Selecione o esporte para iniciar sua jornada gerencial.</p>
+
+      <div class="mode-grid">
+        <!-- Basquete -->
+        <a class="mode-card mode-card--basquete" href="temporada-basquete/procedural.html">
+          <span class="mode-icon">🏀</span>
+          <span class="mode-tag">Basquete Pro</span>
+          <h3>Basquete</h3>
+          <p>Comande a rotação de garrafão e perímetro em uma temporada completa e competitiva.</p>
+          <ul class="mode-features">
+            <li>Arremesso & Passe Rápido</li>
+            <li>Box Score e Estatísticas NBA Style</li>
+            <li>Dilemas de Vestiário e Estrelas</li>
+          </ul>
+          <span class="mode-action-btn">Jogar Basquete →</span>
+        </a>
+
+        <!-- Futsal -->
+        <a class="mode-card mode-card--futsal" href="Temporada%20Futsal/procedural.html">
+          <span class="mode-icon">⚽</span>
+          <span class="mode-tag">Futsal Dinâmico</span>
+          <h3>Futsal</h3>
+          <p>Organize goleiro, fixo, alas e pivô em jogos elétricos com disputa intensa de posse.</p>
+          <ul class="mode-features">
+            <li>Chute a Gol & Passe Milimétrico</li>
+            <li>Transições Rápidas e Pressão</li>
+            <li>Pênaltis e Mata-Mata Nervoso</li>
+          </ul>
+          <span class="mode-action-btn">Jogar Futsal →</span>
+        </a>
+
+        <!-- Vôlei Masculino -->
+        <a class="mode-card mode-card--volei" href="temporada-volei/procedural.html">
+          <span class="mode-icon">🏐</span>
+          <span class="mode-tag">Superliga Masculina</span>
+          <h3>Vôlei Masculino</h3>
+          <p>Ajuste a linha de passe, bloqueio e saque viagem para vencer sets decididos no detalhe.</p>
+          <ul class="mode-features">
+            <li>Minigame de Saque Ace & Recepção</li>
+            <li>Impacto Direto de Quadra em Sets</li>
+            <li>Gestão de Fadiga e Rotação 5x1</li>
+          </ul>
+          <span class="mode-action-btn">Jogar Vôlei Masculino →</span>
+        </a>
+
+        <!-- Vôlei Feminino -->
+        <a class="mode-card mode-card--volei-fem" href="temporada-volei-feminino/index.html">
+          <span class="mode-icon">🏐</span>
+          <span class="mode-tag">Superliga Feminina</span>
+          <h3>Vôlei Feminino</h3>
+          <p>Liga feminina dedicada, com defesa forte, ralis longos e disputa acirrada pelo título.</p>
+          <ul class="mode-features">
+            <li>Minigame de Precisão e Rali</li>
+            <li>Saves Procedurais Separados</li>
+            <li>Dilemas de Patrocínio e Torcida</li>
+          </ul>
+          <span class="mode-action-btn">Jogar Vôlei Feminino →</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Detector de saves locais para Continuar Rápido
+    (function () {
+      try {
+        const sportTargets = {
+          basquete: "temporada-basquete/procedural.html",
+          futsal: "Temporada%20Futsal/procedural.html",
+          volei: "temporada-volei/procedural.html",
+          "volei-feminino": "temporada-volei-feminino/index.html"
+        };
+
+        const keys = Object.keys(localStorage);
+        let latestSave = null;
+        let latestTime = 0;
+        let saveUrl = "";
+
+        keys.forEach((key) => {
+          if (key.startsWith("temporada_total_save_") || key.startsWith("temporada_total_procedural_save")) {
+            try {
+              const data = JSON.parse(localStorage.getItem(key));
+              const updated = new Date(data.updatedAt || data.savedAt || data.createdAt || 0).getTime();
+              if (updated > latestTime && (data.userTeam?.name || data.state?.userTeam?.name)) {
+                latestTime = updated;
+                latestSave = data.state || data;
+                const sport = (latestSave.sportId || "basquete");
+                const variant = latestSave.sportVariant || "";
+                const targetKey = variant === "volei-feminino" ? "volei-feminino" : sport;
+                saveUrl = sportTargets[targetKey] || sportTargets.basquete;
+              }
+            } catch (_) {}
+          }
+        });
+
+        if (latestSave && saveUrl) {
+          const box = document.getElementById("quick-continue-box");
+          const title = document.getElementById("continue-title");
+          const sub = document.getElementById("continue-sub");
+          const link = document.getElementById("continue-link");
+
+          const teamName = latestSave.userTeam?.name || "Seu Clube";
+          const week = latestSave.currentWeek || 1;
+          const day = latestSave.currentDay || 1;
+          const sportLabel = (latestSave.sportId || "esporte").toUpperCase();
+
+          title.textContent = `Continuar com ${teamName} (${sportLabel})`;
+          sub.textContent = `Semana ${week} • Dia ${day}`;
+          link.href = saveUrl;
+          box.style.display = "block";
+        }
+      } catch (err) {
+        console.warn("Save detection notice:", err);
+      }
+    })();
+  </script>
+</body>
+</html>

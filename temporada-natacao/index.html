@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temporada Total | Natação</title>
+  <meta name="description" content="Projeto autoral de simulação esportiva em que o usuário monta um elenco de natação, organiza os treinos e escala a equipe ao longo de 8 semanas.">
+  <meta name="author" content="Lucas">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-active-tab="front-office">
+  <div class="page-shell">
+    <header class="project-intro" aria-label="Apresentação do projeto">
+      <div class="intro-copy">
+        <p class="eyebrow">Natação</p>
+        <h1 class="intro-title">Monte.</h1>
+      </div>
+      <aside class="intro-card" aria-label="Como abrir o projeto">
+        <span>Ação</span>
+        <strong>Abrir <code>index.html</code>.</strong>
+      </aside>
+    </header>
+
+    <nav class="season-nav" aria-label="Menu principal">
+      <button class="tab-button is-active" data-tab-target="front-office" type="button">Base</button>
+      <button class="tab-button" data-tab-target="treinos" type="button">Treinos</button>
+      <button class="tab-button" data-tab-target="competicoes" type="button">Escalação</button>
+      <button class="tab-button" data-tab-target="temporada" type="button">Temporada</button>
+    </nav>
+
+    <main class="layout">
+      <section class="panel summary-panel tab-panel is-active" data-tab-panel="front-office">
+        <div class="page-scene scene-front-office">
+          <div>
+            <p class="eyebrow">Natação</p>
+            <h2>Monte.</h2>
+          </div>
+          <div class="scene-card">
+            <span>Resumo</span>
+            <strong>Escolha.</strong>
+          </div>
+        </div>
+
+        <div class="panel-title-row">
+          <div>
+            <h2>Seu Clube</h2>
+            <span class="hint"></span>
+          </div>
+          <div class="header-actions">
+            <button id="reset-team" class="ghost-button" type="button">Reiniciar</button>
+          </div>
+        </div>
+
+        <div class="identity-grid">
+          <label class="control-card">
+            <span>Nome da equipe</span>
+            <input id="team-name" type="text" maxlength="32" placeholder="Ex.: Marlins Aquatic Club">
+          </label>
+          <div class="budget-card">
+            <div>
+              <span>Orçamento usado</span>
+              <strong id="budget-used">$0M</strong>
+            </div>
+            <div>
+              <span>Disponível</span>
+              <strong id="budget-left">$0M</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid stats-grid-extended">
+          <article>
+            <span>Velocidade</span>
+            <strong id="team-sprint">0</strong>
+          </article>
+          <article>
+            <span>Resistência</span>
+            <strong id="team-endurance">0</strong>
+          </article>
+          <article>
+            <span>Técnica</span>
+            <strong id="team-technique">0</strong>
+          </article>
+          <article>
+            <span>Viradas</span>
+            <strong id="team-turns">0</strong>
+          </article>
+          <article>
+            <span>Recuperação</span>
+            <strong id="team-recovery">0</strong>
+          </article>
+          <article>
+            <span>Versatilidade</span>
+            <strong id="team-depth">0</strong>
+          </article>
+        </div>
+
+        <details class="fold-panel" open>
+          <summary>
+            <span>Elenco selecionado</span>
+            <strong id="roster-count">0 / 10</strong>
+          </summary>
+          <div id="selected-roster" class="selected-roster"></div>
+        </details>
+
+        <div class="action-row">
+          <button id="start-season" class="primary-button" type="button">Iniciar temporada</button>
+        </div>
+      </section>
+
+      <section class="panel market-panel tab-panel" data-tab-panel="treinos">
+        <div class="page-scene scene-training">
+          <div>
+            <p class="eyebrow">Semana de Treino</p>
+            <h2>Treine.</h2>
+          </div>
+          <div class="scene-card">
+            <span>Resumo</span>
+            <strong>Ajuste.</strong>
+          </div>
+        </div>
+        <div class="panel-title-row">
+          <div>
+            <h2>Plano Individual</h2>
+            <span class="hint"></span>
+          </div>
+        </div>
+        <div id="training-management"></div>
+        <div id="training-board" class="training-board swimmer-board"></div>
+      </section>
+
+      <section class="panel results-panel tab-panel" data-tab-panel="competicoes">
+        <div class="page-scene scene-season">
+          <div>
+            <p class="eyebrow">Escalação da Etapa</p>
+            <h2>Escalone.</h2>
+          </div>
+          <div class="scene-card">
+            <span>Resumo</span>
+            <strong>Defina.</strong>
+          </div>
+        </div>
+        <div class="panel-title-row">
+          <div>
+            <h2>Etapa Atual</h2>
+            <span class="hint"></span>
+          </div>
+        </div>
+        <div id="competition-hub" class="matchday-hub empty">
+          Monte o elenco e inicie a temporada para liberar a escalação da primeira etapa.
+        </div>
+        <div class="action-row">
+          <button id="simulate-meet" class="primary-button" type="button" disabled>Simular etapa</button>
+        </div>
+      </section>
+
+      <section class="panel league-panel tab-panel" data-tab-panel="temporada">
+        <div class="page-scene scene-league">
+          <div>
+            <p class="eyebrow">Circuito</p>
+            <h2>Veja.</h2>
+          </div>
+          <div class="scene-card">
+            <span>Resumo</span>
+            <strong>Acompanhe.</strong>
+          </div>
+        </div>
+        <div class="summary-grid">
+          <article class="summary-box">
+            <span class="season-key">Posição</span>
+            <strong id="season-rank">--</strong>
+            <div class="player-meta">classificação geral</div>
+          </article>
+          <article class="summary-box">
+            <span class="season-key">Pontos</span>
+            <strong id="season-points">0</strong>
+            <div class="player-meta">pontuação da equipe</div>
+          </article>
+          <article class="summary-box">
+            <span class="season-key">Etapa</span>
+            <strong id="season-stage">0 / 8</strong>
+            <div class="player-meta">andamento do circuito</div>
+          </article>
+          <article class="summary-box">
+            <span class="season-key">Última etapa</span>
+            <strong id="season-last-result">--</strong>
+            <div class="player-meta">resultado mais recente</div>
+          </article>
+        </div>
+        <div class="league-layout">
+          <div class="league-column">
+            <div class="panel-title-row">
+              <h2>Tabela Geral</h2>
+            </div>
+            <div id="standings-table" class="table-shell"></div>
+          </div>
+          <div class="league-column">
+            <div class="panel-title-row">
+              <h2>Calendário e Relatórios</h2>
+            </div>
+            <div id="season-log" class="season-log"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="panel market-panel tab-panel is-active" data-tab-panel="front-office">
+      <div class="page-scene scene-market">
+        <div>
+          <p class="eyebrow">Mercado de Nadadores</p>
+          <h2>Escolha.</h2>
+        </div>
+        <div class="scene-card">
+          <span>Resumo</span>
+          <strong>Contrate.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <div>
+          <h2>Mercado</h2>
+          <span class="hint"></span>
+        </div>
+      </div>
+      <div id="player-market" class="player-market"></div>
+    </section>
+
+    <footer class="project-footer">
+      <p></p>
+    </footer>
+  </div>
+
+  <script src="../shared/base-game.js"></script>
+  <script src="../shared/seeded-rng.js"></script>
+  <script src="sport-manifest.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

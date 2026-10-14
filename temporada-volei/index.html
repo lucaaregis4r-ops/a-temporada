@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=procedural.html">
+  <script>window.location.replace("procedural.html");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temporada Total Volei</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../temporada-basquete/styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-active-tab="carreira-procedural" data-sport-id="volei">
+  <div class="page-shell">
+    <nav class="season-nav" aria-label="Menu principal">
+      <button class="tab-button" data-tab-target="front-office" type="button">Jogo V1</button>
+      <button class="tab-button is-active" data-tab-target="carreira-procedural" type="button">Jogo V2</button>
+      <button class="tab-button" data-tab-target="comissao" type="button">Comissão</button>
+      <button class="tab-button" data-tab-target="mercado" type="button">Mercado</button>
+      <button class="tab-button" data-tab-target="temporada" type="button">Temporada</button>
+      <button class="tab-button" data-tab-target="partida" type="button">Partida</button>
+      <button class="tab-button" data-tab-target="estatisticas" type="button">Estatísticas</button>
+      <button class="tab-button" data-tab-target="lesoes" type="button">Lesões</button>
+      <button class="tab-button" data-tab-target="editor" type="button">Editor</button>
+      <button class="tab-button" data-tab-target="liga" type="button">Tabela</button>
+    </nav>
+
+    <section class="panel save-panel tab-panel" data-tab-panel="front-office">
+      <div class="page-scene scene-front-office">
+        <div>
+          <p class="eyebrow">Vôlei</p>
+          <h1>Monte.</h1>
+        </div>
+        <div class="scene-card">
+          <span>Ação</span>
+          <strong>Escolha.</strong>
+        </div>
+      </div>
+
+      <div class="panel-title-row">
+        <div>
+          <h2>Saves</h2>
+        </div>
+      </div>
+
+      <div class="save-grid">
+        <label class="control-card">
+          <span>Categoria do save</span>
+          <input id="save-category" type="text" placeholder="Ex: carreira principal">
+        </label>
+        <label class="control-card">
+          <span>Saves disponiveis</span>
+          <select id="save-list"></select>
+        </label>
+        <button id="save-game" class="primary-button" type="button">Salvar categoria</button>
+        <button id="load-game" class="secondary-button" type="button">Carregar</button>
+        <button id="delete-save" class="ghost-button danger-ghost" type="button">Excluir save</button>
+      </div>
+      <p id="save-status" class="save-status"></p>
+    </section>
+
+    <main class="layout">
+      <section class="panel summary-panel tab-panel" data-tab-panel="front-office">
+        <div class="panel-title-row">
+          <div>
+            <h2>Franquia</h2>
+          </div>
+          <div class="header-actions">
+            <button id="toggle-settings" class="ghost-button" type="button">Configuracoes</button>
+            <button id="reset-team" class="ghost-button" type="button">Reiniciar</button>
+          </div>
+        </div>
+
+        <div id="settings-panel" class="settings-panel is-hidden">
+          <div class="settings-grid">
+            <label class="control-card">
+              <span>Dinheiro extra</span>
+              <select id="settings-budget">
+                <option value="0" selected>Padrao</option>
+                <option value="15">+ $15M</option>
+                <option value="30">+ $30M</option>
+                <option value="50">+ $50M</option>
+                <option value="80">+ $80M</option>
+              </select>
+            </label>
+            <label class="control-card">
+              <span>Dificuldade da simulacao</span>
+              <select id="settings-ease">
+                <option value="muito-dificil">Muito dificil</option>
+                <option value="dificil">Dificil</option>
+                <option value="normal" selected>Normal</option>
+                <option value="facil">Facil</option>
+                <option value="muito-facil">Muito facil</option>
+              </select>
+            </label>
+          </div>
+          <p class="settings-note">O dinheiro extra aumenta o teto do clube. A dificuldade mexe diretamente na margem da simulacao em momentos decisivos.</p>
+        </div>
+
+        <div class="identity-grid">
+          <label class="control-card">
+            <span>Nome do time</span>
+            <input id="franchise-name" type="text" maxlength="32" placeholder="Ex: Estrela do Centro">
+          </label>
+          <label class="control-card">
+            <span>Categoria</span>
+            <select id="division-select">
+              <option value="masculino">Volei masculino</option>
+              <option value="feminino">Volei feminino</option>
+            </select>
+          </label>
+          <div class="budget-card">
+            <div>
+              <span>Orcamento usado</span>
+              <strong id="budget-used">$0M</strong>
+            </div>
+            <div>
+              <span>Disponivel</span>
+              <strong id="budget-left">$0M</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid stats-grid-extended">
+          <article>
+            <span>Altura media</span>
+            <strong id="team-height">0,00 m</strong>
+          </article>
+          <article>
+            <span>Saque</span>
+            <strong id="team-threepoint">0</strong>
+          </article>
+          <article>
+            <span>Ataque</span>
+            <strong id="team-physical">0</strong>
+          </article>
+          <article>
+            <span>Bloqueio</span>
+            <strong id="team-tactical">0</strong>
+          </article>
+          <article>
+            <span>Recepcao</span>
+            <strong id="team-technique">0</strong>
+          </article>
+          <article>
+            <span>Defesa</span>
+            <strong id="team-defense">0</strong>
+          </article>
+        </div>
+
+        <details class="fold-panel" open>
+          <summary>
+            <span>Elenco selecionado</span>
+            <strong id="roster-count">0 / 10</strong>
+          </summary>
+          <div id="selected-roster" class="selected-roster"></div>
+        </details>
+
+        <details class="fold-panel" open>
+          <summary>
+            <span>Táticas</span>
+            <strong>Ajuste</strong>
+          </summary>
+          <div class="tactics-grid">
+            <label class="control-card">
+              <span>Ritmo ofensivo</span>
+              <select id="tactic-pace">
+                <option value="control">Controle</option>
+                <option value="balanced" selected>Equilibrado</option>
+                <option value="aggressive">Agressivo</option>
+              </select>
+            </label>
+            <label class="control-card">
+              <span>Risco no saque</span>
+              <select id="tactic-shot">
+                <option value="safe">Seguro</option>
+                <option value="balanced" selected>Equilibrado</option>
+                <option value="risk">Forcar saque</option>
+              </select>
+            </label>
+            <label class="control-card">
+              <span>Leitura de bloqueio</span>
+              <select id="tactic-rebound">
+                <option value="read">Esperar e ler</option>
+                <option value="balanced" selected>Padrao</option>
+                <option value="commit">Fechar no central</option>
+              </select>
+            </label>
+            <label class="control-card">
+              <span>Cobertura de fundo</span>
+              <select id="tactic-defense">
+                <option value="line">Fechar diagonal curta</option>
+                <option value="balanced" selected>Equilibrada</option>
+                <option value="deep">Defesa funda</option>
+              </select>
+            </label>
+            <label class="control-card">
+              <span>Rotacao</span>
+              <select id="tactic-rotation">
+                <option value="short">Curta</option>
+                <option value="normal" selected>Normal</option>
+                <option value="deep">Profunda</option>
+              </select>
+            </label>
+            <label class="control-card">
+              <span>Treino semanal</span>
+              <select id="training-focus">
+                <option value="serve" selected>Saque e pressao</option>
+                <option value="block">Bloqueio</option>
+                <option value="reception">Recepcao</option>
+                <option value="setting">Levantamento</option>
+                <option value="strength">Fisico</option>
+              </select>
+            </label>
+          </div>
+        </details>
+
+        <div class="action-row">
+          <button id="start-season" class="primary-button" type="button">Iniciar temporada</button>
+          <button id="play-next-game" class="secondary-button" type="button" disabled>Simular proxima partida</button>
+        </div>
+
+        <div id="matchday-hub" class="matchday-hub empty">
+          Feche o elenco e inicie a temporada para liberar a central rapida de jogo.
+        </div>
+      </section>
+    </main>
+
+    <section class="panel staff-panel tab-panel" data-tab-panel="comissao">
+      <div class="page-scene scene-front-office">
+        <div>
+          <p class="eyebrow">Comissão</p>
+          <h1>Escolha.</h1>
+        </div>
+        <div class="scene-card">
+          <span>Ação</span>
+          <strong>Defina.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <div>
+          <h2>Comissão</h2>
+        </div>
+      </div>
+      <div class="settings-grid">
+        <label class="control-card">
+          <span>Fisio</span>
+          <select id="staff-physio">
+            <option value="0" selected>Sem contrato</option>
+            <option value="1">Base | $3M</option>
+            <option value="2">Elite | $6M</option>
+          </select>
+        </label>
+        <label class="control-card">
+          <span>Preparador fisico</span>
+          <select id="staff-conditioning">
+            <option value="0" selected>Sem contrato</option>
+            <option value="1">Base | $3M</option>
+            <option value="2">Elite | $6M</option>
+          </select>
+        </label>
+        <label class="control-card">
+          <span>Auxiliar tecnico</span>
+          <select id="staff-assistant">
+            <option value="0" selected>Sem contrato</option>
+            <option value="1">Base | $2M</option>
+            <option value="2">Elite | $5M</option>
+          </select>
+        </label>
+        <label class="control-card">
+          <span>Analista de desempenho</span>
+          <select id="staff-analyst">
+            <option value="0" selected>Sem contrato</option>
+            <option value="1">Base | $2M</option>
+            <option value="2">Elite | $4M</option>
+          </select>
+        </label>
+        <label class="control-card">
+          <span>Psicologo esportivo</span>
+          <select id="staff-psychologist">
+            <option value="0" selected>Sem contrato</option>
+            <option value="1">Base | $2M</option>
+            <option value="2">Elite | $4M</option>
+          </select>
+        </label>
+        <label class="control-card">
+          <span>Medico do esporte</span>
+          <select id="staff-doctor">
+            <option value="0" selected>Sem contrato</option>
+            <option value="1">Base | $4M</option>
+            <option value="2">Elite | $7M</option>
+          </select>
+        </label>
+      </div>
+      <div class="stats-grid">
+        <article>
+          <span>Orçamento usado</span>
+          <strong id="staff-budget-used">$0M / $18M</strong>
+        </article>
+        <article>
+          <span>Disponível</span>
+          <strong id="staff-budget-left">$18M</strong>
+        </article>
+        <article>
+          <span>Equipe ativa</span>
+          <strong id="staff-bonus-label">Nenhum</strong>
+        </article>
+      </div>
+      <p id="staff-bonus-summary" class="settings-note"></p>
+    </section>
+
+    <section class="panel market-panel tab-panel" data-tab-panel="mercado">
+      <div class="page-scene scene-market">
+        <div>
+          <p class="eyebrow">Mercado e Scouting</p>
+          <h1>Monte um elenco equilibrado para a liga.</h1>
+          <p class="hero-text">
+            O mercado acompanha a categoria escolhida e mostra os principais atributos de cada atleta.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Resumo</span>
+          <strong>Veja funcao, custo e perfil antes de contratar.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <h2>Mercado de Atletas</h2>
+        <span class="hint">Escolha 10 atletas para entrar na liga com 16 clubes.</span>
+      </div>
+      <div class="market-budget-strip">
+        <div class="budget-card">
+          <div>
+            <span>Orcamento usado</span>
+            <strong id="market-budget-used">$0M</strong>
+          </div>
+          <div>
+            <span>Disponivel</span>
+            <strong id="market-budget-left">$0M</strong>
+          </div>
+        </div>
+      </div>
+      <div id="player-market" class="player-market"></div>
+    </section>
+
+    <section class="panel results-panel tab-panel" data-tab-panel="temporada">
+      <div class="page-scene scene-season">
+        <div>
+          <p class="eyebrow">Central da Temporada</p>
+          <h1>Acompanhe resultados, tabela e bastidores da temporada.</h1>
+          <p class="hero-text">
+            A temporada usa jogos em melhor de cinco sets, top 8 no playoff e dois rebaixados.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Resumo</span>
+          <strong>Veja calendario, resultados e situacao do clube.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <h2>Central da Temporada</h2>
+        <span class="hint">Painel detalhado com paineis recolhiveis para manter a leitura mais limpa.</span>
+      </div>
+      <div id="season-results" class="season-results empty">
+        Feche o elenco e inicie a temporada para liberar a simulacao rodada a rodada.
+      </div>
+    </section>
+
+    <section class="panel procedural-panel tab-panel is-active" data-tab-panel="carreira-procedural">
+      <div class="page-scene compact-hero scene-season">
+        <div>
+          <p class="eyebrow">Carreira procedural de volei</p>
+          <h1>Gere clube, liga e calendario sem sair do jogo completo.</h1>
+          <p class="hero-text">
+            Esta versao usa a camada procedural jogavel: elenco gerado, mercado de primeira semana,
+            decisoes por contexto, calendario, estatisticas e partida ao vivo por sets.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Modo carreira</span>
+          <strong>Recepcao, saque, bloqueio e bastidores definem a temporada.</strong>
+        </div>
+      </div>
+
+      <div class="panel-title-row section-header">
+        <div>
+          <h2>Central da Carreira</h2>
+          <span class="hint">Ambiente procedural integrado ao index, mantendo o jogo legado disponivel.</span>
+        </div>
+        <a class="secondary-button" href="procedural.html">Abrir isolado</a>
+      </div>
+
+      <div data-procedural-game-root data-sport-id="volei" class="procedural-game-root"></div>
+    </section>
+
+    <section class="panel live-match-panel tab-panel" data-tab-panel="partida">
+      <div class="page-scene scene-season">
+        <div>
+          <p class="eyebrow">Partida ao Vivo</p>
+          <h1>Rally a rally.</h1>
+          <p class="hero-text">
+            Controle a velocidade, acompanhe a narração e veja as estatísticas individuais crescendo durante o jogo.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Transmissão</span>
+          <strong>Salve o resultado quando a partida terminar.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <h2>Central da Partida</h2>
+        <span class="hint">Abra pelo hub da temporada ou prepare aqui quando houver próximo jogo.</span>
+      </div>
+      <div id="live-match-page-root" class="live-match-empty">
+        Inicie uma temporada e escolha Jogar ao vivo para abrir a transmissão.
+      </div>
+    </section>
+
+    <section class="panel stats-panel tab-panel" data-tab-panel="estatisticas">
+      <div class="page-scene scene-season">
+        <div>
+          <p class="eyebrow">Estatísticas</p>
+          <h1>Box score e temporada.</h1>
+          <p class="hero-text">
+            Veja líderes, última partida e médias por jogo do elenco.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Elenco</span>
+          <strong>Produção individual por fundamento.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <h2>Estatísticas do Elenco</h2>
+        <span class="hint">Simule partidas para alimentar última partida e médias da temporada.</span>
+      </div>
+      <div id="player-stats-panel" class="season-results empty">
+        Inicie uma temporada para liberar estatísticas por atleta.
+      </div>
+    </section>
+
+    <section class="panel injury-panel tab-panel" data-tab-panel="lesoes">
+      <div class="page-scene scene-season">
+        <div>
+          <p class="eyebrow">Departamento Médico</p>
+          <h1>Controle disponibilidade, retorno e risco físico do elenco.</h1>
+          <p class="hero-text">
+            Lesões, atletas limitados e desgaste agora ficam em um menu próprio para facilitar a leitura entre uma rodada e outra.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Saúde</span>
+          <strong>Intensidade alta pode render pressão, mas também cobra no corpo.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <h2>Menu de Lesões</h2>
+        <span class="hint">Acompanhe quem está fora, quem voltou limitado e o risco do elenco.</span>
+      </div>
+      <div id="injury-center" class="injury-center empty">
+        Inicie a temporada para liberar o departamento médico.
+      </div>
+    </section>
+
+    <section class="panel config-panel tab-panel" data-tab-panel="editor">
+      <div class="page-scene scene-market">
+        <div>
+          <p class="eyebrow">Editor sem código</p>
+          <h1>Personalize times, escudos e decisões sem abrir o script principal.</h1>
+          <p class="hero-text">
+            Edite nomes, estilos e URLs de escudo dos adversários. Também dá para criar decisões com consequências customizadas.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Config</span>
+          <strong>As mudanças ficam salvas no navegador e podem ser copiadas para o custom-config.js.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <h2>Editor de Configuração</h2>
+        <span class="hint">Use imagens por URL ou caminho relativo, por exemplo: assets/escudos/time.png.</span>
+      </div>
+      <div id="config-editor" class="config-editor empty">
+        Carregando editor...
+      </div>
+    </section>
+
+    <section class="panel league-panel tab-panel" data-tab-panel="liga">
+      <div class="page-scene scene-league">
+        <div>
+          <p class="eyebrow">Panorama da Liga</p>
+          <h1>Veja a classificacao do campeonato.</h1>
+          <p class="hero-text">
+            A tabela mostra pontos, saldo de sets e saldo de pontos.
+          </p>
+        </div>
+        <div class="scene-card">
+          <span>Resumo</span>
+          <strong>Acompanhe a disputa por playoff e a parte de baixo da liga.</strong>
+        </div>
+      </div>
+      <div class="panel-title-row">
+        <h2>Tabela do Campeonato</h2>
+        <span class="hint">16 times, 8 vagas no playoff e 2 rebaixados.</span>
+      </div>
+      <div id="league-table" class="league-table empty">
+        Inicie a temporada para gerar a classificacao da liga.
+      </div>
+    </section>
+  </div>
+
+  <script src="../shared/base-game.js"></script>
+  <script src="../shared/seeded-rng.js"></script>
+  <script src="../shared/procedural-datasets.js"></script>
+  <script src="../shared/procedural-lore-datasets.js"></script>
+  <script src="../shared/procedural-decision-bank-data.js"></script>
+  <script src="../shared/procedural-decision-bank.js"></script>
+  <script src="../shared/procedural-scouting.js"></script>
+  <script src="../shared/procedural-player-generator.js"></script>
+  <script src="../shared/match-events.js"></script>
+  <script src="../shared/live-coaching.js"></script>
+  <script src="../shared/live-simulation.js"></script>
+  <script src="../shared/live-match-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js" onerror="this.onerror=null;this.src='https://unpkg.com/phaser@3.90.0/dist/phaser.min.js';"></script>
+  <script src="../shared/phaser-enhancements.js"></script>
+  <script src="sport-manifest.js"></script>
+  <script src="generation-config.js"></script>
+  <script src="../shared/procedural-roster-generator.js"></script>
+  <script src="../shared/procedural-club-calibration.js"></script>
+  <script src="../shared/procedural-club-generator.js"></script>
+  <script src="../shared/procedural-league-debug.js"></script>
+  <script src="../shared/procedural-league-generator.js"></script>
+  <script src="../shared/procedural-season-simulator.js"></script>
+  <script src="../shared/procedural-decision-engine.js"></script>
+  <script src="../shared/procedural-rotation-engine.js"></script>
+  <script src="../shared/procedural-market-generator.js"></script>
+  <script src="match-adapter.js"></script>
+  <script src="../shared/game-state.js"></script>
+  <script src="../shared/procedural-career-save.js"></script>
+  <script src="../shared/calendar-engine.js"></script>
+  <script src="../shared/player-card-ui.js"></script>
+  <script src="../shared/roster-ui.js"></script>
+  <script src="../shared/team-hub-ui.js"></script>
+  <script src="../shared/calendar-ui.js"></script>
+  <script src="../shared/game-shell-ui.js"></script>
+  <script src="custom-config.js"></script>
+  <script src="script.js"></script>
+  <script src="../shared/career-home-ui.js"></script>
+</body>
+</html>

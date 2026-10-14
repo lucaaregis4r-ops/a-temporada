@@ -1,0 +1,517 @@
+[
+  {
+    "id": "lore_001_last_dance",
+    "opening": "O capitão reúne os veteranos depois que a fisioterapia recomenda poupar dois titulares na estreia.",
+    "dilemma": "Buscar o último título juntos exige escolher entre tempo de jogo e pernas inteiras para a decisão."
+  },
+  {
+    "id": "lore_002_azarao_financeiro",
+    "opening": "Uma proposta pela maior promessa chega à mesa na semana em que o caixa já não cobre todo o elenco.",
+    "dilemma": "A base precisa garantir a permanência enquanto o clube resiste à venda que pagaria as contas."
+  },
+  {
+    "id": "lore_003_gigante_adormecido",
+    "opening": "Um ídolo cobra reforços na rádio antes do primeiro clássico de uma torcida cansada de campanhas medianas.",
+    "dilemma": "A estrutura para voltar aos playoffs existe, mas cada tropeço reacende a comparação com os anos de glória."
+  },
+  {
+    "id": "lore_004_base_de_ouro",
+    "opening": "Três jogadores da base aparecem entre os titulares na abertura, e um olheiro de um clube rico já pede credencial.",
+    "dilemma": "Dar espaço à geração de ouro pode custar pontos agora e acelerar sua saída depois."
+  },
+  {
+    "id": "lore_005_dinheiro_novo",
+    "opening": "O novo investidor anuncia uma contratação de impacto enquanto a estrela atual reclama de seu papel no time.",
+    "dilemma": "O dinheiro compra talento, mas a corrida pelo título depende de construir um elenco que aceite dividir o protagonismo."
+  },
+  {
+    "id": "lore_006_fabrica_de_promessas",
+    "opening": "Uma proposta internacional chega pelo jovem destaque que acabou de pedir mais minutos no profissional.",
+    "dilemma": "A fábrica precisa continuar formando e vendendo sem esvaziar a equipe antes de competir."
+  },
+  {
+    "id": "lore_007_tropa_operaria",
+    "opening": "Depois de um treino defensivo exaustivo, o adversário neutraliza as principais rotas de ataque e desafia o time a criar pontos.",
+    "dilemma": "A disciplina que levou a tropa aos playoffs pode cobrar um preço físico e limitar o ataque."
+  },
+  {
+    "id": "lore_008_clube_dos_artistas",
+    "opening": "O craque reclama da liberdade que perdeu após o treinador exigir uma jogada ensaiada no clássico.",
+    "dilemma": "A criatividade capaz de encantar a liga também ameaça a ordem necessária para chegar aos playoffs."
+  },
+  {
+    "id": "lore_009_rebaixado_ferido",
+    "opening": "Na volta à elite, uma derrota cedo faz a arquibancada repetir o canto da temporada do rebaixamento.",
+    "dilemma": "A sede de resposta precisa virar estabilidade antes que o medo de outra queda domine o grupo."
+  },
+  {
+    "id": "lore_010_campeao_em_crise",
+    "opening": "O campeão abre a defesa do título com um veterano vaiado e perguntas sobre a intensidade que desapareceu.",
+    "dilemma": "Repetir a conquista exige vencer rivais preparados para caçá-lo sem viver da reputação do ano passado."
+  },
+  {
+    "id": "lore_011_time_do_bairro",
+    "opening": "A associação do bairro organiza um ginásio lotado, mas o calendário começa com três jogos fora.",
+    "dilemma": "O vínculo com a comunidade sustenta o clube em casa e cobra uma resposta onde a torcida não consegue acompanhá-lo."
+  },
+  {
+    "id": "lore_012_império_em_declínio",
+    "opening": "Uma derrota para um antigo freguês faz a imprensa reeditar fotos da última dinastia do clube.",
+    "dilemma": "Renovar um elenco envelhecido exige admitir o fim do império antes que a nostalgia destrua a campanha."
+  },
+  {
+    "id": "lore_013_revolução_tática",
+    "opening": "No primeiro treino do novo sistema, um veterano se recusa a ocupar a posição que os dados recomendam.",
+    "dilemma": "A revolução tática precisa produzir vitórias enquanto o elenco ainda aprende a confiar nela."
+  },
+  {
+    "id": "lore_014_clube_vitrine",
+    "opening": "Um olheiro estrangeiro aparece no treino do destaque que comanda o início da temporada.",
+    "dilemma": "Ser vitrine financia o clube, mas cada venda ameaça a continuidade de que o time precisa para competir."
+  },
+  {
+    "id": "lore_015_torcida_infernal",
+    "opening": "O ginásio recebe o elenco com um mosaico, e as primeiras vaias surgem antes do intervalo.",
+    "dilemma": "A energia da arquibancada pode empurrar a equipe ou esmagar os jovens a cada erro."
+  },
+  {
+    "id": "lore_016_elenco_sem_casa",
+    "opening": "O primeiro mando será numa cidade neutra, a horas de viagem da torcida que prometeu uma caravana.",
+    "dilemma": "A união nascida do deslocamento precisa compensar a fadiga e a perda do próprio ginásio."
+  },
+  {
+    "id": "lore_017_lenda_no_banco",
+    "opening": "O novo treinador entra na quadra sob o canto de seu nome como jogador antes de comandar o primeiro clássico.",
+    "dilemma": "O ídolo precisa tomar decisões impopulares sem deixar que a cobrança destrua seu legado."
+  },
+  {
+    "id": "lore_018_comissao_dividida",
+    "opening": "Um alerta da fisioterapia contradiz o plano do auxiliar, e a diretoria exige explicações antes do jogo.",
+    "dilemma": "O técnico precisa usar seus especialistas sem permitir que a divergência vire vazamento e paralisia."
+  },
+  {
+    "id": "lore_019_clube_academia",
+    "opening": "O relatório de carga recomenda poupar a estrela justamente na noite em que a torcida mais espera vê-la.",
+    "dilemma": "O método pode proteger o elenco para a temporada inteira, mas precisa sobreviver à cobrança de cada partida."
+  },
+  {
+    "id": "lore_020_selecao_de_estrangeiros",
+    "opening": "Dois reforços discutem uma instrução no treino porque a tradução chegou tarde demais.",
+    "dilemma": "O talento internacional só vira força coletiva se o clube superar idioma, adaptação e distância da torcida."
+  },
+  {
+    "id": "lore_021_orgulho_da_base_local",
+    "opening": "Um jovem da cidade decide o amistoso e a torcida reage mal à notícia de outro reforço de fora.",
+    "dilemma": "Valorizar a base local fortalece o pertencimento, mas estreita as opções quando faltar qualidade."
+  },
+  {
+    "id": "lore_022_projeto_militar",
+    "opening": "Depois que uma regra do treino é quebrada, o capitão pede punição para o jogador mais criativo do elenco.",
+    "dilemma": "A hierarquia sustenta a defesa, mas pode expulsar a liberdade que decidiria jogos apertados."
+  },
+  {
+    "id": "lore_023_rivalidade_sangrenta",
+    "opening": "Uma provocação do rival circula no vestiário antes de uma rodada que ainda tem outros adversários.",
+    "dilemma": "A rivalidade mobiliza o clube, mas a obsessão pelo clássico pode custar a classificação."
+  },
+  {
+    "id": "lore_024_equipe_silenciosa",
+    "opening": "A imprensa ignora a terceira vitória seguida, e um titular pergunta por que ninguém conhece seu nome.",
+    "dilemma": "Trabalhar em silêncio protege a coesão, mas a invisibilidade limita receita e reconhecimento."
+  },
+  {
+    "id": "lore_025_estrelas_e_reservas",
+    "opening": "Uma lesão tira a principal estrela da rotação, e o reserva que ganha minutos cobra o mesmo respeito salarial.",
+    "dilemma": "O brilho dos titulares precisa sobreviver a um banco curto e à distância entre contratos."
+  },
+  {
+    "id": "lore_026_o_time_da_virada",
+    "opening": "Após mais uma virada improvável, o treinador mostra ao elenco o placar do primeiro quarto.",
+    "dilemma": "A fé nas reações mantém o grupo vivo, mas começar sempre atrás consome energia demais."
+  },
+  {
+    "id": "lore_027_defesa_de_ferro",
+    "opening": "A defesa segura o favorito, mas a última jogada termina sem uma chance clara de finalização.",
+    "dilemma": "A identidade de ferro pode levar o time longe apenas se alguém encontrar pontos quando o placar apertar."
+  },
+  {
+    "id": "lore_028_ataque_espetáculo",
+    "opening": "O astro tem uma atuação histórica, enquanto o rival pontua livremente do outro lado.",
+    "dilemma": "O espetáculo ofensivo precisa de proteção defensiva para não virar apenas um placar vistoso."
+  },
+  {
+    "id": "lore_029_temporada_de_luto",
+    "opening": "Uma homenagem antes da estreia deixa o elenco em silêncio até o aquecimento.",
+    "dilemma": "Honrar a perda recente pode unir o clube, mas a dor não desaparece quando a bola sobe."
+  },
+  {
+    "id": "lore_030_diretoria_impaciente",
+    "opening": "Um boato de demissão chega ao técnico depois de duas derrotas e antes da reunião da diretoria.",
+    "dilemma": "A busca por resultado imediato ameaça a estabilidade necessária para corrigir a equipe."
+  },
+  {
+    "id": "lore_031_presidente_populista",
+    "opening": "O presidente promete um reforço ao vivo sem avisar a comissão que já planejava outra posição.",
+    "dilemma": "A mobilização pública precisa virar resultado sem entregar a direção esportiva às promessas de palanque."
+  },
+  {
+    "id": "lore_032_elenco_de_aluguel",
+    "opening": "No treino, um atleta emprestado comenta a próxima janela enquanto a torcida pede entrega no jogo decisivo.",
+    "dilemma": "Transformar contratos curtos em compromisso coletivo é o desafio de um elenco pronto para se dispersar."
+  },
+  {
+    "id": "lore_033_reino_dos_veteranos",
+    "opening": "Os veteranos barram uma mudança de rotação e uma promessa pede conversa com o treinador.",
+    "dilemma": "A casca do grupo ajuda sob pressão, mas seu poder pode impedir a renovação."
+  },
+  {
+    "id": "lore_034_juventude_insolente",
+    "opening": "Uma provocação de um novato esquenta o clássico, e o mesmo jogador decide o treino com uma jogada ousada.",
+    "dilemma": "A insolência jovem pode derrubar gigantes se a comissão conseguir conter seus erros evitáveis."
+  },
+  {
+    "id": "lore_035_clube_empresa",
+    "opening": "O CEO apresenta uma meta trimestral no dia em que a torcida protesta pela possível venda de um ídolo.",
+    "dilemma": "A gestão eficiente precisa provar que seus números ainda representam as pessoas do clube."
+  },
+  {
+    "id": "lore_036_romanticos_da_historia",
+    "opening": "Uma vitória pragmática recebe vaias de parte da arquibancada, que exige o estilo consagrado pelos antigos ídolos.",
+    "dilemma": "Preservar a maneira de jogar pode custar resultados, mas abandoná-la ameaça a identidade do clube."
+  },
+  {
+    "id": "lore_037_time_de_copas",
+    "opening": "A comissão calcula quantos minutos poupar antes de uma rodada decisiva da fase regular.",
+    "dilemma": "O time precisa chegar inteiro ao mata-mata sem perder a vaga por desprezar o caminho até ele."
+  },
+  {
+    "id": "lore_038_maldição_do_quase",
+    "opening": "Um erro no fim do jogo reabre na coletiva a pergunta sobre todas as finais perdidas.",
+    "dilemma": "A experiência de chegar perto só vira título quando o grupo deixar de jogar contra o próprio passado."
+  },
+  {
+    "id": "lore_039_favorito_arrogante",
+    "opening": "Depois de uma fala soberba, o favorito sofre uma derrota para o último colocado.",
+    "dilemma": "A confiança de um elenco profundo precisa resistir à tentação de tratar qualquer rival como vencido."
+  },
+  {
+    "id": "lore_040_pacto_da_sobrevivencia",
+    "opening": "A torcida canta depois de um empate difícil, enquanto o departamento médico confirma outra baixa.",
+    "dilemma": "O pacto de sobrevivência exige somar pontos com um elenco cuja entrega supera a reposição disponível."
+  },
+  {
+    "id": "lore_041_dinastia_da_base",
+    "opening": "A geração campeã na base treina junta para seu primeiro clássico entre profissionais.",
+    "dilemma": "O entrosamento vencedor precisa sobreviver ao salto de nível, aos egos e ao assédio externo."
+  },
+  {
+    "id": "lore_042_clube_de_colonia",
+    "opening": "A festa da comunidade lota o ginásio, e uma contratação de fora já provoca debate sobre os símbolos do clube.",
+    "dilemma": "Representar a colônia traz apoio fiel, mas cada escolha de elenco carrega uma cobrança cultural."
+  },
+  {
+    "id": "lore_043_projeto_universitario",
+    "opening": "Uma semana de provas coincide com dois jogos, e o capitão pede para sair mais cedo do treino.",
+    "dilemma": "O projeto acadêmico precisa formar pessoas e atletas sem perder a equipe para calendários incompatíveis."
+  },
+  {
+    "id": "lore_044_furia_da_capital",
+    "opening": "Uma manchete transforma uma discussão de treino em crise antes da estreia na arena lotada.",
+    "dilemma": "A visibilidade da capital atrai recursos, mas dá a cada conflito o tamanho de uma temporada."
+  },
+  {
+    "id": "lore_045_orgulho_do_interior",
+    "opening": "A cidade prepara a visita de um gigante, e seu melhor jogador recebe uma proposta justamente nessa semana.",
+    "dilemma": "O orgulho do interior cresce ao desafiar favoritos, mas precisa reter força com orçamento e elenco curtos."
+  },
+  {
+    "id": "lore_046_elenco_remendado",
+    "opening": "A fisioterapia veta um titular que a torcida esperava ver de volta já na abertura.",
+    "dilemma": "A profundidade médica pode recuperar o elenco, desde que a pressa não transforme retornos em novas lesões."
+  },
+  {
+    "id": "lore_047_time_sem_capitao",
+    "opening": "Sem o antigo capitão, dois jogadores dão instruções opostas no último tempo de um amistoso.",
+    "dilemma": "O talento distribuído precisa encontrar uma voz confiável antes de enfrentar jogos sob pressão."
+  },
+  {
+    "id": "lore_048_estatua_viva",
+    "opening": "O ídolo começa no banco pela primeira vez e a arquibancada olha para o treinador antes de olhar o placar.",
+    "dilemma": "Reduzir os minutos de uma lenda pode melhorar o time e dividir quem ainda espera sua melhor versão."
+  },
+  {
+    "id": "lore_049_o_estrangeiro_salvador",
+    "opening": "O reforço estrangeiro estreia sob câmeras, mas precisa de tradução para entender a última jogada desenhada.",
+    "dilemma": "A estrela pode elevar o clube se a adaptação impedir que todo o projeto dependa dela."
+  },
+  {
+    "id": "lore_050_clube_endividado",
+    "opening": "Os salários atrasam antes de uma proposta por um titular que a equipe não pode perder.",
+    "dilemma": "A criatividade para competir encontra limite quando pagar a dívida exige desmontar o elenco."
+  },
+  {
+    "id": "lore_051_maquina_de_marketing",
+    "opening": "Uma campanha publicitária ocupa a manhã da estrela no dia de um treino importante.",
+    "dilemma": "A receita da imagem ajuda a atrair talento, mas pode afastar os jogadores dos treinos e das partidas."
+  },
+  {
+    "id": "lore_052_sombra_do_rival",
+    "opening": "O rival anuncia uma estrela e os torcedores do clube menor cobram resposta antes mesmo do clássico.",
+    "dilemma": "Buscar respeito exige usar a comparação como combustível sem deixar que ela dite toda a temporada."
+  },
+  {
+    "id": "lore_053_dono_do_estado",
+    "opening": "Uma derrota regional inesperada ameaça a confiança antes da viagem que pode provar o valor nacional do clube.",
+    "dilemma": "Dominar o estado já não basta, mas perseguir o topo nacional torna cada tropeço local mais humilhante."
+  },
+  {
+    "id": "lore_054_clube_sem_memoria",
+    "opening": "A diretoria abre uma votação para o primeiro mascote enquanto o time procura seu primeiro líder em quadra.",
+    "dilemma": "A liberdade de inventar uma tradição precisa virar pertencimento antes que a falta de história esvazie as arquibancadas."
+  },
+  {
+    "id": "lore_055_os_inquebraveis",
+    "opening": "O adversário pede ar após um treino aberto, e a fisiologia alerta que os próprios atletas já passaram do limite.",
+    "dilemma": "A intensidade que sufoca rivais pode cobrar lesões e queda de rendimento no fim da temporada."
+  },
+  {
+    "id": "lore_056_clube_das_finais",
+    "opening": "A torcida critica a rotação ampla na fase regular, embora a comissão mire a semifinal.",
+    "dilemma": "Planejar outra final exige manter a vaga e a confiança de quem julga o clube apenas pelo mata-mata."
+  },
+  {
+    "id": "lore_057_banco_de_luxo",
+    "opening": "Um reserva pede troca depois de atuar poucos minutos numa vitória em que o banco decidiu o jogo.",
+    "dilemma": "A profundidade só será vantagem se a rotação não transformar competição interna em ressentimento."
+  },
+  {
+    "id": "lore_058_fome_de_primeiro_titulo",
+    "opening": "A cidade prepara uma festa para um título que o clube ainda não ganhou, e a pergunta sobre o tabu domina a coletiva.",
+    "dilemma": "A fome da primeira conquista precisa superar o medo de falhar justamente quando o projeto amadureceu."
+  },
+  {
+    "id": "lore_059_geracao_perdida",
+    "opening": "Uma proposta por peça-chave chega antes da reunião que decidirá o futuro da geração.",
+    "dilemma": "O talento acumulado tem uma última chance de cumprir a promessa antes que a frustração desmonte o grupo."
+  },
+  {
+    "id": "lore_060_clube_dos_retorno",
+    "opening": "Um ex-jogador volta ao ginásio entre aplausos, mas sente o ritmo no primeiro coletivo.",
+    "dilemma": "As histórias que unem os retornados precisam render nos jogos sem ficar presas à saudade."
+  },
+  {
+    "id": "lore_061_o_laboratorio",
+    "opening": "Um dado do laboratório recomenda uma formação inédita depois de três derrotas seguidas.",
+    "dilemma": "Experimentar pode descobrir o próximo caminho do clube ou prolongar a falta de padrão."
+  },
+  {
+    "id": "lore_062_a_muralha_caseira",
+    "opening": "O ginásio está lotado na estreia, mas o calendário seguinte leva a equipe para uma longa sequência fora.",
+    "dilemma": "A confiança do mando precisa viajar com o elenco se o clube quiser deixar de ter duas versões."
+  },
+  {
+    "id": "lore_063_clube_religioso_da_rotina",
+    "opening": "Uma mudança de horário interrompe o ritual pré-jogo e um titular pede para repetir todo o aquecimento.",
+    "dilemma": "A disciplina dá consistência ao time até que um imprevisto exija adaptação real."
+  },
+  {
+    "id": "lore_064_panelinha_dos_craques",
+    "opening": "Os craques defendem um amigo após a reclamação pública de um reserva deixado fora da rotação.",
+    "dilemma": "A química entre estrelas decide partidas, mas não sustenta um vestiário partido."
+  },
+  {
+    "id": "lore_065_clube_de_treinador",
+    "opening": "Um clube rival procura o treinador enquanto a equipe comemora outra vitória desenhada por seu sistema.",
+    "dilemma": "A clareza tática mantém o elenco competitivo, mas sua dependência de uma pessoa expõe o projeto."
+  },
+  {
+    "id": "lore_066_herdeiros_da_lenda",
+    "opening": "A lenda aposentada visita o treino no dia em que o novo líder herda sua antiga camisa.",
+    "dilemma": "O sucessor precisa assumir o time sem ser julgado a cada lance pela sombra do ídolo."
+  },
+  {
+    "id": "lore_067_clube_das_promessas_quebradas",
+    "opening": "Um antigo prodígio volta a pontuar bem, e o exame seguinte reacende o medo de outra recaída.",
+    "dilemma": "A redenção dos desacreditados depende de reconstruir confiança sem ignorar seus limites físicos."
+  },
+  {
+    "id": "lore_068_a_fortaleza_defensiva",
+    "opening": "O rival reclama da pressão do ginásio pequeno depois de passar o jogo preso na defesa local.",
+    "dilemma": "A fortaleza defensiva precisa funcionar também longe do barulho que costuma protegê-la."
+  },
+  {
+    "id": "lore_069_meninos_contra_homens",
+    "opening": "Um veterano adversário provoca os novatos após levar a melhor nas disputas do início do jogo.",
+    "dilemma": "A velocidade dos meninos só se torna competitiva quando eles suportarem o contato e aprenderem com ele."
+  },
+  {
+    "id": "lore_070_cacadores_de_gigantes",
+    "opening": "A equipe derruba o líder e, três dias depois, perde concentração diante de um rival direto.",
+    "dilemma": "Caçar gigantes rende manchetes, mas a vaga depende de respeitar os jogos comuns."
+  },
+  {
+    "id": "lore_071_elenco_internacional_sub23",
+    "opening": "Um jovem pede ajuda com o idioma na mesma semana em que um olheiro vem avaliar seu futuro.",
+    "dilemma": "O potencial global precisa criar laços de equipe antes que adaptação e mercado dispersem o grupo."
+  },
+  {
+    "id": "lore_072_o_clube_dos_capitaes",
+    "opening": "A reunião de líderes termina com dois capitães defendendo planos contrários para a última posse.",
+    "dilemma": "A experiência coletiva só ajuda se alguém puder encerrar o debate quando a decisão for urgente."
+  },
+  {
+    "id": "lore_073_a_aposta_do_rookie",
+    "opening": "O novato decide um jogo de treino e já aparece na capa como salvador da temporada.",
+    "dilemma": "Acelerar seu talento pode trazer vitórias, mas a pressão precoce ameaça seu desenvolvimento."
+  },
+  {
+    "id": "lore_074_clube_das_cicatrizes",
+    "opening": "Um atleta desacreditado chora depois da primeira vitória, e seu histórico de lesões volta às perguntas da imprensa.",
+    "dilemma": "A fome de provar valor une o elenco, mas suas cicatrizes ainda podem limitar a campanha."
+  },
+  {
+    "id": "lore_075_o_rolo_compressor",
+    "opening": "O garrafão domina a estreia até que o adversário abre a quadra e arrasta os pivôs para longe da cesta.",
+    "dilemma": "A força física precisa encontrar resposta para a velocidade que a liga usa contra ela.",
+    "sports": [
+      "basquete"
+    ]
+  },
+  {
+    "id": "lore_076_o_time_pequeno_brilhante",
+    "opening": "Uma chuva de arremessos decide a primeira vitória, seguida de uma derrota em que o time perde todos os rebotes longos.",
+    "dilemma": "A velocidade e o espaçamento precisam sobreviver às noites em que o tamanho do rival pesa.",
+    "sports": [
+      "basquete"
+    ]
+  },
+  {
+    "id": "lore_077_sindicato_dos_reservas",
+    "opening": "Um reserva reclama da rotação na coletiva, e o titular que perdeu minutos exige explicações.",
+    "dilemma": "Dar voz ao banco pode ampliar a energia do time ou aprofundar a disputa por privilégios."
+  },
+  {
+    "id": "lore_078_a_cidade_contra_todos",
+    "opening": "Após uma marcação contestada, a cidade lota o treino e o prefeito pede uma reação pública.",
+    "dilemma": "A sensação de injustiça mobiliza o clube, mas pode desviar sua atenção para a arbitragem."
+  },
+  {
+    "id": "lore_079_clube_da_virada_financeira",
+    "opening": "Um novo patrocínio libera margem no orçamento e o primeiro pedido por reforço chega à diretoria.",
+    "dilemma": "A virada financeira só se consolida se a esperança não virar gasto prematuro."
+  },
+  {
+    "id": "lore_080_a_batalha_dos_egos",
+    "opening": "Duas estrelas pedem a última posse no mesmo treino, enquanto a defesa do grupo volta a falhar.",
+    "dilemma": "O talento de elite precisa aceitar uma hierarquia e contribuir em todas as fases do jogo."
+  },
+  {
+    "id": "lore_081_o_clube_paciente",
+    "opening": "A diretoria banca o treinador após uma derrota em que três jovens mostram evolução.",
+    "dilemma": "O plano de longo prazo precisa sobreviver à impaciência de uma torcida que conta derrotas agora."
+  },
+  {
+    "id": "lore_082_a_temporada_do_centenario",
+    "opening": "O uniforme do centenário é apresentado com antigos ídolos antes de um jogo tratado como celebração obrigatória.",
+    "dilemma": "A memória mobiliza o clube, mas a campanha não pode ser decidida pelo peso de cada cerimônia."
+  },
+  {
+    "id": "lore_083_o_clube_sem_paciencia",
+    "opening": "Duas derrotas provocam uma reunião de crise e vazam rumores de mudanças no elenco.",
+    "dilemma": "A ambição só vira resultado se a cultura do clube aprender a atravessar uma sequência ruim."
+  },
+  {
+    "id": "lore_084_a_escola_de_armadores",
+    "opening": "Um armador jovem erra o último passe e encontra um ídolo da posição esperando por ele no treino seguinte.",
+    "dilemma": "A escola de criação precisa desenvolver seu herdeiro sem deixar toda a equipe dependente dele.",
+    "sports": [
+      "basquete"
+    ]
+  },
+  {
+    "id": "lore_085_torre_gemea",
+    "opening": "Os dois pivôs controlam o rebote, até o rival usar cinco jogadores abertos e forçar uma escolha de rotação.",
+    "dilemma": "A identidade no garrafão precisa resistir a espaçamento, faltas e corridas para longe do aro.",
+    "sports": [
+      "basquete"
+    ]
+  },
+  {
+    "id": "lore_086_chuva_de_tres",
+    "opening": "Depois de uma noite de arremessos recorde, o mesmo quinteto não encontra a cesta no jogo seguinte.",
+    "dilemma": "O perímetro pode esmagar rivais, mas precisa de um plano quando as bolas de três param de cair.",
+    "sports": [
+      "basquete"
+    ]
+  },
+  {
+    "id": "lore_087_clube_do_contra_ataque",
+    "opening": "O adversário reduz o ritmo e obriga o time a executar ataques longos pela primeira vez na rodada.",
+    "dilemma": "A velocidade produz vantagens, mas a vaga depende de construir jogadas sem entregar energia ao cansaço."
+  },
+  {
+    "id": "lore_088_o_monge_e_os_caos",
+    "opening": "Um jogador explode com a arbitragem, e a coletiva serena do treinador irrita a arquibancada.",
+    "dilemma": "A calma no comando precisa conter os impulsos do elenco sem parecer indiferença."
+  },
+  {
+    "id": "lore_089_reconstrucao_pos_escandalo",
+    "opening": "A primeira nova regra de conduta entra em vigor, e a imprensa pergunta se o clube mudou de verdade.",
+    "dilemma": "Reconstruir a confiança exige transparência constante porque qualquer erro revive o escândalo."
+  },
+  {
+    "id": "lore_090_clube_do_povo",
+    "opening": "Um treino aberto reúne milhares, mas uma estrela sai sem cumprimentar quem a esperou.",
+    "dilemma": "O apoio popular exige identificação visível, além de resultados e talento dentro da equipe."
+  },
+  {
+    "id": "lore_091_time_de_grife",
+    "opening": "O patrocinador organiza uma apresentação luxuosa após uma vitória que a torcida chamou de sem alma.",
+    "dilemma": "A imagem refinada atrai recursos, mas o clube precisa vencer sem perder a conexão com as arquibancadas."
+  },
+  {
+    "id": "lore_092_sobreviventes_da_viagem",
+    "opening": "Um voo atrasado deixa a equipe sem treino completo antes do primeiro jogo longe de casa.",
+    "dilemma": "A resiliência nas viagens precisa compensar sono, fadiga e risco físico ao longo do calendário."
+  },
+  {
+    "id": "lore_093_clube_sem_estrelas",
+    "opening": "Na jogada decisiva, quatro jogadores trocam passes porque nenhum se assume como responsável por concluí-la.",
+    "dilemma": "A distribuição fortalece o coletivo, mas jogos apertados exigem alguém disposto a concluir a jogada."
+  },
+  {
+    "id": "lore_094_a_ultima_vaga",
+    "opening": "A tabela coloca um rival direto na estreia e já circulam cálculos para a vaga final.",
+    "dilemma": "Cada confronto de seis pontos pede urgência sem deixar a equipe refém das contas dos adversários."
+  },
+  {
+    "id": "lore_095_o_clube_do_treinamento",
+    "opening": "O elenco sai animado de um treino perfeito e perde o jogo seguinte sem repetir nenhuma execução.",
+    "dilemma": "Treinar mais pode acelerar a evolução ou cansar um grupo que precisa transferir trabalho para partidas reais."
+  },
+  {
+    "id": "lore_096_crise_de_identidade",
+    "opening": "Uma reunião sobre filosofia termina com diretoria, comissão e atletas defendendo três estilos diferentes.",
+    "dilemma": "A flexibilidade do elenco só vira vantagem quando o clube escolher uma identidade que consiga sustentar."
+  },
+  {
+    "id": "lore_097_o_clube_das_lendas_jovens",
+    "opening": "Um jovem dá uma entrevista provocativa sob aplausos da torcida, e um veterano o chama para conversar.",
+    "dilemma": "O talento precoce precisa amadurecer antes que a idolatria transforme confiança em descuido."
+  },
+  {
+    "id": "lore_098_a_frente_fria",
+    "opening": "Uma vitória controlada recebe poucos aplausos, e um confronto tenso se aproxima no calendário.",
+    "dilemma": "A frieza que reduz erros precisa coexistir com a energia necessária para reagir quando o plano falhar."
+  },
+  {
+    "id": "lore_099_o_clube_dos_milagres",
+    "opening": "A torcida canta por outra virada impossível antes mesmo de o time sofrer o primeiro ponto.",
+    "dilemma": "A crença nos milagres ajuda nas decisões, mas não substitui a regularidade que evita o desespero."
+  },
+  {
+    "id": "lore_100_a_nova_ordem",
+    "opening": "Uma vitória sobre uma potência põe o clube emergente na rota da primeira final e provoca os veteranos da liga.",
+    "dilemma": "A nova ordem precisa confirmar seu talento sob uma pressão que nunca enfrentou no topo."
+  }
+]

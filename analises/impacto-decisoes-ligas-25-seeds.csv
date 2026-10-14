@@ -1,0 +1,151 @@
+seed,strategy,champion_baseline,champion_with_decisions,champion_changed,baseline_top4_retention_pct,decision_top4_retention_pct,baseline_rank_correlation,decision_rank_correlation,baseline_upset_rate,decision_upset_rate,avg_rating_delta,avg_volatility_delta,avg_rank_swing,avg_wins_swing
+DECISOES-LIGA-BASQUETE-001,balanced,Real Goiania Tropa,Real Goiania Tropa,0,100,100,0.9,0.912,20.8,17.5,1.5,-0.073,0,0
+DECISOES-LIGA-BASQUETE-001,aggressive,Real Goiania Tropa,Real Goiania Tropa,0,100,100,0.9,0.821,20.8,20.8,0.8,0.02,0,0
+DECISOES-LIGA-BASQUETE-001,development,Real Goiania Tropa,Real Goiania Tropa,0,100,75,0.9,0.75,20.8,16.7,1,-0.028,0,0
+DECISOES-LIGA-BASQUETE-001,conservative,Real Goiania Tropa,Real Goiania Tropa,0,100,75,0.9,0.812,20.8,20,1.2,-0.035,0,0
+DECISOES-LIGA-BASQUETE-001,crisis_control,Real Goiania Tropa,Vanguarda Rio de Janeiro Vikings,1,100,100,0.9,0.921,20.8,19.2,0.5,-0.023,0,0
+DECISOES-LIGA-BASQUETE-001,lore_fit,Real Goiania Tropa,Real Goiania Tropa,0,100,100,0.9,0.826,20.8,19.2,1.1,-0.027,0,0
+DECISOES-LIGA-BASQUETE-002,balanced,Olimpico Salvador Furia,Olimpico Salvador Furia,0,50,75,0.868,0.856,15.8,18.3,1.5,-0.073,0,0
+DECISOES-LIGA-BASQUETE-002,aggressive,Olimpico Salvador Furia,Olimpico Curitiba Basquete,1,50,50,0.868,0.826,15.8,12.5,1,-0.012,0,0
+DECISOES-LIGA-BASQUETE-002,development,Olimpico Salvador Furia,Olimpico Curitiba Basquete,1,50,75,0.868,0.874,15.8,15,1,-0.024,0,0
+DECISOES-LIGA-BASQUETE-002,conservative,Olimpico Salvador Furia,Olimpico Salvador Furia,0,50,50,0.868,0.859,15.8,17.5,1.2,-0.021,0,0
+DECISOES-LIGA-BASQUETE-002,crisis_control,Olimpico Salvador Furia,Olimpico Curitiba Basquete,1,50,50,0.868,0.865,15.8,15,0.6,-0.042,0,0
+DECISOES-LIGA-BASQUETE-002,lore_fit,Olimpico Salvador Furia,Olimpico Salvador Furia,0,50,50,0.868,0.865,15.8,16.7,1,-0.009,0,0
+DECISOES-LIGA-BASQUETE-003,balanced,Central Manaus Estrelas,Metropolitano Recife Estrelas,1,50,50,0.694,0.685,17.5,19.2,1.4,-0.066,0,0
+DECISOES-LIGA-BASQUETE-003,aggressive,Central Manaus Estrelas,Central Manaus Estrelas,0,50,50,0.694,0.774,17.5,20,1,0,0,0
+DECISOES-LIGA-BASQUETE-003,development,Central Manaus Estrelas,Central Manaus Estrelas,0,50,75,0.694,0.741,17.5,17.5,1.3,-0.057,0,0
+DECISOES-LIGA-BASQUETE-003,conservative,Central Manaus Estrelas,Central Manaus Estrelas,0,50,75,0.694,0.841,17.5,15,1.2,-0.035,0,0
+DECISOES-LIGA-BASQUETE-003,crisis_control,Central Manaus Estrelas,Central Manaus Estrelas,0,50,25,0.694,0.674,17.5,19.2,0.4,-0.02,0,0
+DECISOES-LIGA-BASQUETE-003,lore_fit,Central Manaus Estrelas,Central Rio de Janeiro Panteras,1,50,50,0.694,0.768,17.5,19.2,1.3,-0.046,0,0
+DECISOES-LIGA-BASQUETE-004,balanced,Capital Salvador Panteras,Capital Salvador Panteras,0,25,25,0.621,0.582,16.7,12.5,1.6,-0.08,0,0
+DECISOES-LIGA-BASQUETE-004,aggressive,Capital Salvador Panteras,Capital Salvador Panteras,0,25,25,0.621,0.582,16.7,15,1,-0.007,0,0
+DECISOES-LIGA-BASQUETE-004,development,Capital Salvador Panteras,Capital Salvador Panteras,0,25,50,0.621,0.609,16.7,20,1.1,-0.034,0,0
+DECISOES-LIGA-BASQUETE-004,conservative,Capital Salvador Panteras,Capital Salvador Panteras,0,25,25,0.621,0.603,16.7,19.2,1.2,-0.027,0,0
+DECISOES-LIGA-BASQUETE-004,crisis_control,Capital Salvador Panteras,Capital Salvador Panteras,0,25,25,0.621,0.621,16.7,15,0.4,-0.021,0,0
+DECISOES-LIGA-BASQUETE-004,lore_fit,Capital Salvador Panteras,Capital Salvador Panteras,0,25,25,0.621,0.515,16.7,15.8,1,-0.025,0,0
+DECISOES-LIGA-BASQUETE-005,balanced,Dynamo Fortaleza Basquete,Dynamo Fortaleza Basquete,0,50,50,0.812,0.747,20.8,22.5,1.2,-0.057,0,0
+DECISOES-LIGA-BASQUETE-005,aggressive,Dynamo Fortaleza Basquete,Dynamo Fortaleza Basquete,0,50,50,0.812,0.624,20.8,18.3,0.7,0.038,0,0
+DECISOES-LIGA-BASQUETE-005,development,Dynamo Fortaleza Basquete,Dynamo Fortaleza Basquete,0,50,50,0.812,0.75,20.8,22.5,1.1,-0.031,0,0
+DECISOES-LIGA-BASQUETE-005,conservative,Dynamo Fortaleza Basquete,Dynamo Fortaleza Basquete,0,50,50,0.812,0.774,20.8,18.3,1.1,-0.04,0,0
+DECISOES-LIGA-BASQUETE-005,crisis_control,Dynamo Fortaleza Basquete,Dynamo Fortaleza Basquete,0,50,50,0.812,0.779,20.8,20.8,0.5,-0.021,0,0
+DECISOES-LIGA-BASQUETE-005,lore_fit,Dynamo Fortaleza Basquete,Dynamo Fortaleza Basquete,0,50,50,0.812,0.774,20.8,20.8,1,-0.033,0,0
+DECISOES-LIGA-BASQUETE-006,balanced,Capital Goiania Lobos,Capital Goiania Lobos,0,25,25,0.647,0.659,17.5,16.7,1.3,-0.051,0,0
+DECISOES-LIGA-BASQUETE-006,aggressive,Capital Goiania Lobos,Capital Goiania Lobos,0,25,25,0.647,0.635,17.5,17.5,1.1,-0.01,0,0
+DECISOES-LIGA-BASQUETE-006,development,Capital Goiania Lobos,Capital Goiania Lobos,0,25,25,0.647,0.35,17.5,15,1.1,-0.04,0,0
+DECISOES-LIGA-BASQUETE-006,conservative,Capital Goiania Lobos,Capital Goiania Lobos,0,25,25,0.647,0.474,17.5,15.8,1.1,-0.035,0,0
+DECISOES-LIGA-BASQUETE-006,crisis_control,Capital Goiania Lobos,Capital Goiania Lobos,0,25,50,0.647,0.482,17.5,21.7,0.7,-0.044,0,0
+DECISOES-LIGA-BASQUETE-006,lore_fit,Capital Goiania Lobos,Capital Goiania Lobos,0,25,25,0.647,0.597,17.5,15,1.2,-0.043,0,0
+DECISOES-LIGA-BASQUETE-007,balanced,Vanguarda Salvador Warriors,Vanguarda Salvador Warriors,0,75,75,0.915,0.894,10,12.5,1.4,-0.063,0,0
+DECISOES-LIGA-BASQUETE-007,aggressive,Vanguarda Salvador Warriors,Metropolitano Rio de Janeiro Furia,1,75,50,0.915,0.9,10,10,0.8,0.019,0,0
+DECISOES-LIGA-BASQUETE-007,development,Vanguarda Salvador Warriors,Metropolitano Rio de Janeiro Furia,1,75,75,0.915,0.912,10,10,1.1,-0.02,0,0
+DECISOES-LIGA-BASQUETE-007,conservative,Vanguarda Salvador Warriors,Central Manaus Tropa,1,75,75,0.915,0.9,10,9.2,1.2,-0.041,0,0
+DECISOES-LIGA-BASQUETE-007,crisis_control,Vanguarda Salvador Warriors,Vanguarda Salvador Warriors,0,75,75,0.915,0.915,10,11.7,0.7,-0.035,0,0
+DECISOES-LIGA-BASQUETE-007,lore_fit,Vanguarda Salvador Warriors,Central Manaus Tropa,1,75,100,0.915,0.935,10,10.8,1.1,-0.035,0,0
+DECISOES-LIGA-BASQUETE-008,balanced,Olimpico Rio de Janeiro Dragons,Olimpico Rio de Janeiro Dragons,0,100,75,0.95,0.838,13.3,16.7,1.2,-0.034,0,0
+DECISOES-LIGA-BASQUETE-008,aggressive,Olimpico Rio de Janeiro Dragons,Olimpico Rio de Janeiro Dragons,0,100,100,0.95,0.9,13.3,15.8,1.1,-0.006,0,0
+DECISOES-LIGA-BASQUETE-008,development,Olimpico Rio de Janeiro Dragons,Olimpico Rio de Janeiro Dragons,0,100,75,0.95,0.85,13.3,15,1.3,-0.042,0,0
+DECISOES-LIGA-BASQUETE-008,conservative,Olimpico Rio de Janeiro Dragons,Olimpico Rio de Janeiro Dragons,0,100,75,0.95,0.95,13.3,15.8,1.3,-0.037,0,0
+DECISOES-LIGA-BASQUETE-008,crisis_control,Olimpico Rio de Janeiro Dragons,Olimpico Rio de Janeiro Dragons,0,100,100,0.95,0.826,13.3,16.7,0.3,0.011,0,0
+DECISOES-LIGA-BASQUETE-008,lore_fit,Olimpico Rio de Janeiro Dragons,Olimpico Rio de Janeiro Dragons,0,100,75,0.95,0.912,13.3,14.2,1.1,-0.015,0,0
+DECISOES-LIGA-BASQUETE-009,balanced,Central Manaus Panteras,Central Manaus Panteras,0,75,50,0.868,0.829,19.2,22.5,1.3,-0.046,0,0
+DECISOES-LIGA-BASQUETE-009,aggressive,Central Manaus Panteras,Central Manaus Panteras,0,75,50,0.868,0.841,19.2,18.3,1,0,0,0
+DECISOES-LIGA-BASQUETE-009,development,Central Manaus Panteras,Central Manaus Panteras,0,75,50,0.868,0.859,19.2,18.3,1.1,-0.039,0,0
+DECISOES-LIGA-BASQUETE-009,conservative,Central Manaus Panteras,Central Manaus Panteras,0,75,75,0.868,0.856,19.2,17.5,1,-0.02,0,0
+DECISOES-LIGA-BASQUETE-009,crisis_control,Central Manaus Panteras,Central Manaus Panteras,0,75,50,0.868,0.862,19.2,20,0.6,-0.035,0,0
+DECISOES-LIGA-BASQUETE-009,lore_fit,Central Manaus Panteras,Central Manaus Panteras,0,75,50,0.868,0.876,19.2,18.3,1,-0.027,0,0
+DECISOES-LIGA-BASQUETE-010,balanced,Atletico Fortaleza Clube,Atletico Fortaleza Clube,0,50,50,0.929,0.888,19.2,18.3,1.4,-0.062,0,0
+DECISOES-LIGA-BASQUETE-010,aggressive,Atletico Fortaleza Clube,Atletico Fortaleza Clube,0,50,50,0.929,0.903,19.2,19.2,1,0.005,0,0
+DECISOES-LIGA-BASQUETE-010,development,Atletico Fortaleza Clube,Atletico Fortaleza Clube,0,50,50,0.929,0.891,19.2,20,1,-0.033,0,0
+DECISOES-LIGA-BASQUETE-010,conservative,Atletico Fortaleza Clube,Atletico Fortaleza Clube,0,50,50,0.929,0.779,19.2,21.7,1.2,-0.035,0,0
+DECISOES-LIGA-BASQUETE-010,crisis_control,Atletico Fortaleza Clube,Estrela Manaus Dragons,1,50,50,0.929,0.818,19.2,21.7,0.5,-0.016,0,0
+DECISOES-LIGA-BASQUETE-010,lore_fit,Atletico Fortaleza Clube,Atletico Fortaleza Clube,0,50,50,0.929,0.756,19.2,21.7,1.1,-0.028,0,0
+DECISOES-LIGA-BASQUETE-011,balanced,Olimpico Porto Alegre Vikings,Olimpico Porto Alegre Vikings,0,50,50,0.612,0.574,19.2,19.2,1.4,-0.055,0,0
+DECISOES-LIGA-BASQUETE-011,aggressive,Olimpico Porto Alegre Vikings,Olimpico Porto Alegre Vikings,0,50,50,0.612,0.588,19.2,23.3,1,0.023,0,0
+DECISOES-LIGA-BASQUETE-011,development,Olimpico Porto Alegre Vikings,Olimpico Porto Alegre Vikings,0,50,50,0.612,0.574,19.2,21.7,1.2,-0.025,0,0
+DECISOES-LIGA-BASQUETE-011,conservative,Olimpico Porto Alegre Vikings,Olimpico Porto Alegre Vikings,0,50,50,0.612,0.541,19.2,22.5,1.5,-0.066,0,0
+DECISOES-LIGA-BASQUETE-011,crisis_control,Olimpico Porto Alegre Vikings,Olimpico Porto Alegre Vikings,0,50,50,0.612,0.585,19.2,20.8,0.5,-0.019,0,0
+DECISOES-LIGA-BASQUETE-011,lore_fit,Olimpico Porto Alegre Vikings,Olimpico Porto Alegre Vikings,0,50,50,0.612,0.553,19.2,21.7,1.4,-0.053,0,0
+DECISOES-LIGA-BASQUETE-012,balanced,Vanguarda Sao Paulo Warriors,Vanguarda Sao Paulo Warriors,0,75,75,0.794,0.803,19.2,13.3,1.2,-0.047,0,0
+DECISOES-LIGA-BASQUETE-012,aggressive,Vanguarda Sao Paulo Warriors,Vanguarda Sao Paulo Warriors,0,75,75,0.794,0.797,19.2,18.3,0.8,0.028,0,0
+DECISOES-LIGA-BASQUETE-012,development,Vanguarda Sao Paulo Warriors,Vanguarda Sao Paulo Warriors,0,75,50,0.794,0.635,19.2,18.3,1.1,-0.041,0,0
+DECISOES-LIGA-BASQUETE-012,conservative,Vanguarda Sao Paulo Warriors,Vanguarda Sao Paulo Warriors,0,75,50,0.794,0.724,19.2,17.5,1.2,-0.031,0,0
+DECISOES-LIGA-BASQUETE-012,crisis_control,Vanguarda Sao Paulo Warriors,Vanguarda Sao Paulo Warriors,0,75,50,0.794,0.671,19.2,17.5,0.6,-0.042,0,0
+DECISOES-LIGA-BASQUETE-012,lore_fit,Vanguarda Sao Paulo Warriors,Vanguarda Sao Paulo Warriors,0,75,50,0.794,0.712,19.2,17.5,1,-0.031,0,0
+DECISOES-LIGA-BASQUETE-013,balanced,Uniao Vitoria Vikings,Uniao Vitoria Vikings,0,50,50,0.426,0.532,21.7,24.2,1.4,-0.075,0,0
+DECISOES-LIGA-BASQUETE-013,aggressive,Uniao Vitoria Vikings,Uniao Vitoria Vikings,0,50,50,0.426,0.409,21.7,21.7,0.9,0.016,0,0
+DECISOES-LIGA-BASQUETE-013,development,Uniao Vitoria Vikings,Uniao Vitoria Vikings,0,50,50,0.426,0.476,21.7,23.3,1.2,-0.058,0,0
+DECISOES-LIGA-BASQUETE-013,conservative,Uniao Vitoria Vikings,Uniao Vitoria Vikings,0,50,50,0.426,0.465,21.7,22.5,1.1,-0.046,0,0
+DECISOES-LIGA-BASQUETE-013,crisis_control,Uniao Vitoria Vikings,Uniao Vitoria Vikings,0,50,50,0.426,0.5,21.7,23.3,0.5,-0.021,0,0
+DECISOES-LIGA-BASQUETE-013,lore_fit,Uniao Vitoria Vikings,Uniao Vitoria Vikings,0,50,50,0.426,0.494,21.7,23.3,1.4,-0.081,0,0
+DECISOES-LIGA-BASQUETE-014,balanced,Metropolitano Manaus Panteras,Metropolitano Manaus Panteras,0,75,75,0.847,0.856,15,14.2,1.3,-0.055,0,0
+DECISOES-LIGA-BASQUETE-014,aggressive,Metropolitano Manaus Panteras,Metropolitano Manaus Panteras,0,75,75,0.847,0.856,15,15.8,0.8,0.027,0,0
+DECISOES-LIGA-BASQUETE-014,development,Metropolitano Manaus Panteras,Metropolitano Manaus Panteras,0,75,75,0.847,0.779,15,15.8,1.2,-0.034,0,0
+DECISOES-LIGA-BASQUETE-014,conservative,Metropolitano Manaus Panteras,Metropolitano Manaus Panteras,0,75,75,0.847,0.865,15,15,1.2,-0.042,0,0
+DECISOES-LIGA-BASQUETE-014,crisis_control,Metropolitano Manaus Panteras,Metropolitano Manaus Panteras,0,75,75,0.847,0.844,15,13.3,0.6,-0.04,0,0
+DECISOES-LIGA-BASQUETE-014,lore_fit,Metropolitano Manaus Panteras,Metropolitano Belo Horizonte Dragons,1,75,75,0.847,0.838,15,15,1.2,-0.053,0,0
+DECISOES-LIGA-BASQUETE-015,balanced,Olimpico Fortaleza Estrelas,Olimpico Fortaleza Estrelas,0,50,50,0.753,0.818,19.2,21.7,1.7,-0.091,0,0
+DECISOES-LIGA-BASQUETE-015,aggressive,Olimpico Fortaleza Estrelas,Olimpico Fortaleza Estrelas,0,50,50,0.753,0.726,19.2,17.5,1.3,-0.035,0,0
+DECISOES-LIGA-BASQUETE-015,development,Olimpico Fortaleza Estrelas,Olimpico Fortaleza Estrelas,0,50,50,0.753,0.75,19.2,16.7,1.1,-0.025,0,0
+DECISOES-LIGA-BASQUETE-015,conservative,Olimpico Fortaleza Estrelas,Olimpico Fortaleza Estrelas,0,50,50,0.753,0.747,19.2,21.7,1.4,-0.071,0,0
+DECISOES-LIGA-BASQUETE-015,crisis_control,Olimpico Fortaleza Estrelas,Olimpico Fortaleza Estrelas,0,50,50,0.753,0.656,19.2,15,0.6,-0.035,0,0
+DECISOES-LIGA-BASQUETE-015,lore_fit,Olimpico Fortaleza Estrelas,Olimpico Fortaleza Estrelas,0,50,50,0.753,0.753,19.2,20.8,1.3,-0.052,0,0
+DECISOES-LIGA-BASQUETE-016,balanced,Metropolitano Vitoria Warriors,Dynamo Goiania Basquete,1,50,50,0.871,0.868,17.5,16.7,1.6,-0.084,0,0
+DECISOES-LIGA-BASQUETE-016,aggressive,Metropolitano Vitoria Warriors,Metropolitano Vitoria Warriors,0,50,75,0.871,0.856,17.5,18.3,1.2,-0.009,0,0
+DECISOES-LIGA-BASQUETE-016,development,Metropolitano Vitoria Warriors,Metropolitano Vitoria Warriors,0,50,50,0.871,0.853,17.5,15.8,1,-0.012,0,0
+DECISOES-LIGA-BASQUETE-016,conservative,Metropolitano Vitoria Warriors,Metropolitano Vitoria Warriors,0,50,50,0.871,0.876,17.5,16.7,1.2,-0.023,0,0
+DECISOES-LIGA-BASQUETE-016,crisis_control,Metropolitano Vitoria Warriors,Metropolitano Vitoria Warriors,0,50,25,0.871,0.865,17.5,17.5,0.6,-0.036,0,0
+DECISOES-LIGA-BASQUETE-016,lore_fit,Metropolitano Vitoria Warriors,Metropolitano Vitoria Warriors,0,50,50,0.871,0.882,17.5,16.7,1.1,-0.012,0,0
+DECISOES-LIGA-BASQUETE-017,balanced,Litoral Salvador Dragons,Real Manaus Basquete,1,50,50,0.576,0.474,16.7,16.7,1.3,-0.073,0,0
+DECISOES-LIGA-BASQUETE-017,aggressive,Litoral Salvador Dragons,Central Salvador Tropa,1,50,50,0.576,0.491,16.7,20,1,0.002,0,0
+DECISOES-LIGA-BASQUETE-017,development,Litoral Salvador Dragons,Central Salvador Tropa,1,50,50,0.576,0.735,16.7,16.7,1.4,-0.07,0,0
+DECISOES-LIGA-BASQUETE-017,conservative,Litoral Salvador Dragons,Litoral Salvador Dragons,0,50,50,0.576,0.562,16.7,14.2,1.2,-0.04,0,0
+DECISOES-LIGA-BASQUETE-017,crisis_control,Litoral Salvador Dragons,Litoral Salvador Dragons,0,50,50,0.576,0.406,16.7,17.5,0.6,-0.04,0,0
+DECISOES-LIGA-BASQUETE-017,lore_fit,Litoral Salvador Dragons,Uniao Vitoria Lobos,1,50,50,0.576,0.532,16.7,15,1.3,-0.064,0,0
+DECISOES-LIGA-BASQUETE-018,balanced,Litoral Porto Alegre Estrelas,Litoral Campinas Vikings,1,75,50,0.776,0.644,14.2,15,1.4,-0.065,0,0
+DECISOES-LIGA-BASQUETE-018,aggressive,Litoral Porto Alegre Estrelas,Metropolitano Belo Horizonte Estrelas,1,75,50,0.776,0.647,14.2,21.7,1.2,-0.003,0,0
+DECISOES-LIGA-BASQUETE-018,development,Litoral Porto Alegre Estrelas,Litoral Campinas Vikings,1,75,50,0.776,0.615,14.2,18.3,1.3,-0.042,0,0
+DECISOES-LIGA-BASQUETE-018,conservative,Litoral Porto Alegre Estrelas,Litoral Porto Alegre Estrelas,0,75,75,0.776,0.762,14.2,18.3,1.3,-0.034,0,0
+DECISOES-LIGA-BASQUETE-018,crisis_control,Litoral Porto Alegre Estrelas,Litoral Campinas Vikings,1,75,25,0.776,0.553,14.2,16.7,0.5,-0.014,0,0
+DECISOES-LIGA-BASQUETE-018,lore_fit,Litoral Porto Alegre Estrelas,Metropolitano Belo Horizonte Estrelas,1,75,50,0.776,0.676,14.2,16.7,1.1,-0.036,0,0
+DECISOES-LIGA-BASQUETE-019,balanced,Real Goiania Furia,Real Goiania Furia,0,50,75,0.697,0.735,16.7,18.3,1.4,-0.068,0,0
+DECISOES-LIGA-BASQUETE-019,aggressive,Real Goiania Furia,Real Goiania Furia,0,50,50,0.697,0.721,16.7,18.3,0.8,0.017,0,0
+DECISOES-LIGA-BASQUETE-019,development,Real Goiania Furia,Real Goiania Furia,0,50,50,0.697,0.732,16.7,16.7,1.3,-0.059,0,0
+DECISOES-LIGA-BASQUETE-019,conservative,Real Goiania Furia,Real Goiania Furia,0,50,75,0.697,0.738,16.7,15,1.1,-0.05,0,0
+DECISOES-LIGA-BASQUETE-019,crisis_control,Real Goiania Furia,Real Goiania Furia,0,50,50,0.697,0.694,16.7,15,0.3,-0.006,0,0
+DECISOES-LIGA-BASQUETE-019,lore_fit,Real Goiania Furia,Real Goiania Furia,0,50,50,0.697,0.747,16.7,15.8,1.1,-0.052,0,0
+DECISOES-LIGA-BASQUETE-020,balanced,Olimpico Salvador Vikings,Olimpico Salvador Vikings,0,100,100,0.909,0.909,13.3,12.5,1.6,-0.076,0,0
+DECISOES-LIGA-BASQUETE-020,aggressive,Olimpico Salvador Vikings,Olimpico Salvador Vikings,0,100,100,0.909,0.918,13.3,15,1,0.014,0,0
+DECISOES-LIGA-BASQUETE-020,development,Olimpico Salvador Vikings,Olimpico Salvador Vikings,0,100,100,0.909,0.885,13.3,12.5,1.1,-0.014,0,0
+DECISOES-LIGA-BASQUETE-020,conservative,Olimpico Salvador Vikings,Olimpico Salvador Vikings,0,100,100,0.909,0.918,13.3,12.5,1.1,-0.016,0,0
+DECISOES-LIGA-BASQUETE-020,crisis_control,Olimpico Salvador Vikings,Olimpico Salvador Vikings,0,100,100,0.909,0.903,13.3,17.5,0.8,-0.046,0,0
+DECISOES-LIGA-BASQUETE-020,lore_fit,Olimpico Salvador Vikings,Olimpico Salvador Vikings,0,100,100,0.909,0.862,13.3,13.3,1,-0.023,0,0
+DECISOES-LIGA-BASQUETE-021,balanced,Capital Fortaleza Estrelas,Capital Fortaleza Estrelas,0,75,50,0.662,0.632,18.3,17.5,1.4,-0.055,0,0
+DECISOES-LIGA-BASQUETE-021,aggressive,Capital Fortaleza Estrelas,Capital Fortaleza Estrelas,0,75,75,0.662,0.744,18.3,21.7,1.1,0.005,0,0
+DECISOES-LIGA-BASQUETE-021,development,Capital Fortaleza Estrelas,Capital Fortaleza Estrelas,0,75,50,0.662,0.668,18.3,20.8,1.2,-0.037,0,0
+DECISOES-LIGA-BASQUETE-021,conservative,Capital Fortaleza Estrelas,Capital Fortaleza Estrelas,0,75,50,0.662,0.685,18.3,21.7,1.2,-0.028,0,0
+DECISOES-LIGA-BASQUETE-021,crisis_control,Capital Fortaleza Estrelas,Capital Fortaleza Estrelas,0,75,50,0.662,0.744,18.3,19.2,0.5,-0.045,0,0
+DECISOES-LIGA-BASQUETE-021,lore_fit,Capital Fortaleza Estrelas,Capital Fortaleza Estrelas,0,75,50,0.662,0.65,18.3,22.5,1.2,-0.033,0,0
+DECISOES-LIGA-BASQUETE-022,balanced,Uniao Recife Tropa,Uniao Recife Tropa,0,75,75,0.847,0.826,16.7,16.7,1.6,-0.082,0,0
+DECISOES-LIGA-BASQUETE-022,aggressive,Uniao Recife Tropa,Uniao Recife Tropa,0,75,75,0.847,0.882,16.7,20,0.9,0.004,0,0
+DECISOES-LIGA-BASQUETE-022,development,Uniao Recife Tropa,Uniao Recife Tropa,0,75,75,0.847,0.826,16.7,15,1.2,-0.027,0,0
+DECISOES-LIGA-BASQUETE-022,conservative,Uniao Recife Tropa,Uniao Recife Tropa,0,75,75,0.847,0.812,16.7,20,1.5,-0.078,0,0
+DECISOES-LIGA-BASQUETE-022,crisis_control,Uniao Recife Tropa,Uniao Recife Tropa,0,75,75,0.847,0.832,16.7,20,0.6,-0.032,0,0
+DECISOES-LIGA-BASQUETE-022,lore_fit,Uniao Recife Tropa,Uniao Recife Tropa,0,75,75,0.847,0.856,16.7,14.2,1.5,-0.078,0,0
+DECISOES-LIGA-BASQUETE-023,balanced,Olimpico Salvador Tropa,Olimpico Salvador Tropa,0,75,75,0.75,0.724,15.8,15.8,1.4,-0.067,0,0
+DECISOES-LIGA-BASQUETE-023,aggressive,Olimpico Salvador Tropa,Olimpico Salvador Tropa,0,75,75,0.75,0.809,15.8,15,0.9,-0.01,0,0
+DECISOES-LIGA-BASQUETE-023,development,Olimpico Salvador Tropa,Olimpico Salvador Tropa,0,75,75,0.75,0.756,15.8,16.7,1,-0.029,0,0
+DECISOES-LIGA-BASQUETE-023,conservative,Olimpico Salvador Tropa,Olimpico Salvador Tropa,0,75,75,0.75,0.85,15.8,14.2,1.3,-0.046,0,0
+DECISOES-LIGA-BASQUETE-023,crisis_control,Olimpico Salvador Tropa,Olimpico Salvador Tropa,0,75,75,0.75,0.724,15.8,13.3,0.6,-0.044,0,0
+DECISOES-LIGA-BASQUETE-023,lore_fit,Olimpico Salvador Tropa,Olimpico Salvador Tropa,0,75,75,0.75,0.835,15.8,15,1.1,-0.037,0,0
+DECISOES-LIGA-BASQUETE-024,balanced,Central Belo Horizonte Panteras,Central Belo Horizonte Panteras,0,50,50,0.556,0.541,21.7,21.7,1.2,-0.047,0,0
+DECISOES-LIGA-BASQUETE-024,aggressive,Central Belo Horizonte Panteras,Central Belo Horizonte Panteras,0,50,50,0.556,0.624,21.7,20,1,-0.008,0,0
+DECISOES-LIGA-BASQUETE-024,development,Central Belo Horizonte Panteras,Central Belo Horizonte Panteras,0,50,50,0.556,0.641,21.7,23.3,1.2,-0.053,0,0
+DECISOES-LIGA-BASQUETE-024,conservative,Central Belo Horizonte Panteras,Central Belo Horizonte Panteras,0,50,50,0.556,0.491,21.7,20.8,1.2,-0.025,0,0
+DECISOES-LIGA-BASQUETE-024,crisis_control,Central Belo Horizonte Panteras,Central Belo Horizonte Panteras,0,50,50,0.556,0.576,21.7,21.7,0.7,-0.042,0,0
+DECISOES-LIGA-BASQUETE-024,lore_fit,Central Belo Horizonte Panteras,Central Belo Horizonte Panteras,0,50,50,0.556,0.55,21.7,23.3,1,-0.026,0,0
+DECISOES-LIGA-BASQUETE-025,balanced,Metropolitano Salvador Lobos,Metropolitano Salvador Lobos,0,50,50,0.412,0.356,25,25.8,1.4,-0.049,0,0
+DECISOES-LIGA-BASQUETE-025,aggressive,Metropolitano Salvador Lobos,Metropolitano Salvador Lobos,0,50,50,0.412,0.356,25,25.8,0.9,0.014,0,0
+DECISOES-LIGA-BASQUETE-025,development,Metropolitano Salvador Lobos,Metropolitano Salvador Lobos,0,50,50,0.412,0.532,25,22.5,1.3,-0.059,0,0
+DECISOES-LIGA-BASQUETE-025,conservative,Metropolitano Salvador Lobos,Metropolitano Salvador Lobos,0,50,50,0.412,0.394,25,25.8,1.2,-0.035,0,0
+DECISOES-LIGA-BASQUETE-025,crisis_control,Metropolitano Salvador Lobos,Metropolitano Salvador Lobos,0,50,50,0.412,0.374,25,25.8,0.4,-0.024,0,0
+DECISOES-LIGA-BASQUETE-025,lore_fit,Metropolitano Salvador Lobos,Metropolitano Salvador Lobos,0,50,50,0.412,0.441,25,25,1,-0.029,0,0

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0f16">
+  <title>A Temporada - Basquete</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="arcade-app-body" data-sport-id="basquete">
+  <!-- Topbar de Navegação Limpa -->
+  <header class="arcade-topbar">
+    <div class="arcade-topbar-inner">
+      <a href="../Clique%20aqui%20para%20jogar.html" class="arcade-back-link" title="Voltar ao Seletor de Modalidades">
+        <span class="arcade-back-arrow">◀</span>
+        <span class="arcade-back-text">Modalidades</span>
+      </a>
+      <div class="arcade-brand-center">
+        <span class="arcade-sport-tag">🏀 BASQUETE</span>
+        <span class="arcade-brand-title">A TEMPORADA</span>
+      </div>
+      <div class="arcade-topbar-right">
+        <!-- Espaço para indicadores -->
+      </div>
+    </div>
+  </header>
+
+  <!-- Ponto Único de Montagem da Engine do Jogo -->
+  <main data-procedural-game-root class="arcade-main-container"></main>
+
+  <!-- Scripts Essenciais da Engine Procedural & Arcade -->
+  <script src="../shared/seeded-rng.js"></script>
+  <script src="../shared/procedural-datasets.js"></script>
+  <script src="../shared/procedural-lore-datasets.js"></script>
+  <script src="../shared/procedural-decision-bank-data.js"></script>
+  <script src="../shared/procedural-decision-bank.js"></script>
+  <script src="../shared/procedural-scouting.js"></script>
+  <script src="../shared/procedural-player-generator.js"></script>
+  <script src="generation-config.js"></script>
+  <script src="../shared/procedural-roster-generator.js"></script>
+  <script src="../shared/procedural-club-calibration.js"></script>
+  <script src="../shared/procedural-club-generator.js"></script>
+  <script src="../shared/procedural-league-generator.js"></script>
+  <script src="../shared/procedural-season-simulator.js"></script>
+  <script src="../shared/procedural-rotation-engine.js"></script>
+  <script src="../shared/procedural-market-generator.js"></script>
+  <script src="../shared/match-events.js"></script>
+  <script src="../shared/live-coaching.js"></script>
+  <script src="../shared/live-simulation.js"></script>
+  <script src="../shared/live-match-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js" onerror="this.onerror=null;this.src='https://unpkg.com/phaser@3.90.0/dist/phaser.min.js';"></script>
+  <script src="../shared/phaser-enhancements.js"></script>
+  <script src="match-adapter.js"></script>
+  <script src="../shared/game-state.js"></script>
+  <script src="../shared/procedural-career-save.js"></script>
+  <script src="../shared/decision-network-engine.js"></script>
+  <script src="../shared/calendar-engine.js"></script>
+  <script src="../shared/player-card-ui.js"></script>
+  <script src="../shared/roster-ui.js"></script>
+  <script src="../shared/team-hub-ui.js"></script>
+  <script src="../shared/calendar-ui.js"></script>
+  <script src="../shared/minigames-engine.js"></script>
+  <script src="../shared/game-shell-ui.js"></script>
+</body>
+</html>

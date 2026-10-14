@@ -1,0 +1,225 @@
+{
+  "version": "calibragem_seeds_v2",
+  "core_principle": "Separar força esportiva, força financeira, estilo de elenco e lore. Lore não deve depender de strength_tier genérico.",
+  "target_ranges": {
+    "strength_tier": {
+      "low": {
+        "overall_rating": [
+          68,
+          74
+        ],
+        "current_rating": [
+          66,
+          72
+        ],
+        "notes": "usado para sobrevivência, crise e formação inicial"
+      },
+      "normal": {
+        "overall_rating": [
+          72,
+          78
+        ],
+        "current_rating": [
+          70,
+          76
+        ],
+        "notes": "meio de tabela/playoffs baixos"
+      },
+      "good": {
+        "overall_rating": [
+          76,
+          82
+        ],
+        "current_rating": [
+          74,
+          80
+        ],
+        "notes": "playoffs fortes, candidatos ou clubes estruturados"
+      },
+      "elite": {
+        "overall_rating": [
+          81,
+          86
+        ],
+        "current_rating": [
+          79,
+          84
+        ],
+        "notes": "campeão/favorito; usar pouco para preservar curva"
+      }
+    },
+    "roster_style": {
+      "veteran_win_now": {
+        "avg_age": [
+          28.5,
+          32.5
+        ],
+        "starters_avg_current": [
+          80,
+          86
+        ],
+        "avg_development_gap": [
+          2,
+          6
+        ],
+        "salary_pressure_pct": [
+          90,
+          135
+        ]
+      },
+      "prospect_core": {
+        "avg_age": [
+          21.5,
+          25.5
+        ],
+        "starters_avg_current": [
+          74,
+          81
+        ],
+        "prospects_avg_potential": [
+          84,
+          92
+        ],
+        "avg_development_gap": [
+          8,
+          14
+        ]
+      },
+      "low_budget_fight": {
+        "overall_rating": [
+          68,
+          74
+        ],
+        "salary_pressure_pct": [
+          55,
+          95
+        ],
+        "budget_left": [
+          0,
+          35
+        ]
+      },
+      "unbalanced": {
+        "starter_rotation_gap_min": 9,
+        "notes": "titulares bons, banco fraco, folha pode ser ineficiente"
+      },
+      "experimental": {
+        "avg_age": [
+          22,
+          27
+        ],
+        "variance": "alta",
+        "notes": "não deve cair automaticamente em veteran_win_now"
+      },
+      "medical_risk": {
+        "avg_age": [
+          27,
+          32
+        ],
+        "injury_risk": "alto",
+        "rotation_depth": "importante"
+      }
+    }
+  },
+  "lore_overrides": {
+    "Lenda no Banco": {
+      "roster_style": "veteran_win_now",
+      "avg_age": [
+        28.5,
+        32.5
+      ],
+      "special": "treinador ídolo, proteção inicial da torcida, pressão após sequência ruim"
+    },
+    "Estátua Viva": {
+      "roster_style": "veteran_win_now",
+      "avg_age": [
+        29,
+        34
+      ],
+      "special": "ídolo ainda joga; conflito entre minutos simbólicos e desempenho"
+    },
+    "Base de Ouro": {
+      "roster_style": "prospect_core",
+      "avg_age": [
+        21.5,
+        25
+      ],
+      "avg_development_gap": [
+        9,
+        14
+      ]
+    },
+    "O Laboratório": {
+      "roster_style": "experimental",
+      "avg_age": [
+        22,
+        27
+      ],
+      "variance": "alta"
+    },
+    "Elenco Remendado": {
+      "roster_style": "medical_risk",
+      "avg_age": [
+        27,
+        32
+      ],
+      "injury_risk": "alto"
+    },
+    "Diretoria Impaciente": {
+      "salary_pressure_pct": [
+        90,
+        130
+      ],
+      "pressure": "alta/muito alta"
+    },
+    "Máquina de Marketing": {
+      "budget": [
+        85,
+        150
+      ],
+      "media_exposure": "alta",
+      "salary_pressure_pct": [
+        85,
+        125
+      ]
+    },
+    "Gigante Adormecido": {
+      "reputation": "alta",
+      "pressure": "muito alta",
+      "budget": [
+        75,
+        140
+      ]
+    }
+  },
+  "reroll_rules": [
+    {
+      "if": "strength_tier == low && overall_rating > 74 && !cinderella_seed",
+      "then": "reroll roster current downward"
+    },
+    {
+      "if": "roster_style == veteran_win_now && avg_age < 28",
+      "then": "ageUpCore() + reducePotentialGap()"
+    },
+    {
+      "if": "roster_style == prospect_core && avg_age > 25.5",
+      "then": "replaceVeteransWithProspects()"
+    },
+    {
+      "if": "ambition == sobrevivencia && overall_rating > 74",
+      "then": "downgrade overall or set cinderella_seed flag"
+    },
+    {
+      "if": "lore_label in [Lenda no Banco, Estatua Viva, Reino dos Veteranos] && avg_age < 28.5",
+      "then": "forceVeteranLoreProfile()"
+    },
+    {
+      "if": "salary_pressure_pct > 135 && lore not in financial_crisis/high_risk",
+      "then": "reducePayroll or convert to crisis lore"
+    },
+    {
+      "if": "budget_left < 0",
+      "then": "add financial warning and reduce market aggressiveness"
+    }
+  ]
+}

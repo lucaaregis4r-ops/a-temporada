@@ -1,0 +1,51 @@
+seed,champion,champion_projected_rank,top4_retention_pct,upset_rate,rank_correlation,simulation_warnings,league_warnings,avg_overall,top_bottom_gap,overall_range,salary_pressure_p90,user_rank_projected,user_rank_simulated
+SIM-LIGA-BASQUETE-001,Uniao Belo Horizonte Lobos,1,100,14.2,0.906,,,75.3,8.8,10.2,109.4,11,8
+SIM-LIGA-BASQUETE-002,Central Salvador Lobos,2,50,20,0.806,,,75.8,9,10.5,107.1,8,11
+SIM-LIGA-BASQUETE-003,Estrela Manaus Basquete,2,100,15.8,0.9,,,75.3,7.7,9.5,107.9,1,4
+SIM-LIGA-BASQUETE-004,Dynamo Rio de Janeiro Clube,1,75,11.7,0.915,,,75.1,8.6,10.5,115.2,6,2
+SIM-LIGA-BASQUETE-005,Vanguarda Vitoria Furia,2,50,20.8,0.738,,,76.1,7.8,10,107.3,3,10
+SIM-LIGA-BASQUETE-006,Central Porto Alegre Basquete,3,50,20,0.594,,,75.9,8.4,11.6,107.3,5,5
+SIM-LIGA-BASQUETE-007,Estrela Salvador Basquete,1,100,11.7,0.735,,,75.7,8.1,10.8,107.2,1,1
+SIM-LIGA-BASQUETE-008,Capital Fortaleza Dragons,4,75,12.5,0.868,,,75.4,9.5,10.4,114.6,5,5
+SIM-LIGA-BASQUETE-009,Uniao Recife Vikings,6,75,12.5,0.75,,,76,6.3,9.7,105.7,7,10
+SIM-LIGA-BASQUETE-010,Imperial Goiania Furia,7,75,16.7,0.75,,,76,8.3,10.2,107,1,4
+SIM-LIGA-BASQUETE-011,Capital Vitoria Panteras,11,25,20,0.535,long_shot_champion | projected_favorites_underperforming,,75,7.8,10.3,112.9,16,16
+SIM-LIGA-BASQUETE-012,Metropolitano Recife Estrelas,3,75,14.2,0.856,,,76.1,7.4,9.8,109.3,4,6
+SIM-LIGA-BASQUETE-013,Atletico Sao Paulo Tropa,1,75,21.7,0.768,,,76.2,8.2,10.5,112.3,4,2
+SIM-LIGA-BASQUETE-014,Uniao Rio de Janeiro Vikings,3,50,17.5,0.656,,,75.9,6.6,10.2,99.3,14,12
+SIM-LIGA-BASQUETE-015,Estrela Porto Alegre Vikings,1,75,15,0.821,,,75.3,9.3,10.3,107.1,16,11
+SIM-LIGA-BASQUETE-016,Capital Fortaleza Warriors,1,50,18.3,0.682,,,75.2,9.8,10.8,107,2,7
+SIM-LIGA-BASQUETE-017,Capital Porto Alegre Basquete,1,50,13.3,0.732,,,74.9,8.3,10.6,107.1,4,2
+SIM-LIGA-BASQUETE-018,Estrela Goiania Clube,1,75,20,0.735,,,75.8,9.4,11,106.8,10,9
+SIM-LIGA-BASQUETE-019,Metropolitano Goiania Clube,3,75,22.5,0.544,,,76.6,7.8,9.9,107.1,3,1
+SIM-LIGA-BASQUETE-020,Olimpico Vitoria Vikings,2,75,17.5,0.821,,,76.1,8.8,10.2,107.7,16,14
+SIM-LIGA-BASQUETE-021,Dynamo Campinas Basquete,2,50,20.8,0.788,,,76.9,7.3,9.7,106.2,11,15
+SIM-LIGA-BASQUETE-022,Capital Curitiba Vikings,2,50,14.2,0.685,,,75.8,9.2,10.6,107.2,7,6
+SIM-LIGA-BASQUETE-023,Dynamo Campinas Estrelas,3,50,18.3,0.347,,,76.3,8.7,10.4,107,9,14
+SIM-LIGA-BASQUETE-024,Uniao Belo Horizonte Dragons,4,75,20,0.756,,,76.3,6.9,9.4,107.9,14,14
+SIM-LIGA-BASQUETE-025,Central Curitiba Lobos,1,50,13.3,0.859,,,75.8,7.6,10.1,107.4,6,6
+SIM-LIGA-BASQUETE-026,Real Porto Alegre Dragons,9,50,18.3,0.641,long_shot_champion,,74.7,7.6,10.8,107.1,2,7
+SIM-LIGA-BASQUETE-027,Dynamo Manaus Basquete,5,75,14.2,0.779,,,75.8,8.6,11.3,107,12,6
+SIM-LIGA-BASQUETE-028,Atletico Vitoria Estrelas,5,50,15,0.724,,,75.5,7,10,107,1,2
+SIM-LIGA-BASQUETE-029,Metropolitano Vitoria Clube,3,75,15.8,0.859,,,75,8.7,10.3,106.6,9,10
+SIM-LIGA-BASQUETE-030,Vanguarda Rio de Janeiro Tropa,2,75,17.5,0.8,,,75.6,9.6,10.8,114,6,3
+SIM-LIGA-BASQUETE-031,Atletico Porto Alegre Warriors,1,75,16.7,0.859,,,75.5,9.3,10.2,107,11,6
+SIM-LIGA-BASQUETE-032,Capital Curitiba Estrelas,2,75,20.8,0.676,,,76.7,7.3,10.3,106.5,10,8
+SIM-LIGA-BASQUETE-033,Central Curitiba Panteras,1,75,15.8,0.806,,,74.9,8.2,10,107.2,2,2
+SIM-LIGA-BASQUETE-034,Estrela Rio de Janeiro Dragons,1,75,20,0.479,,,75.7,6.8,9,107.2,3,7
+SIM-LIGA-BASQUETE-035,Olimpico Goiania Lobos,3,50,18.3,0.779,,,76,8.6,11.6,106.8,5,11
+SIM-LIGA-BASQUETE-036,Litoral Belo Horizonte Clube,5,25,15,0.768,projected_favorites_underperforming,,75.3,8.1,10.1,106.8,14,16
+SIM-LIGA-BASQUETE-037,Capital Curitiba Lobos,1,50,17.5,0.744,,,76,7.3,9.8,122,12,7
+SIM-LIGA-BASQUETE-038,Olimpico Fortaleza Furia,5,75,20,0.676,,,75.6,8,10.7,111.8,4,9
+SIM-LIGA-BASQUETE-039,Litoral Curitiba Tropa,3,75,19.2,0.635,,,75.2,8.9,10.3,107.5,15,7
+SIM-LIGA-BASQUETE-040,Uniao Porto Alegre Warriors,1,50,16.7,0.629,,,75.5,7.5,10,113.1,6,5
+SIM-LIGA-BASQUETE-041,Uniao Campinas Panteras,2,100,14.2,0.862,,,76.1,8.2,9.7,110.2,16,16
+SIM-LIGA-BASQUETE-042,Vanguarda Rio de Janeiro Clube,3,50,17.5,0.697,,,76,7.9,11.1,107.8,10,6
+SIM-LIGA-BASQUETE-043,Vanguarda Salvador Basquete,2,75,19.2,0.826,,,76.1,8.7,10.8,107.1,14,14
+SIM-LIGA-BASQUETE-044,Real Rio de Janeiro Clube,1,75,15.8,0.768,,,75.1,7.8,10.2,107.1,3,2
+SIM-LIGA-BASQUETE-045,Central Belo Horizonte Lobos,1,75,12.5,0.826,,,76.1,7.8,10.4,109.2,12,5
+SIM-LIGA-BASQUETE-046,Dynamo Salvador Basquete,2,75,21.7,0.759,,,76.7,7.8,10,107.3,14,11
+SIM-LIGA-BASQUETE-047,Central Campinas Dragons,3,50,16.7,0.794,,,75.3,7.4,9.9,108.1,3,1
+SIM-LIGA-BASQUETE-048,Imperial Sao Paulo Tropa,1,75,14.2,0.915,,,75.8,9.9,10.9,107.3,3,3
+SIM-LIGA-BASQUETE-049,Estrela Campinas Basquete,2,100,20.8,0.882,,,75.6,9.7,10.8,107.4,2,1
+SIM-LIGA-BASQUETE-050,Metropolitano Rio de Janeiro Lobos,3,75,17.5,0.741,,,75.9,7.5,10.2,107.2,10,5
