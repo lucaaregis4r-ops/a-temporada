@@ -8,9 +8,13 @@ Escolha seu esporte, comande um clube gerado com identidade e história únicas,
 
 ## ⚡ Como Jogar Imediatamente
 
-Basta abrir o arquivo principal em qualquer navegador moderno:
+### 🌐 Jogar Online (GitHub Pages)
+Você pode jogar diretamente no seu navegador, sem baixar nada:  
+👉 **[https://lucaaregis4r-ops.github.io/a-temporada/](https://lucaaregis4r-ops.github.io/a-temporada/)**
 
-👉 **[`Clique aqui para jogar.html`](Clique%20aqui%20para%20jogar.html)**
+### 💻 Jogar Offline / Localmente
+Basta abrir o arquivo principal em qualquer navegador moderno:  
+👉 **[`Clique aqui para jogar.html`](Clique%20aqui%20para%20jogar.html)** ou **[`index.html`](index.html)**
 
 *(Não requer nenhuma instalação, servidor Node.js ou dependências externas).*
 

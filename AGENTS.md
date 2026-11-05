@@ -46,12 +46,14 @@
 │
 ├── temporada-basquete/                # Modalidade: Basquete Masculino
 │   ├── procedural.html                # Entrada da carreira procedural de basquete
+│   ├── index.html                     # Redirecionador automático para procedural.html
 │   ├── styles.css                     # FOLHA DE ESTILOS UNIVERSAL DO JOGO
 │   ├── match-adapter.js               # Adaptador de partida de basquete
 │   └── generation-config.js           # Pesos e calibragem de atributos do basquete
 │
 ├── Temporada Futsal/                  # Modalidade: Futsal
 │   ├── procedural.html                # Entrada da carreira procedural de futsal
+│   ├── index.html                     # Redirecionador automático para procedural.html
 │   ├── match-adapter.js               # Adaptador de partida de futsal
 │   └── generation-config.js           # Pesos e calibragem de atributos do futsal
 │
@@ -65,7 +67,11 @@
 │   ├── index.html                     # Entrada da carreira procedural de vôlei feminino
 │   └── generation-config.js           # Override de nomes e calibragem feminina
 │
-├── temporada-natacao/                 # Modalidade: Natação (Módulo experimental com meetings e provas)
+├── temporada-natacao/                 # Modalidade: Natação (Módulo com meetings, piscina ao vivo e provas)
+│   ├── index.html                     # Entrada da carreira de natação
+│   ├── script.js                      # Motor de carreira, draft procedural e táticas
+│   ├── swim-arena-live.js             # Simulação visual de piscina olímpica em Canvas 2D
+│   └── styles.css                     # Estilos dedicados ao circuito de natação
 ├── temporada-total-saves/             # Pasta padrão de saves em disco (JSONs gerados pelo usuário)
 ├── Lores e decisões/                  # Banco bruto de 100 lores de clubes e 2000 eventos narrativos
 ├── tools/                             # Scripts Node.js para geração de datasets e calibragem
@@ -116,6 +122,7 @@ Oferece jogabilidade interativa rápida com impacto direto no desempenho da equi
   * Basquete: Arremesso / Lance Livre (sweet spot centralizado).
   * Futsal: Cobrança de Pênalti / Finalização (sweet spot dinâmico).
   * Vôlei: Saque Viagem / Tempo de Bola (sweet spot oscilante).
+  * Natação: Largada Explosiva no Bloco, Virada Olímpica e Batida na Placa.
 * **Aplicação do Bônus:**
   * O jogador clica ou aperta a barra de espaço para parar o cursor na zona verde.
   * O resultado calcula nota (`PERFEITO`, `MUITO BOM`, `BOM`), ganho de moral, química e bônus de rating (até `+4.5`).

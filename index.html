@@ -129,7 +129,7 @@
     .section-desc { margin: 0 0 24px; color: var(--muted); font-size: .95rem; }
     
     .mode-grid {
-      display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px;
     }
     .mode-card {
       position: relative; display: flex; flex-direction: column;
@@ -161,6 +161,10 @@
     .mode-card--volei-fem {
       --sport-color: #d946ef;
       --sport-glow: rgba(217, 70, 239, 0.3);
+    }
+    .mode-card--natacao {
+      --sport-color: #06b6d4;
+      --sport-glow: rgba(6, 182, 212, 0.35);
     }
 
     .mode-icon {
@@ -249,7 +253,7 @@
     </section>
 
     <section class="modalidades" id="modalidades">
-      <p class="eyebrow">Quatro Caminhos de Carreira</p>
+      <p class="eyebrow">Cinco Modalidades Disponíveis</p>
       <h2 class="section-title">Escolha sua Modalidade</h2>
       <p class="section-desc">Selecione o esporte para iniciar sua jornada gerencial.</p>
 
@@ -309,6 +313,20 @@
           </ul>
           <span class="mode-action-btn">Jogar Vôlei Feminino →</span>
         </a>
+
+        <!-- Natação -->
+        <a class="mode-card mode-card--natacao" href="temporada-natacao/index.html">
+          <span class="mode-icon">🏊</span>
+          <span class="mode-tag">Circuito Nacional</span>
+          <h3>Natação</h3>
+          <p>Escale velocistas, fundistas e nadadores de medley em um circuito com 8 etapas nacionais.</p>
+          <ul class="mode-features">
+            <li>Aquecimento de Bloco & Virada</li>
+            <li>Provas de 50m a 1500m & Medley</li>
+            <li>Periodização, Cargas e Polimento</li>
+          </ul>
+          <span class="mode-action-btn">Competir na Natação →</span>
+        </a>
       </div>
     </section>
   </main>
@@ -321,7 +339,8 @@
           basquete: "temporada-basquete/procedural.html",
           futsal: "Temporada%20Futsal/procedural.html",
           volei: "temporada-volei/procedural.html",
-          "volei-feminino": "temporada-volei-feminino/index.html"
+          "volei-feminino": "temporada-volei-feminino/index.html",
+          natacao: "temporada-natacao/index.html"
         };
 
         const keys = Object.keys(localStorage);
@@ -345,6 +364,29 @@
             } catch (_) {}
           }
         });
+
+        // Suporte para save da carreira de Natação
+        const natKey = "temporada-total-natacao-v4";
+        const natRaw = localStorage.getItem(natKey) || localStorage.getItem("temporada-total-natacao-v3");
+        if (natRaw) {
+          try {
+            const natData = JSON.parse(natRaw);
+            if (natData && (natData.teamName || (natData.selectedIds && natData.selectedIds.length))) {
+              const stageNum = natData.season ? (natData.season.currentMeetIndex + 1) : 1;
+              const natTime = natData.savedAt ? new Date(natData.savedAt).getTime() : 1;
+              if (natTime > latestTime) {
+                latestTime = natTime;
+                latestSave = {
+                  userTeam: { name: natData.teamName || "Equipe de Natação" },
+                  currentWeek: stageNum,
+                  currentDay: 1,
+                  sportId: "natacao"
+                };
+                saveUrl = sportTargets.natacao;
+              }
+            }
+          } catch (_) {}
+        }
 
         if (latestSave && saveUrl) {
           const box = document.getElementById("quick-continue-box");

@@ -53,7 +53,7 @@ console.log("All scripts loaded into VM successfully!");
 
 // 1. Test Minigames Engine Buff
 console.log("--- Testing Minigames Engine Suites ---");
-["basquete", "futsal", "volei"].forEach(sport => {
+["basquete", "futsal", "volei", "natacao"].forEach(sport => {
   const suite = ctx.TemporadaTotal.MinigamesEngine.getMinigameSuite(sport);
   console.log(`Sport ${sport} drills count: ${suite.length}`);
   if (suite.length !== 3) throw new Error(`Expected 3 drills for ${sport}, got ${suite.length}`);
@@ -82,5 +82,9 @@ console.log("History length:", state.narrativeState.decisionHistory.length);
 console.log("--- Testing Arcade Proposals ---");
 if (!state.league.teams.length) throw new Error("League teams empty");
 console.log("Proposals count valid. Teams in league:", state.league.teams.length);
+
+// 3. Test Swimming Module Integration
+console.log("--- Testing Swimming Module Integration ---");
+require("./test_swimming.js");
 
 console.log(">>> ALL TESTS PASSED SUCCESSFULLY! <<<");

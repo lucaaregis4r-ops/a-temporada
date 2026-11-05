@@ -2,7 +2,7 @@
 
 Entrada principal atual:
 
-- `Clique aqui para jogar.html`: entrada das quatro carreiras principais: basquete, futsal, vôlei masculino e vôlei feminino.
+- `index.html` e `Clique aqui para jogar.html`: entradas principais das cinco carreiras: basquete, futsal, vôlei masculino, vôlei feminino e natação.
 
 Carreira procedural compartilhada:
 
@@ -28,6 +28,8 @@ Modalidades procedurais:
 - `temporada-volei/match-adapter.js`: simulacao ao vivo do volei.
 - `temporada-volei-feminino/index.html`: entrada procedural do volei feminino.
 - `temporada-volei-feminino/generation-config.js`: override feminino do gerador de atletas.
+- `temporada-natacao/index.html`: entrada procedural da natação (Circuito Nacional, meetings e piscina olímpica ao vivo).
+- `temporada-natacao/swim-arena-live.js`: motor de transmissão da piscina olímpica em Canvas 2D 60fps.
 
 Conteudo e diagnostico:
 

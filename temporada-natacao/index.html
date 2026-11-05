@@ -3,238 +3,292 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Temporada Total | Natação</title>
-  <meta name="description" content="Projeto autoral de simulação esportiva em que o usuário monta um elenco de natação, organiza os treinos e escala a equipe ao longo de 8 semanas.">
-  <meta name="author" content="Lucas">
+  <meta name="theme-color" content="#020b14">
+  <title>A Temporada | Natação - Circuito Nacional de Alta Performance</title>
+  <meta name="description" content="Comande seu clube de natação no circuito nacional brasileiro. Escale atletas nas 16 provas olímpicas, defina táticas de passagem e assista às transmissões ao vivo na piscina.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body data-active-tab="front-office">
-  <div class="page-shell">
-    <header class="project-intro" aria-label="Apresentação do projeto">
-      <div class="intro-copy">
-        <p class="eyebrow">Natação</p>
-        <h1 class="intro-title">Monte.</h1>
+<body>
+  <div class="swim-page-shell">
+    <!-- ====================================================================
+         TELA 0: DRAFT PROCEDURAL DE CLUBES (ESTILO ROLL -> BUILD -> PLAY)
+         ==================================================================== -->
+    <section id="swim-draft-screen" class="arcade-draft-screen" style="display:none;">
+      <div class="arcade-draft-hero">
+        <div class="arcade-draft-pill-tag">⚡ DRAFT DE CONTRATOS • CIRCUITO NACIONAL DE NATAÇÃO</div>
+        <h1 class="arcade-draft-title">ESCOLHA SEU CLUBE PROCEDURAL</h1>
+        <p class="arcade-draft-subtitle">
+          3 propostas de contrato geradas proceduralmente estão na mesa. Cada franquia traz arquétipos táticos, características exclusivas, objetivos da diretoria e um elenco inicial dedicado.
+        </p>
+
+        <div class="arcade-draft-quick-bar">
+          <button type="button" class="arcade-btn-roll" id="btn-roll-proposals">
+            <span>🎲</span> Sortear Novas Propostas (Roll)
+          </button>
+        </div>
       </div>
-      <aside class="intro-card" aria-label="Como abrir o projeto">
-        <span>Ação</span>
-        <strong>Abrir <code>index.html</code>.</strong>
-      </aside>
+
+      <!-- Grid com as 3 Propostas Procedurais -->
+      <div class="arcade-proposals-grid" id="draft-proposals-grid">
+        <!-- Renderizado dinamicamente via script.js -->
+      </div>
+    </section>
+
+    <!-- Topbar com Identidade do Clube e Vitais -->
+    <header class="swim-topbar" id="swim-main-topbar">
+      <div class="swim-brand-block">
+        <a href="../index.html" class="swim-back-btn">
+          <span>←</span> Trocar de Modalidade
+        </a>
+        <button type="button" class="swim-topbar-action-btn" id="btn-topbar-new-draft" title="Iniciar nova carreira com clubes procedurais">
+          <span>🔄</span> Trocar Clube
+        </button>
+        <div class="swim-club-badge">
+          <div class="club-crest" id="club-crest-display">MTC</div>
+          <div class="club-meta">
+            <strong id="club-name-display">Minas Tênis Clube</strong>
+            <span id="club-city-display">Belo Horizonte, MG</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Termômetro de Gestão -->
+      <div class="swim-vitals-strip">
+        <div class="vital-chip">
+          <span class="vital-icon">💰</span>
+          <div class="vital-info">
+            <span class="vital-label">Orçamento</span>
+            <strong class="vital-value" id="vital-budget-value">$95M</strong>
+          </div>
+        </div>
+        <div class="vital-chip">
+          <span class="vital-icon">🔥</span>
+          <div class="vital-info">
+            <span class="vital-label">Moral do Grupo</span>
+            <strong class="vital-value" id="vital-morale-value">85%</strong>
+          </div>
+        </div>
+        <div class="vital-chip">
+          <span class="vital-icon">🤝</span>
+          <div class="vital-info">
+            <span class="vital-label">Química</span>
+            <strong class="vital-value" id="vital-chem-value">80%</strong>
+          </div>
+        </div>
+        <div class="vital-chip">
+          <span class="vital-icon">📅</span>
+          <div class="vital-info">
+            <span class="vital-label">Etapa</span>
+            <strong class="vital-value" id="vital-stage-value">1 / 8</strong>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <nav class="season-nav" aria-label="Menu principal">
-      <button class="tab-button is-active" data-tab-target="front-office" type="button">Base</button>
-      <button class="tab-button" data-tab-target="treinos" type="button">Treinos</button>
-      <button class="tab-button" data-tab-target="competicoes" type="button">Escalação</button>
-      <button class="tab-button" data-tab-target="temporada" type="button">Temporada</button>
+    <!-- Barra de Navegação em Pills -->
+    <nav class="swim-nav-bar" id="swim-main-nav-bar" aria-label="Navegação da Carreira">
+      <button type="button" class="swim-nav-pill is-active" data-tab="arena">
+        🏊 Arena da Etapa
+      </button>
+      <button type="button" class="swim-nav-pill" data-tab="roster">
+        👥 Nadadores & Centro de Treino
+      </button>
+      <button type="button" class="swim-nav-pill" data-tab="circuit">
+        🏆 Circuito & Pódio
+      </button>
+      <button type="button" class="swim-nav-pill" data-tab="story">
+        📜 Crônicas & Bastidores
+      </button>
     </nav>
 
-    <main class="layout">
-      <section class="panel summary-panel tab-panel is-active" data-tab-panel="front-office">
-        <div class="page-scene scene-front-office">
-          <div>
-            <p class="eyebrow">Natação</p>
-            <h2>Monte.</h2>
-          </div>
-          <div class="scene-card">
-            <span>Resumo</span>
-            <strong>Escolha.</strong>
-          </div>
-        </div>
+    <!-- ====================================================================
+         ABA 1: ARENA DA ETAPA (ESCALAÇÃO, TÁTICA E DISPUTA)
+         ==================================================================== -->
+    <main id="tab-arena" class="swim-tab-panel is-active">
+      <!-- Hero da Etapa Atual -->
+      <section class="stage-hero-banner">
+        <div>
+          <p class="stage-eyebrow" id="stage-hero-week">Semana 1 • Circuito Nacional</p>
+          <h2 class="stage-hero-title" id="stage-hero-title">Troféu Abertura</h2>
+          <p class="stage-desc" id="stage-hero-desc">
+            Piscina em nível do mar, águas rápidas e atmosfera elétrica para abrir o calendário nacional. Escale 2 nadadores por prova e defina as táticas de passagem para disputar as medalhas.
+          </p>
 
-        <div class="panel-title-row">
-          <div>
-            <h2>Seu Clube</h2>
-            <span class="hint"></span>
-          </div>
-          <div class="header-actions">
-            <button id="reset-team" class="ghost-button" type="button">Reiniciar</button>
-          </div>
-        </div>
-
-        <div class="identity-grid">
-          <label class="control-card">
-            <span>Nome da equipe</span>
-            <input id="team-name" type="text" maxlength="32" placeholder="Ex.: Marlins Aquatic Club">
-          </label>
-          <div class="budget-card">
-            <div>
-              <span>Orçamento usado</span>
-              <strong id="budget-used">$0M</strong>
-            </div>
-            <div>
-              <span>Disponível</span>
-              <strong id="budget-left">$0M</strong>
-            </div>
+          <div class="stage-action-bar">
+            <button type="button" class="swim-action-btn swim-action-btn--primary" id="btn-live-race">
+              📺 Transmissão ao Vivo da Etapa
+            </button>
+            <button type="button" class="swim-action-btn swim-action-btn--secondary" id="btn-fast-sim">
+              ⚡ Simulação Rápida
+            </button>
+            <button type="button" class="swim-action-btn swim-action-btn--gold" id="btn-warmup-arcade">
+              🎯 Aquecimento no Bloco (-0.25s)
+            </button>
           </div>
         </div>
 
-        <div class="stats-grid stats-grid-extended">
-          <article>
-            <span>Velocidade</span>
-            <strong id="team-sprint">0</strong>
-          </article>
-          <article>
-            <span>Resistência</span>
-            <strong id="team-endurance">0</strong>
-          </article>
-          <article>
-            <span>Técnica</span>
-            <strong id="team-technique">0</strong>
-          </article>
-          <article>
-            <span>Viradas</span>
-            <strong id="team-turns">0</strong>
-          </article>
-          <article>
-            <span>Recuperação</span>
-            <strong id="team-recovery">0</strong>
-          </article>
-          <article>
-            <span>Versatilidade</span>
-            <strong id="team-depth">0</strong>
-          </article>
+        <aside class="stage-side-card">
+          <div class="side-card-metric">
+            <span>Sede da Disputa</span>
+            <strong id="stage-hero-city">Santos, SP</strong>
+          </div>
+          <div class="side-card-metric">
+            <span>Piscina Olímpica</span>
+            <strong>50 Metros • 8 Raias</strong>
+          </div>
+          <div class="side-card-metric">
+            <span>Pontuação Máxima</span>
+            <strong style="color:var(--cyan-neon);">324 Pontos em Disputa</strong>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Banner de Aquecimento Ativo -->
+      <div id="arena-buff-banner-container"></div>
+
+      <!-- Monitor de Carga Visual (Workload Strip) -->
+      <section class="workload-strip-container">
+        <div class="workload-strip-header">
+          <div class="workload-title-box">
+            <strong>Monitor de Carga do Plantel (Máximo 4 Provas/Atleta)</strong>
+            <span>Clique em qualquer nadador para filtrar suas provas inscritas ou inspecionar condição física</span>
+          </div>
+          <div class="workload-summary-pills">
+            <span class="workload-stat-pill" id="workload-assigned-counter">Inscrições: 36 / 36</span>
+          </div>
         </div>
-
-        <details class="fold-panel" open>
-          <summary>
-            <span>Elenco selecionado</span>
-            <strong id="roster-count">0 / 10</strong>
-          </summary>
-          <div id="selected-roster" class="selected-roster"></div>
-        </details>
-
-        <div class="action-row">
-          <button id="start-season" class="primary-button" type="button">Iniciar temporada</button>
+        <div class="workload-swimmer-chips" id="workload-chips-container">
+          <!-- Chips interativos dos 10 nadadores -->
         </div>
       </section>
 
-      <section class="panel market-panel tab-panel" data-tab-panel="treinos">
-        <div class="page-scene scene-training">
-          <div>
-            <p class="eyebrow">Semana de Treino</p>
-            <h2>Treine.</h2>
-          </div>
-          <div class="scene-card">
-            <span>Resumo</span>
-            <strong>Ajuste.</strong>
-          </div>
+      <!-- Controles Táticos e Filtros de Categoria -->
+      <section class="tactical-controls-row">
+        <div class="event-category-filters" id="event-category-filters">
+          <button type="button" class="event-cat-btn is-active" data-category="todas">
+            🌐 Todas as Provas (18)
+          </button>
+          <button type="button" class="event-cat-btn" data-category="velocidade">
+            ⚡ Tiros Curtos (50m/100m)
+          </button>
+          <button type="button" class="event-cat-btn" data-category="fundo">
+            🌊 Fundo & Meio-Fundo (200m+)
+          </button>
+          <button type="button" class="event-cat-btn" data-category="estilos">
+            🛡️ Costas & Peito
+          </button>
+          <button type="button" class="event-cat-btn" data-category="medley">
+            🔄 Medley (4 Estilos)
+          </button>
         </div>
-        <div class="panel-title-row">
-          <div>
-            <h2>Plano Individual</h2>
-            <span class="hint"></span>
-          </div>
-        </div>
-        <div id="training-management"></div>
-        <div id="training-board" class="training-board swimmer-board"></div>
-      </section>
 
-      <section class="panel results-panel tab-panel" data-tab-panel="competicoes">
-        <div class="page-scene scene-season">
-          <div>
-            <p class="eyebrow">Escalação da Etapa</p>
-            <h2>Escalone.</h2>
-          </div>
-          <div class="scene-card">
-            <span>Resumo</span>
-            <strong>Defina.</strong>
-          </div>
-        </div>
-        <div class="panel-title-row">
-          <div>
-            <h2>Etapa Atual</h2>
-            <span class="hint"></span>
-          </div>
-        </div>
-        <div id="competition-hub" class="matchday-hub empty">
-          Monte o elenco e inicie a temporada para liberar a escalação da primeira etapa.
-        </div>
-        <div class="action-row">
-          <button id="simulate-meet" class="primary-button" type="button" disabled>Simular etapa</button>
+        <div class="tactical-quick-actions">
+          <button type="button" class="btn-tactical-action btn-tactical-action--auto" id="btn-auto-lineup" title="Distribui automaticamente os melhores nadadores em cada prova">
+            <span>⚡</span> Escalação Automática dos Especialistas
+          </button>
+          <button type="button" class="btn-tactical-action" id="btn-optimize-tactics" title="Ajusta o ritmo ideal de nado para cada distância">
+            <span>🎯</span> Otimizar Ritmo
+          </button>
+          <button type="button" class="btn-tactical-action btn-tactical-action--danger" id="btn-clear-lineup" title="Limpar todas as vagas para escalar manualmente">
+            <span>🧹</span> Limpar
+          </button>
         </div>
       </section>
 
-      <section class="panel league-panel tab-panel" data-tab-panel="temporada">
-        <div class="page-scene scene-league">
-          <div>
-            <p class="eyebrow">Circuito</p>
-            <h2>Veja.</h2>
-          </div>
-          <div class="scene-card">
-            <span>Resumo</span>
-            <strong>Acompanhe.</strong>
-          </div>
-        </div>
-        <div class="summary-grid">
-          <article class="summary-box">
-            <span class="season-key">Posição</span>
-            <strong id="season-rank">--</strong>
-            <div class="player-meta">classificação geral</div>
-          </article>
-          <article class="summary-box">
-            <span class="season-key">Pontos</span>
-            <strong id="season-points">0</strong>
-            <div class="player-meta">pontuação da equipe</div>
-          </article>
-          <article class="summary-box">
-            <span class="season-key">Etapa</span>
-            <strong id="season-stage">0 / 8</strong>
-            <div class="player-meta">andamento do circuito</div>
-          </article>
-          <article class="summary-box">
-            <span class="season-key">Última etapa</span>
-            <strong id="season-last-result">--</strong>
-            <div class="player-meta">resultado mais recente</div>
-          </article>
-        </div>
-        <div class="league-layout">
-          <div class="league-column">
-            <div class="panel-title-row">
-              <h2>Tabela Geral</h2>
-            </div>
-            <div id="standings-table" class="table-shell"></div>
-          </div>
-          <div class="league-column">
-            <div class="panel-title-row">
-              <h2>Calendário e Relatórios</h2>
-            </div>
-            <div id="season-log" class="season-log"></div>
-          </div>
+      <!-- Quadro Oficial de Raia e Inscrições (Cards Interativos) -->
+      <section class="events-section">
+        <div class="events-accordion-grid" id="events-tactical-grid">
+          <!-- 18 Provas com slots visuais interativos (sem selects crus) -->
         </div>
       </section>
     </main>
 
-    <section class="panel market-panel tab-panel is-active" data-tab-panel="front-office">
-      <div class="page-scene scene-market">
-        <div>
-          <p class="eyebrow">Mercado de Nadadores</p>
-          <h2>Escolha.</h2>
-        </div>
-        <div class="scene-card">
-          <span>Resumo</span>
-          <strong>Contrate.</strong>
-        </div>
+    <!-- ====================================================================
+         ABA 2: PLANTEL DE NADADORES & TREINO
+         ==================================================================== -->
+    <section id="tab-roster" class="swim-tab-panel">
+      <div class="section-headline">
+        <h3>Elenco de Nadadores do Clube</h3>
+        <span class="section-sub">Especialidades, atributos de nado, nível de frescor e histórico de medalhas</span>
       </div>
-      <div class="panel-title-row">
-        <div>
-          <h2>Mercado</h2>
-          <span class="hint"></span>
-        </div>
+      <div class="swimmer-cards-grid" id="swimmer-cards-grid">
+        <!-- Cards dos 10 nadadores -->
       </div>
-      <div id="player-market" class="player-market"></div>
     </section>
 
-    <footer class="project-footer">
-      <p></p>
-    </footer>
+    <!-- ====================================================================
+         ABA 3: CIRCUITO GERAL & MEDALHAS
+         ==================================================================== -->
+    <section id="tab-circuit" class="swim-tab-panel">
+      <div class="section-headline">
+        <h3>Quadro Oficial de Medalhas & Classificação Geral</h3>
+        <span class="section-sub">Pontuação acumulada ao longo das 8 etapas do Circuito Brasileiro</span>
+      </div>
+      <table class="circuit-standings-table">
+        <thead>
+          <tr>
+            <th>Pos</th>
+            <th>Clube</th>
+            <th>🥇 Ouro</th>
+            <th>🥈 Prata</th>
+            <th>🥉 Bronze</th>
+            <th>Pontos Totais</th>
+          </tr>
+        </thead>
+        <tbody id="circuit-standings-body">
+          <!-- Classificação dos clubes -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ====================================================================
+         ABA 4: CRÔNICAS & DECISÕES
+         ==================================================================== -->
+    <section id="tab-story" class="swim-tab-panel">
+      <div class="section-headline">
+        <h3>Crônicas & Dilemas de Bastidores</h3>
+        <span class="section-sub">Decisões táticas, diretoria, fisiologia e crises que impactam a temporada</span>
+      </div>
+      <div id="dilemma-container">
+        <!-- Dilema ativo renderizado -->
+      </div>
+    </section>
   </div>
 
-  <script src="../shared/base-game.js"></script>
-  <script src="../shared/seeded-rng.js"></script>
-  <script src="sport-manifest.js"></script>
+  <!-- Modal Seletor Inteligente de Nadador (Pop-up ágil ao clicar no slot) -->
+  <div id="swim-picker-modal" class="swim-picker-overlay" style="display:none;">
+    <div class="swim-picker-box">
+      <div class="swim-picker-header">
+        <div>
+          <h3 id="picker-modal-title">Escalar Atleta na Prova</h3>
+          <span id="picker-modal-sub">Selecione o nadador mais veloz para disputar as medalhas</span>
+        </div>
+        <button type="button" class="swim-picker-close" id="btn-close-picker">✕</button>
+      </div>
+      <div class="picker-candidates-list" id="picker-candidates-container">
+        <!-- Candidatos ordenados por tempo projetado -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal da Transmissão da Piscina ao Vivo (Canvas 2D 60fps) -->
+  <div id="swim-live-modal" class="swim-podium-overlay" style="display:none;">
+    <div id="swim-live-modal-mount" style="width:min(1100px, 98%); margin:0 auto;"></div>
+  </div>
+
+  <!-- Modal do Minijogo Arcade -->
+  <div id="natacao-minigame-modal" class="swim-podium-overlay" style="display:none;">
+    <div style="width:min(760px, 95%); background:#071524; border:2px solid var(--cyan-neon); border-radius:24px; padding:24px; box-shadow:0 0 35px var(--cyan-glow);">
+      <div id="natacao-minigame-container"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../shared/minigames-engine.js"></script>
+  <script src="swim-arena-live.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

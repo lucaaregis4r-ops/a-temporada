@@ -230,13 +230,67 @@
         speed: 3.1,
         sweetSpotWidth: 10
       }
+    ],
+    natacao: [
+      {
+        id: "natacao_start",
+        title: "Largada Explosiva no Bloco",
+        shortTitle: "Largada no Bloco",
+        icon: "⏱️",
+        subtitle: "Reaja ao sinal sonoro no tempo exato para ganhar vantagem na entrada!",
+        actionLabel: "SALTO NO BLOCO!",
+        courtColor: "#0284c7",
+        lineColor: "#38bdf8",
+        ballColor: "#e0f2fe",
+        targetName: "Bip de Largada",
+        bonusLabel: "Tempo de Reação Rápido & Entrada Limpa",
+        statBoost: "reacao",
+        mechanic: "swim_start",
+        speed: 2.9,
+        sweetSpotWidth: 11
+      },
+      {
+        id: "natacao_turn",
+        title: "Virada Olímpica & Impulso",
+        shortTitle: "Virada Olímpica",
+        icon: "🔄",
+        subtitle: "Execute a cambalhota na distância milimétrica e impulsione forte na borda!",
+        actionLabel: "IMPULSIONAR NA BORDA!",
+        courtColor: "#0369a1",
+        lineColor: "#06b6d4",
+        ballColor: "#67e8f9",
+        targetName: "Parede da Borda",
+        bonusLabel: "Transição de Virada & Eficiência Subaquática",
+        statBoost: "virada",
+        mechanic: "swim_turn",
+        speed: 2.7,
+        sweetSpotWidth: 12
+      },
+      {
+        id: "natacao_finish",
+        title: "Batida na Placa Final",
+        shortTitle: "Batida na Placa",
+        icon: "🏁",
+        subtitle: "Estique o braço sem respirar no último ciclo para cravar o melhor tempo!",
+        actionLabel: "BATER NA PLACA!",
+        courtColor: "#0c4a6e",
+        lineColor: "#38bdf8",
+        ballColor: "#38bdf8",
+        targetName: "Placa Touchpad",
+        bonusLabel: "Finalização Precisa & Centésimos de Ouro",
+        statBoost: "finalizacao",
+        mechanic: "swim_finish",
+        speed: 3.1,
+        sweetSpotWidth: 10
+      }
     ]
   };
 
   const MINIGAME_CONFIGS = {
     basquete: MINIGAME_SUITES.basquete[0],
     futsal: MINIGAME_SUITES.futsal[0],
-    volei: MINIGAME_SUITES.volei[0]
+    volei: MINIGAME_SUITES.volei[0],
+    natacao: MINIGAME_SUITES.natacao[0]
   };
 
   class MinigameController {
@@ -667,6 +721,105 @@
         ctx.beginPath();
         ctx.arc(ballX, ballY, 13, 0, Math.PI * 2);
         ctx.fill();
+      } else if (drill.mechanic === "swim_start") {
+        // Natação: Bloco de largada e entrada na água
+        const blockX = 50;
+        // Bloco elevado
+        ctx.fillStyle = "#334155";
+        ctx.fillRect(blockX - 25, h / 2 - 20, 30, 40);
+        ctx.fillStyle = "#f59e0b";
+        ctx.fillRect(blockX - 25, h / 2 - 26, 32, 6);
+
+        // Água e raias
+        ctx.fillStyle = "rgba(14, 165, 233, 0.35)";
+        ctx.fillRect(blockX + 15, h / 2 - 10, w - blockX - 15, 60);
+
+        // Bóias de raia
+        ctx.strokeStyle = "#38bdf8";
+        ctx.lineWidth = 2;
+        ctx.setLineDash([8, 8]);
+        ctx.beginPath();
+        ctx.moveTo(blockX + 15, h / 2 - 10);
+        ctx.lineTo(w, h / 2 - 10);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(blockX + 15, h / 2 + 50);
+        ctx.lineTo(w, h / 2 + 50);
+        ctx.stroke();
+        ctx.setLineDash([]);
+
+        // Sensor de largada piscante
+        const strobePulse = Math.abs(Math.sin(Date.now() / 150));
+        ctx.fillStyle = `rgba(239, 68, 68, ${0.4 + strobePulse * 0.6})`;
+        ctx.beginPath();
+        ctx.arc(blockX - 10, h / 2 - 40, 8, 0, Math.PI * 2);
+        ctx.fill();
+
+        // Nadador projetando voo do bloco para a água
+        const flightProg = this.cursor / 100;
+        const swimmerX = blockX + 10 + flightProg * (w - 180);
+        const swimmerY = (h / 2 - 20) + Math.sin(flightProg * Math.PI) * 22;
+        ctx.fillStyle = "#facc15";
+        ctx.beginPath();
+        ctx.arc(swimmerX, swimmerY, 12, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = "#0284c7";
+        ctx.fillRect(swimmerX - 14, swimmerY - 3, 22, 6);
+      } else if (drill.mechanic === "swim_turn") {
+        // Natação: Virada Olímpica na Parede
+        const wallX = w - 60;
+        // Parede de azulejos e placa de toque
+        ctx.fillStyle = "#0f172a";
+        ctx.fillRect(wallX, 20, 30, h - 40);
+        ctx.fillStyle = "#facc15"; // Placa amarela de cronometragem
+        ctx.fillRect(wallX - 6, h / 2 - 45, 8, 90);
+
+        // Raias e água
+        ctx.fillStyle = "rgba(6, 182, 212, 0.25)";
+        ctx.fillRect(30, h / 2 - 40, wallX - 35, 80);
+
+        // Rastro de bolhas
+        for (let i = 0; i < 5; i++) {
+          const bubbleX = wallX - 40 - i * 25 - (this.cursor * 0.4);
+          const bubbleY = h / 2 - 10 + Math.sin((Date.now() / 200) + i) * 15;
+          ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
+          ctx.beginPath();
+          ctx.arc(bubbleX, bubbleY, 3 + (i % 3), 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        // Nadador girando/impulsionando
+        const swimmerX = 60 + (this.cursor / 100) * (wallX - 90);
+        const swimmerY = h / 2;
+        ctx.fillStyle = "#38bdf8";
+        ctx.beginPath();
+        ctx.arc(swimmerX, swimmerY, 13, 0, Math.PI * 2);
+        ctx.fill();
+      } else if (drill.mechanic === "swim_finish") {
+        // Natação: Batida Final na Placa
+        const finishX = w - 60;
+        ctx.fillStyle = "#ef4444";
+        ctx.fillRect(finishX, 25, 12, h - 50);
+        ctx.fillStyle = "#facc15";
+        ctx.fillRect(finishX - 6, h / 2 - 35, 6, 70);
+
+        // Raia da piscina
+        ctx.fillStyle = "rgba(14, 165, 233, 0.3)";
+        ctx.fillRect(40, h / 2 - 35, finishX - 45, 70);
+
+        // Nadador esticando a mão
+        const swimmerX = 60 + (this.cursor / 100) * (finishX - 80);
+        const swimmerY = h / 2;
+        ctx.fillStyle = "#facc15";
+        ctx.beginPath();
+        ctx.arc(swimmerX, swimmerY, 12, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = "#facc15";
+        ctx.lineWidth = 4;
+        ctx.beginPath();
+        ctx.moveTo(swimmerX, swimmerY);
+        ctx.lineTo(swimmerX + 18, swimmerY - 2);
+        ctx.stroke();
       } else {
         // Vôlei: Ataque na Paralela & Bloqueio
         ctx.fillStyle = "#ffffff";
@@ -703,17 +856,17 @@
 
       if (distFromCenter <= sweetWidth / 2) {
         rating = "perfect";
-        label = this.sportId === "volei" ? "ACE PERFEITO!" : this.sportId === "basquete" ? "SWISH PERFEITO!" : "GOLAÇO NO ÂNGULO!";
+        label = this.sportId === "natacao" ? "LARGADA PERFEITA (-0.25s)!" : this.sportId === "volei" ? "ACE PERFEITO!" : this.sportId === "basquete" ? "SWISH PERFEITO!" : "GOLAÇO NO ÂNGULO!";
         pts = 100;
         playArcadeSound("perfect");
       } else if (distFromCenter <= sweetWidth + 6) {
         rating = "good";
-        label = this.sportId === "volei" ? "BOM GOLPE!" : this.sportId === "basquete" ? "CONVERTIDO!" : "BOM CHUTE!";
+        label = this.sportId === "natacao" ? "BOA REAÇÃO (-0.15s)!" : this.sportId === "volei" ? "BOM GOLPE!" : this.sportId === "basquete" ? "CONVERTIDO!" : "BOM CHUTE!";
         pts = 60;
         playArcadeSound("good");
       } else {
         rating = "miss";
-        label = this.sportId === "volei" ? "ERROU O GOLPE" : this.sportId === "basquete" ? "ERROU O ARO" : "DEFESA / FORA";
+        label = this.sportId === "natacao" ? "SAÍDA LENTA (+0.05s)" : this.sportId === "volei" ? "ERROU O GOLPE" : this.sportId === "basquete" ? "ERROU O ARO" : "DEFESA / FORA";
         pts = 10;
         playArcadeSound("miss");
       }
@@ -756,6 +909,7 @@
 
       let bonusTier = "none";
       let ratingBoost = 0;
+      let timeReduction = 0;
       let moraleDelta = 0;
       let chemistryDelta = 0;
       let buffSummary = "";
@@ -763,65 +917,85 @@
       if (this.currentScore >= 220) {
         bonusTier = "elite";
         ratingBoost = 4.5;
+        timeReduction = 0.25;
         moraleDelta = 6;
         chemistryDelta = 5;
-        buffSummary = `Aquecimento Impecável! (+${ratingBoost} de força na partida, +${moraleDelta} Moral, +${chemistryDelta} Química)`;
+        buffSummary = this.sportId === "natacao"
+          ? `Largada de Elite! (-0.25s em todas as provas da etapa, +${moraleDelta} Moral)`
+          : `Aquecimento Impecável! (+${ratingBoost} de força na partida, +${moraleDelta} Moral, +${chemistryDelta} Química)`;
       } else if (this.currentScore >= 120) {
         bonusTier = "good";
         ratingBoost = 2.5;
+        timeReduction = 0.15;
         moraleDelta = 3;
         chemistryDelta = 3;
-        buffSummary = `Bom Aquecimento! (+${ratingBoost} de força na partida, +${moraleDelta} Moral)`;
+        buffSummary = this.sportId === "natacao"
+          ? `Bom Ritmo na Piscina! (-0.15s em todas as provas da etapa, +${moraleDelta} Moral)`
+          : `Bom Aquecimento! (+${ratingBoost} de força na partida, +${moraleDelta} Moral)`;
       } else {
         bonusTier = "modest";
         ratingBoost = 1.0;
+        timeReduction = 0.05;
         moraleDelta = 1;
         chemistryDelta = 1;
-        buffSummary = `Aquecimento Regular (+${ratingBoost} de foco de quadra)`;
+        buffSummary = this.sportId === "natacao"
+          ? `Aquecimento Regular (-0.05s de ajuste de entrada)`
+          : `Aquecimento Regular (+${ratingBoost} de foco de quadra)`;
       }
 
+      const buffPayload = {
+        sportId: this.sportId,
+        drillId: this.currentDrill.id,
+        drillName: this.currentDrill.title,
+        score: this.currentScore,
+        tier: bonusTier,
+        ratingBoost,
+        timeReduction,
+        moraleDelta,
+        chemistryDelta,
+        buffSummary,
+        matchesRemaining: 1
+      };
+
       if (this.state && window.TemporadaTotal.GameState) {
-        window.TemporadaTotal.GameState.applyMinigameBuff?.(this.state, {
-          sportId: this.sportId,
-          drillId: this.currentDrill.id,
-          drillName: this.currentDrill.title,
-          score: this.currentScore,
-          tier: bonusTier,
-          ratingBoost,
-          moraleDelta,
-          chemistryDelta,
-          buffSummary,
-          matchesRemaining: 1
-        });
+        window.TemporadaTotal.GameState.applyMinigameBuff?.(this.state, buffPayload);
+      }
+      if (typeof this.onBuffApplied === "function") {
+        this.onBuffApplied(buffPayload);
       }
 
       setTimeout(() => {
+        const scoreLabel = this.sportId === "natacao" ? "Pontuação da Raia:" : "Pontuação de Quadra:";
+        const liveBtnLabel = this.sportId === "natacao" ? "🏊 Ir para a Etapa (com Bônus) →" : "🎮 Ir para a Partida ao Vivo (com Bônus) →";
+        const simBtnLabel = this.sportId === "natacao" ? "⚡ Simular Etapa Agora (com Bônus)" : "⚡ Simular Partida Agora (com Bônus)";
+        const backBtnLabel = this.sportId === "natacao" ? "◀ Voltar para as Provas" : "◀ Voltar para a Central";
+
         this.container.innerHTML = `
           <div class="arcade-finish-screen is-${bonusTier}">
             <div class="finish-header">
               <span class="finish-trophy">${bonusTier === "elite" ? "🏆" : bonusTier === "good" ? "⭐" : "🎯"}</span>
               <h2>Aquecimento Concluído!</h2>
-              <p class="finish-score">Pontuação de Quadra: <strong>${this.currentScore} / 300 pts</strong></p>
+              <p class="finish-score">${scoreLabel} <strong>${this.currentScore} / 300 pts</strong></p>
             </div>
 
             <div class="finish-reward-card">
-              <span class="reward-title">BÔNUS APLICADO PARA A PRÓXIMA PARTIDA:</span>
+              <span class="reward-title">BÔNUS APLICADO PARA A PRÓXIMA DISPUTA:</span>
               <strong class="reward-highlight">⚡ ${buffSummary}</strong>
-              <p>O elenco está calibrado e este bônus entrará em ação na partida a seguir!</p>
+              <p>O elenco está aquecido e este bônus entrará em ação na disputa a seguir!</p>
             </div>
 
             <div class="finish-actions">
               <button type="button" class="primary-arcade-button arcade-finish-live">
-                🎮 Ir para a Partida ao Vivo (com Bônus) →
+                ${liveBtnLabel}
               </button>
               <button type="button" class="secondary-arcade-button arcade-finish-sim">
-                ⚡ Simular Partida Agora (com Bônus)
+                ${simBtnLabel}
               </button>
               <button type="button" class="secondary-arcade-button arcade-restart-btn">
                 ↻ Tentar Outro Treino
               </button>
               <button type="button" class="secondary-arcade-button arcade-back-hub">
-                ◀ Voltar para a Central
+                ${backBtnLabel}
               </button>
             </div>
           </div>
