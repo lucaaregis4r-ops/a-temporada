@@ -14,8 +14,7 @@
 1. **Zero Build Step:** Todo código deve rodar diretamente no navegador sem necessidade de transpilador (`babel`), empacotador (`webpack`, `vite`, etc.) ou instalação obrigatória de pacotes via `npm`.
 2. **Namespace Unificado:** Todas as engines e utilitários compartilham o objeto global `window.TemporadaTotal = window.TemporadaTotal || {}`.
 3. **Integridade de Sintaxe:** Antes de finalizar qualquer alteração, valide todos os arquivos JS modificados com `node -c <arquivo.js>`.
-4. **Backup Preservado:** Caso precise consultar o estado histórico original anterior à grande refatoração de navegação e decisões, há uma cópia completa e intocada em:  
-   `/home/lucasregis/Área de trabalho/Projetos/Backup/A temporada - Backup Completo Antes da Refatoracao`.
+4. **Histórico Preservado:** O backup de trabalho anterior à refatoração não acompanha o repositório e só está disponível no computador do autor. Para mudanças feitas por outros colaboradores, use os arquivos versionados e o histórico do Git; não dependa de caminhos locais externos.
 
 ---
 

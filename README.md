@@ -1,4 +1,4 @@
-# A Temporada — Sports Manager & Arcade Procedural
+# A Temporada
 
 Jogo de gestão esportiva para navegador, feito com HTML5, Canvas 2D, Web Audio API e JavaScript. Escolha uma modalidade, assuma um clube gerado proceduralmente e acompanhe a temporada entre decisões de gestão e minigames.
 
@@ -7,6 +7,14 @@ Jogo de gestão esportiva para navegador, feito com HTML5, Canvas 2D, Web Audio 
 - [Abrir no GitHub Pages](https://lucaaregis4r-ops.github.io/a-temporada/)
 - Para jogar localmente, abra [`Clique aqui para jogar.html`](Clique%20aqui%20para%20jogar.html) ou [`index.html`](index.html) em um navegador moderno. Não precisa instalar dependências.
 - Se preferir, sirva a pasta com `npx serve .` ou `python3 -m http.server 8000`.
+
+## Capturas
+
+Capturas do site publicado em 21/10/2026.
+
+| Escolha de modalidade | Contrato no basquete |
+| --- | --- |
+| ![Seletor de modalidades de A Temporada](docs/screenshots/a-temporada-modalidades.png) | ![Escolha de contrato no modo basquete](docs/screenshots/a-temporada-contrato-basquete.png) |
 
 ## Modalidades
 
@@ -27,6 +35,3 @@ Jogo de gestão esportiva para navegador, feito com HTML5, Canvas 2D, Web Audio 
 ## Desenvolvimento
 
 As diretrizes de arquitetura, testes e inclusão de novas modalidades estão em [`AGENTS.md`](AGENTS.md).
-
-O backup local anterior à refatoração está em:
-`/home/lucasregis/Área de trabalho/Projetos/Backup/A temporada - Backup Completo Antes da Refatoracao`
